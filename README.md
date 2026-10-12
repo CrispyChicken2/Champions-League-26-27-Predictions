@@ -34,6 +34,8 @@ The steps it runs, for when one of them needs repeating on its own:
 
 `uv run scripts/download_lineups.py` then `uv run python -m clpred.availability` re-learns how much absent players change the score, from past line-ups.
 
+`uv run python -m clpred.experiments` tests candidate improvements (rest days, travel, squad value, draw frequency, Availability) on held-out replay seasons. Settings that were tested and left at zero because they did not help: `shots_share`, `xg_share`, `odds_share`, `form_boost` in `clpred/model.py`.
+
 `uv run pytest` runs the automated tests (club-name matching, the model, Availability, the page readers).
 
 Package installs need `uv add --system-certs` on this machine.

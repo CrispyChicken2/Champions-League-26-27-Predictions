@@ -17,6 +17,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from clpred.implied import implied_goals
 from clpred.names import best_match
 from clpred.recent_results import recent_rows
 
@@ -193,6 +194,7 @@ def main() -> None:
     attach_xg(domestic, name_map)
 
     matches = pd.DataFrame(domestic + european).sort_values(["date", "competition", "home"])
+    matches["home_implied"], matches["away_implied"] = implied_goals(matches.odds_home, matches.odds_draw, matches.odds_away)
     matches.to_csv(OUT / "matches.csv", index=False)
     pd.DataFrame(fixtures).sort_values(["kickoff_utc", "home"]).to_csv(OUT / "fixtures.csv", index=False)
     pd.DataFrame(name_map).to_csv(OUT / "name_map.csv", index=False)

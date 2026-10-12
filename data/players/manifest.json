@@ -1094,5 +1094,1005 @@
     "title": "Beşiktaş JK - Squad statistics (Detailed view) | Transfermarkt",
     "html_bytes": 247684,
     "text_chars": 10377
+  },
+  "perf_cercle-brugge_520_2024": {
+    "url": "https://www.transfermarkt.com/cercle-brugge/leistungsdaten/verein/520/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:15:02.610526+00:00",
+    "status": 200,
+    "title": "Cercle Brugge - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 221765,
+    "text_chars": 8814
+  },
+  "perf_dinamo-minsk_1180_2024": {
+    "url": "https://www.transfermarkt.com/dinamo-minsk/leistungsdaten/verein/1180/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:15:12.245422+00:00",
+    "status": 200,
+    "title": "Dinamo Minsk - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 260170,
+    "text_chars": 12103
+  },
+  "perf_djurgardens-if_1044_2024": {
+    "url": "https://www.transfermarkt.com/djurgardens-if/leistungsdaten/verein/1044/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:15:21.963733+00:00",
+    "status": 200,
+    "title": "Djurgårdens IF - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 214011,
+    "text_chars": 8065
+  },
+  "perf_dynamo-kiew_338_2024": {
+    "url": "https://www.transfermarkt.com/dynamo-kiew/leistungsdaten/verein/338/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:15:31.882632+00:00",
+    "status": 200,
+    "title": "Dynamo Kyiv - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 287972,
+    "text_chars": 14281
+  },
+  "perf_eintracht-frankfurt_24_2024": {
+    "url": "https://www.transfermarkt.com/eintracht-frankfurt/leistungsdaten/verein/24/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:15:41.863244+00:00",
+    "status": 200,
+    "title": "Eintracht Frankfurt - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 238624,
+    "text_chars": 9923
+  },
+  "perf_fc-astana_22220_2024": {
+    "url": "https://www.transfermarkt.com/fc-astana/leistungsdaten/verein/22220/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:15:51.342600+00:00",
+    "status": 200,
+    "title": "FC Astana - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 175318,
+    "text_chars": 6483
+  },
+  "perf_fc-chelsea_631_2024": {
+    "url": "https://www.transfermarkt.com/fc-chelsea/leistungsdaten/verein/631/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:00.604947+00:00",
+    "status": 200,
+    "title": "Chelsea FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 311754,
+    "text_chars": 13797
+  },
+  "perf_fc-kopenhagen_190_2024": {
+    "url": "https://www.transfermarkt.com/fc-kopenhagen/leistungsdaten/verein/190/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:10.712527+00:00",
+    "status": 200,
+    "title": "FC Copenhagen - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 208534,
+    "text_chars": 8453
+  },
+  "perf_fc-lugano_2790_2024": {
+    "url": "https://www.transfermarkt.com/fc-lugano/leistungsdaten/verein/2790/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:20.058787+00:00",
+    "status": 200,
+    "title": "FC Lugano - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 237055,
+    "text_chars": 10009
+  },
+  "perf_fc-midtjylland_865_2024": {
+    "url": "https://www.transfermarkt.com/fc-midtjylland/leistungsdaten/verein/865/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:29.605180+00:00",
+    "status": 200,
+    "title": "FC Midtjylland - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 190942,
+    "text_chars": 7167
+  },
+  "perf_fc-noah-erewan_60368_2024": {
+    "url": "https://www.transfermarkt.com/fc-noah-erewan/leistungsdaten/verein/60368/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:39.226145+00:00",
+    "status": 200,
+    "title": "FC Noah Yerevan - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 173211,
+    "text_chars": 5872
+  },
+  "perf_fc-petrocub_46643_2024": {
+    "url": "https://www.transfermarkt.com/fc-petrocub/leistungsdaten/verein/46643/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:48.721551+00:00",
+    "status": 200,
+    "title": "FC Petrocub Hincesti - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 171648,
+    "text_chars": 5625
+  },
+  "perf_fc-porto_720_2024": {
+    "url": "https://www.transfermarkt.com/fc-porto/leistungsdaten/verein/720/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:16:58.138391+00:00",
+    "status": 200,
+    "title": "FC Porto - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 267044,
+    "text_chars": 12481
+  },
+  "perf_fc-st-gallen-1879_257_2024": {
+    "url": "https://www.transfermarkt.com/fc-st-gallen-1879/leistungsdaten/verein/257/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:17:08.140195+00:00",
+    "status": 200,
+    "title": "FC St. Gallen 1879 - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 238383,
+    "text_chars": 9942
+  },
+  "perf_fc-twente-enschede_317_2024": {
+    "url": "https://www.transfermarkt.com/fc-twente-enschede/leistungsdaten/verein/317/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:17:17.554547+00:00",
+    "status": 200,
+    "title": "FC Twente Enschede - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 225201,
+    "text_chars": 8770
+  },
+  "perf_fc-viktoria-pilsen_941_2024": {
+    "url": "https://www.transfermarkt.com/fc-viktoria-pilsen/leistungsdaten/verein/941/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:17:27.288135+00:00",
+    "status": 200,
+    "title": "FC Viktoria Plzen - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 191709,
+    "text_chars": 7109
+  },
+  "perf_fcsb_301_2024": {
+    "url": "https://www.transfermarkt.com/fcsb/leistungsdaten/verein/301/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:17:36.690056+00:00",
+    "status": 200,
+    "title": "FCSB - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 237694,
+    "text_chars": 10556
+  },
+  "perf_fenerbahce-istanbul_36_2024": {
+    "url": "https://www.transfermarkt.com/fenerbahce-istanbul/leistungsdaten/verein/36/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:17:46.394383+00:00",
+    "status": 200,
+    "title": "Fenerbahce - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 253011,
+    "text_chars": 10990
+  },
+  "perf_ferencvaros-budapest_279_2024": {
+    "url": "https://www.transfermarkt.com/ferencvaros-budapest/leistungsdaten/verein/279/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:17:55.739316+00:00",
+    "status": 200,
+    "title": "Ferencvárosi TC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 260134,
+    "text_chars": 11431
+  },
+  "perf_fk-bodo-glimt_501_2024": {
+    "url": "https://www.transfermarkt.com/fk-bodo-glimt/leistungsdaten/verein/501/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:18:07.399025+00:00",
+    "status": 200,
+    "title": "FK Bodø/Glimt - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 202567,
+    "text_chars": 7413
+  },
+  "perf_fk-borac-banja-luka_3900_2024": {
+    "url": "https://www.transfermarkt.com/fk-borac-banja-luka/leistungsdaten/verein/3900/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:18:17.037441+00:00",
+    "status": 200,
+    "title": "FK Borac Banja Luka - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 193087,
+    "text_chars": 7029
+  },
+  "perf_fk-mlada-boleslav_5546_2024": {
+    "url": "https://www.transfermarkt.com/fk-mlada-boleslav/leistungsdaten/verein/5546/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:18:27.086282+00:00",
+    "status": 200,
+    "title": "FK Mlada Boleslav - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 182710,
+    "text_chars": 6295
+  },
+  "perf_fk-rfs_33783_2024": {
+    "url": "https://www.transfermarkt.com/fk-rfs/leistungsdaten/verein/33783/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:18:36.602690+00:00",
+    "status": 200,
+    "title": "FC RFS - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 186413,
+    "text_chars": 6436
+  },
+  "perf_fk-tsc-backa-topola_3137_2024": {
+    "url": "https://www.transfermarkt.com/fk-tsc-backa-topola/leistungsdaten/verein/3137/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:18:46.685556+00:00",
+    "status": 200,
+    "title": "FK TSC Backa Topola - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 165068,
+    "text_chars": 5359
+  },
+  "perf_galatasaray-istanbul_141_2024": {
+    "url": "https://www.transfermarkt.com/galatasaray-istanbul/leistungsdaten/verein/141/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:18:55.935122+00:00",
+    "status": 200,
+    "title": "Galatasaray - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 262951,
+    "text_chars": 11395
+  },
+  "perf_glasgow-rangers_124_2024": {
+    "url": "https://www.transfermarkt.com/glasgow-rangers/leistungsdaten/verein/124/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:19:05.287379+00:00",
+    "status": 200,
+    "title": "Rangers FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 269970,
+    "text_chars": 13301
+  },
+  "perf_heart-of-midlothian-fc_43_2024": {
+    "url": "https://www.transfermarkt.com/heart-of-midlothian-fc/leistungsdaten/verein/43/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:19:15.289820+00:00",
+    "status": 200,
+    "title": "Heart of Midlothian FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 237482,
+    "text_chars": 10759
+  },
+  "perf_hjk-helsinki_1008_2024": {
+    "url": "https://www.transfermarkt.com/hjk-helsinki/leistungsdaten/verein/1008/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:19:24.854527+00:00",
+    "status": 200,
+    "title": "HJK Helsinki - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 242173,
+    "text_chars": 10492
+  },
+  "perf_if-elfsborg-boras_1101_2024": {
+    "url": "https://www.transfermarkt.com/if-elfsborg-boras/leistungsdaten/verein/1101/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:19:34.204610+00:00",
+    "status": 200,
+    "title": "IF Elfsborg - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 200632,
+    "text_chars": 7390
+  },
+  "perf_istanbul-basaksehir-fk_6890_2024": {
+    "url": "https://www.transfermarkt.com/istanbul-basaksehir-fk/leistungsdaten/verein/6890/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:19:44.236096+00:00",
+    "status": 200,
+    "title": "Basaksehir FK - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 191556,
+    "text_chars": 6438
+  },
+  "perf_jagiellonia-bialystok_2300_2024": {
+    "url": "https://www.transfermarkt.com/jagiellonia-bialystok/leistungsdaten/verein/2300/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:19:54.303821+00:00",
+    "status": 200,
+    "title": "Jagiellonia Bialystok - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 185023,
+    "text_chars": 6655
+  },
+  "perf_kaa-gent_157_2024": {
+    "url": "https://www.transfermarkt.com/kaa-gent/leistungsdaten/verein/157/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:20:03.868220+00:00",
+    "status": 200,
+    "title": "KAA Gent - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 236274,
+    "text_chars": 10217
+  },
+  "perf_larne-fc_3461_2024": {
+    "url": "https://www.transfermarkt.com/larne-fc/leistungsdaten/verein/3461/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:20:13.788038+00:00",
+    "status": 200,
+    "title": "Larne FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 186221,
+    "text_chars": 6625
+  },
+  "perf_lask_413_2024": {
+    "url": "https://www.transfermarkt.com/lask/leistungsdaten/verein/413/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:20:23.965319+00:00",
+    "status": 200,
+    "title": "LASK - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 261726,
+    "text_chars": 10953
+  },
+  "perf_lazio-rom_398_2024": {
+    "url": "https://www.transfermarkt.com/lazio-rom/leistungsdaten/verein/398/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:20:33.934951+00:00",
+    "status": 200,
+    "title": "SS Lazio - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 262549,
+    "text_chars": 10321
+  },
+  "perf_legia-warschau_255_2024": {
+    "url": "https://www.transfermarkt.com/legia-warschau/leistungsdaten/verein/255/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:20:43.738725+00:00",
+    "status": 200,
+    "title": "Legia Warszawa - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 231583,
+    "text_chars": 10175
+  },
+  "perf_maccabi-tel-aviv_119_2024": {
+    "url": "https://www.transfermarkt.com/maccabi-tel-aviv/leistungsdaten/verein/119/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:20:53.523318+00:00",
+    "status": 200,
+    "title": "Maccabi Tel Aviv - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 244664,
+    "text_chars": 10458
+  },
+  "perf_malmo-ff_496_2024": {
+    "url": "https://www.transfermarkt.com/malmo-ff/leistungsdaten/verein/496/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:21:03.134459+00:00",
+    "status": 200,
+    "title": "Malmö FF - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 226718,
+    "text_chars": 9563
+  },
+  "perf_manchester-united_985_2024": {
+    "url": "https://www.transfermarkt.com/manchester-united/leistungsdaten/verein/985/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:21:12.592060+00:00",
+    "status": 200,
+    "title": "Manchester United - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 312450,
+    "text_chars": 14433
+  },
+  "perf_molde-fk_687_2024": {
+    "url": "https://www.transfermarkt.com/molde-fk/leistungsdaten/verein/687/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:21:22.089748+00:00",
+    "status": 200,
+    "title": "Molde FK - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 220225,
+    "text_chars": 8340
+  },
+  "perf_nk-celje_710_2024": {
+    "url": "https://www.transfermarkt.com/nk-celje/leistungsdaten/verein/710/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:21:32.037114+00:00",
+    "status": 200,
+    "title": "NK Celje - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 195756,
+    "text_chars": 7128
+  },
+  "perf_nk-olimpija-ljubljana_4772_2024": {
+    "url": "https://www.transfermarkt.com/nk-olimpija-ljubljana/leistungsdaten/verein/4772/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:21:41.958563+00:00",
+    "status": 200,
+    "title": "NK Olimpija Ljubljana - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 183028,
+    "text_chars": 6795
+  },
+  "perf_ogc-nizza_417_2024": {
+    "url": "https://www.transfermarkt.com/ogc-nizza/leistungsdaten/verein/417/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:21:51.789091+00:00",
+    "status": 200,
+    "title": "OGC Nice - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 250191,
+    "text_chars": 10209
+  },
+  "perf_olympiakos-piraus_683_2024": {
+    "url": "https://www.transfermarkt.com/olympiakos-piraus/leistungsdaten/verein/683/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:01.377162+00:00",
+    "status": 200,
+    "title": "Olympiacos Piraeus - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 237752,
+    "text_chars": 10731
+  },
+  "perf_olympique-lyon_1041_2024": {
+    "url": "https://www.transfermarkt.com/olympique-lyon/leistungsdaten/verein/1041/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:11.058433+00:00",
+    "status": 200,
+    "title": "Olympique Lyon - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 250407,
+    "text_chars": 10782
+  },
+  "perf_omonia-nikosia_829_2024": {
+    "url": "https://www.transfermarkt.com/omonia-nikosia/leistungsdaten/verein/829/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:20.784851+00:00",
+    "status": 200,
+    "title": "Omonia Nicosia - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 215015,
+    "text_chars": 9412
+  },
+  "perf_pafos-fc_45457_2024": {
+    "url": "https://www.transfermarkt.com/pafos-fc/leistungsdaten/verein/45457/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:30.424038+00:00",
+    "status": 200,
+    "title": "Pafos FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 165733,
+    "text_chars": 5542
+  },
+  "perf_panathinaikos-athen_265_2024": {
+    "url": "https://www.transfermarkt.com/panathinaikos-athen/leistungsdaten/verein/265/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:39.898072+00:00",
+    "status": 200,
+    "title": "Panathinaikos - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 237379,
+    "text_chars": 10701
+  },
+  "perf_paok-thessaloniki_1091_2024": {
+    "url": "https://www.transfermarkt.com/paok-thessaloniki/leistungsdaten/verein/1091/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:49.701040+00:00",
+    "status": 200,
+    "title": "PAOK Thessaloniki - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 234037,
+    "text_chars": 10305
+  },
+  "perf_pfk-ludogorets-razgrad_31614_2024": {
+    "url": "https://www.transfermarkt.com/pfk-ludogorets-razgrad/leistungsdaten/verein/31614/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:22:59.762051+00:00",
+    "status": 200,
+    "title": "Ludogorets Razgrad - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 191301,
+    "text_chars": 7073
+  },
+  "perf_qarabag-fk_10625_2024": {
+    "url": "https://www.transfermarkt.com/qarabag-fk/leistungsdaten/verein/10625/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:23:09.732486+00:00",
+    "status": 200,
+    "title": "Qarabağ FK - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 172676,
+    "text_chars": 6499
+  },
+  "perf_real-betis-sevilla_150_2024": {
+    "url": "https://www.transfermarkt.com/real-betis-sevilla/leistungsdaten/verein/150/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:23:19.401232+00:00",
+    "status": 200,
+    "title": "Real Betis Balompié - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 248164,
+    "text_chars": 9460
+  },
+  "perf_real-sociedad-san-sebastian_681_2024": {
+    "url": "https://www.transfermarkt.com/real-sociedad-san-sebastian/leistungsdaten/verein/681/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:23:29.507308+00:00",
+    "status": 200,
+    "title": "Real Sociedad - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 248137,
+    "text_chars": 9556
+  },
+  "perf_royale-union-saint-gilloise_3948_2024": {
+    "url": "https://www.transfermarkt.com/royale-union-saint-gilloise/leistungsdaten/verein/3948/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:23:39.307088+00:00",
+    "status": 200,
+    "title": "Union Saint-Gilloise - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 193705,
+    "text_chars": 7037
+  },
+  "perf_rsc-anderlecht_58_2024": {
+    "url": "https://www.transfermarkt.com/rsc-anderlecht/leistungsdaten/verein/58/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:23:49.191870+00:00",
+    "status": 200,
+    "title": "RSC Anderlecht - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 257239,
+    "text_chars": 12281
+  },
+  "perf_sc-braga_1075_2024": {
+    "url": "https://www.transfermarkt.com/sc-braga/leistungsdaten/verein/1075/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:23:58.801603+00:00",
+    "status": 200,
+    "title": "SC Braga - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 234227,
+    "text_chars": 9483
+  },
+  "perf_shamrock-rovers_3258_2024": {
+    "url": "https://www.transfermarkt.com/shamrock-rovers/leistungsdaten/verein/3258/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:24:09.019278+00:00",
+    "status": 200,
+    "title": "Shamrock Rovers - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 258677,
+    "text_chars": 11552
+  },
+  "perf_sk-rapid-wien_170_2024": {
+    "url": "https://www.transfermarkt.com/sk-rapid-wien/leistungsdaten/verein/170/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:24:19.540279+00:00",
+    "status": 200,
+    "title": "Rapid Vienna - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 283310,
+    "text_chars": 13284
+  },
+  "perf_sk-slavia-prag_62_2024": {
+    "url": "https://www.transfermarkt.com/sk-slavia-prag/leistungsdaten/verein/62/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:24:29.241694+00:00",
+    "status": 200,
+    "title": "SK Slavia Prague - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 239200,
+    "text_chars": 9695
+  },
+  "perf_the-new-saints-fc_10734_2024": {
+    "url": "https://www.transfermarkt.com/the-new-saints-fc/leistungsdaten/verein/10734/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:24:38.621259+00:00",
+    "status": 200,
+    "title": "The New Saints - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 217544,
+    "text_chars": 9020
+  },
+  "perf_tottenham-hotspur_148_2024": {
+    "url": "https://www.transfermarkt.com/tottenham-hotspur/leistungsdaten/verein/148/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:24:49.218993+00:00",
+    "status": 200,
+    "title": "Tottenham Hotspur - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 277950,
+    "text_chars": 12262
+  },
+  "perf_tsg-1899-hoffenheim_533_2024": {
+    "url": "https://www.transfermarkt.com/tsg-1899-hoffenheim/leistungsdaten/verein/533/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:24:58.978333+00:00",
+    "status": 200,
+    "title": "TSG 1899 Hoffenheim - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 194346,
+    "text_chars": 6514
+  },
+  "perf_vikingur-reykjavik_5849_2024": {
+    "url": "https://www.transfermarkt.com/vikingur-reykjavik/leistungsdaten/verein/5849/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:25:08.475707+00:00",
+    "status": 200,
+    "title": "Víkingur Reykjavík - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 191690,
+    "text_chars": 7172
+  },
+  "perf_vitoria-guimaraes-sc_2420_2024": {
+    "url": "https://www.transfermarkt.com/vitoria-guimaraes-sc/leistungsdaten/verein/2420/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:25:18.299477+00:00",
+    "status": 200,
+    "title": "Vitória Guimarães SC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 225618,
+    "text_chars": 8848
+  },
+  "perf_1-fsv-mainz-05_39_2025": {
+    "url": "https://www.transfermarkt.com/1-fsv-mainz-05/leistungsdaten/verein/39/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:25:28.327403+00:00",
+    "status": 200,
+    "title": "1.FSV Mainz 05 - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 220390,
+    "text_chars": 8716
+  },
+  "perf_aberdeen-fc_370_2025": {
+    "url": "https://www.transfermarkt.com/aberdeen-fc/leistungsdaten/verein/370/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:25:37.688893+00:00",
+    "status": 200,
+    "title": "Aberdeen FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 232480,
+    "text_chars": 10552
+  },
+  "perf_ac-florenz_430_2025": {
+    "url": "https://www.transfermarkt.com/ac-florenz/leistungsdaten/verein/430/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:25:47.894165+00:00",
+    "status": 200,
+    "title": "ACF Fiorentina - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 257061,
+    "text_chars": 10254
+  },
+  "perf_ac-sparta-prag_197_2025": {
+    "url": "https://www.transfermarkt.com/ac-sparta-prag/leistungsdaten/verein/197/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:25:57.962218+00:00",
+    "status": 200,
+    "title": "AC Sparta Praha - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 243804,
+    "text_chars": 10346
+  },
+  "perf_aek-larnaka_2156_2025": {
+    "url": "https://www.transfermarkt.com/aek-larnaka/leistungsdaten/verein/2156/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:26:07.894487+00:00",
+    "status": 200,
+    "title": "AEK Larnaca - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 185655,
+    "text_chars": 6978
+  },
+  "perf_az-alkmaar_1090_2025": {
+    "url": "https://www.transfermarkt.com/az-alkmaar/leistungsdaten/verein/1090/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:26:18.014435+00:00",
+    "status": 200,
+    "title": "AZ Alkmaar - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 227641,
+    "text_chars": 9081
+  },
+  "perf_bk-hacken_1109_2025": {
+    "url": "https://www.transfermarkt.com/bk-hacken/leistungsdaten/verein/1109/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:26:28.627198+00:00",
+    "status": 200,
+    "title": "BK Häcken - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 193884,
+    "text_chars": 6693
+  },
+  "perf_breidablik-kopavogur_3737_2025": {
+    "url": "https://www.transfermarkt.com/breidablik-kopavogur/leistungsdaten/verein/3737/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:26:38.764804+00:00",
+    "status": 200,
+    "title": "Breidablik Kópavogur - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 188720,
+    "text_chars": 6937
+  },
+  "perf_bsc-young-boys_452_2025": {
+    "url": "https://www.transfermarkt.com/bsc-young-boys/leistungsdaten/verein/452/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:26:48.574506+00:00",
+    "status": 200,
+    "title": "BSC Young Boys - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 270878,
+    "text_chars": 12048
+  },
+  "perf_celta-vigo_940_2025": {
+    "url": "https://www.transfermarkt.com/celta-vigo/leistungsdaten/verein/940/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:26:58.426937+00:00",
+    "status": 200,
+    "title": "Celta de Vigo - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 234047,
+    "text_chars": 8970
+  },
+  "perf_celtic-glasgow_371_2025": {
+    "url": "https://www.transfermarkt.com/celtic-glasgow/leistungsdaten/verein/371/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:27:08.292405+00:00",
+    "status": 200,
+    "title": "Celtic FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 261271,
+    "text_chars": 12914
+  },
+  "perf_crystal-palace_873_2025": {
+    "url": "https://www.transfermarkt.com/crystal-palace/leistungsdaten/verein/873/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:27:18.255911+00:00",
+    "status": 200,
+    "title": "Crystal Palace - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 249221,
+    "text_chars": 9638
+  },
+  "perf_dynamo-kiew_338_2025": {
+    "url": "https://www.transfermarkt.com/dynamo-kiew/leistungsdaten/verein/338/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:27:27.879367+00:00",
+    "status": 200,
+    "title": "Dynamo Kyiv - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 292345,
+    "text_chars": 14307
+  },
+  "perf_fc-basel-1893_26_2025": {
+    "url": "https://www.transfermarkt.com/fc-basel-1893/leistungsdaten/verein/26/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:27:38.048987+00:00",
+    "status": 200,
+    "title": "FC Basel 1893 - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 263560,
+    "text_chars": 11775
+  },
+  "perf_fc-bologna_1025_2025": {
+    "url": "https://www.transfermarkt.com/fc-bologna/leistungsdaten/verein/1025/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:27:47.823890+00:00",
+    "status": 200,
+    "title": "Bologna FC 1909 - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 256021,
+    "text_chars": 9896
+  },
+  "perf_fc-drita-gjilan_33741_2025": {
+    "url": "https://www.transfermarkt.com/fc-drita-gjilan/leistungsdaten/verein/33741/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:27:57.815137+00:00",
+    "status": 200,
+    "title": "FC Drita - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 171888,
+    "text_chars": 5873
+  },
+  "perf_fc-lausanne-sport_527_2025": {
+    "url": "https://www.transfermarkt.com/fc-lausanne-sport/leistungsdaten/verein/527/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:28:07.393641+00:00",
+    "status": 200,
+    "title": "FC Lausanne-Sport - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 258720,
+    "text_chars": 10953
+  },
+  "perf_fc-midtjylland_865_2025": {
+    "url": "https://www.transfermarkt.com/fc-midtjylland/leistungsdaten/verein/865/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:28:16.980773+00:00",
+    "status": 200,
+    "title": "FC Midtjylland - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 190035,
+    "text_chars": 7018
+  },
+  "perf_fc-noah-erewan_60368_2025": {
+    "url": "https://www.transfermarkt.com/fc-noah-erewan/leistungsdaten/verein/60368/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:28:26.545955+00:00",
+    "status": 200,
+    "title": "FC Noah Yerevan - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 168719,
+    "text_chars": 5622
+  },
+  "perf_fc-utrecht_200_2025": {
+    "url": "https://www.transfermarkt.com/fc-utrecht/leistungsdaten/verein/200/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:28:36.138204+00:00",
+    "status": 200,
+    "title": "FC Utrecht - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 219670,
+    "text_chars": 8271
+  },
+  "perf_fc-viktoria-pilsen_941_2025": {
+    "url": "https://www.transfermarkt.com/fc-viktoria-pilsen/leistungsdaten/verein/941/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:28:46.176557+00:00",
+    "status": 200,
+    "title": "FC Viktoria Plzen - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 205216,
+    "text_chars": 7798
+  },
+  "perf_fcsb_301_2025": {
+    "url": "https://www.transfermarkt.com/fcsb/leistungsdaten/verein/301/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:28:56.187824+00:00",
+    "status": 200,
+    "title": "FCSB - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 238265,
+    "text_chars": 10564
+  },
+  "perf_ferencvaros-budapest_279_2025": {
+    "url": "https://www.transfermarkt.com/ferencvaros-budapest/leistungsdaten/verein/279/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:29:06.037262+00:00",
+    "status": 200,
+    "title": "Ferencvárosi TC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 262341,
+    "text_chars": 11469
+  },
+  "perf_glasgow-rangers_124_2025": {
+    "url": "https://www.transfermarkt.com/glasgow-rangers/leistungsdaten/verein/124/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:29:15.930473+00:00",
+    "status": 200,
+    "title": "Rangers FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 276333,
+    "text_chars": 13609
+  },
+  "perf_gnk-dinamo-zagreb_419_2025": {
+    "url": "https://www.transfermarkt.com/gnk-dinamo-zagreb/leistungsdaten/verein/419/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:29:25.388743+00:00",
+    "status": 200,
+    "title": "GNK Dinamo Zagreb - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 229767,
+    "text_chars": 10048
+  },
+  "perf_go-ahead-eagles-deventer_1435_2025": {
+    "url": "https://www.transfermarkt.com/go-ahead-eagles-deventer/leistungsdaten/verein/1435/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:29:35.540928+00:00",
+    "status": 200,
+    "title": "Go Ahead Eagles - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 249566,
+    "text_chars": 10763
+  },
+  "perf_hamrun-spartans_17149_2025": {
+    "url": "https://www.transfermarkt.com/hamrun-spartans/leistungsdaten/verein/17149/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:29:44.879794+00:00",
+    "status": 200,
+    "title": "Hamrun Spartans - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 195010,
+    "text_chars": 7394
+  },
+  "perf_hnk-rijeka_144_2025": {
+    "url": "https://www.transfermarkt.com/hnk-rijeka/leistungsdaten/verein/144/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:29:54.956237+00:00",
+    "status": 200,
+    "title": "HNK Rijeka - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 204157,
+    "text_chars": 7893
+  },
+  "perf_hsk-zrinjski-mostar_6808_2025": {
+    "url": "https://www.transfermarkt.com/hsk-zrinjski-mostar/leistungsdaten/verein/6808/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:30:05.213832+00:00",
+    "status": 200,
+    "title": "HSK Zrinjski Mostar - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 194732,
+    "text_chars": 7332
+  },
+  "perf_jagiellonia-bialystok_2300_2025": {
+    "url": "https://www.transfermarkt.com/jagiellonia-bialystok/leistungsdaten/verein/2300/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:30:15.034735+00:00",
+    "status": 200,
+    "title": "Jagiellonia Bialystok - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 184620,
+    "text_chars": 6565
+  },
+  "perf_krc-genk_1184_2025": {
+    "url": "https://www.transfermarkt.com/krc-genk/leistungsdaten/verein/1184/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:30:24.983747+00:00",
+    "status": 200,
+    "title": "KRC Genk - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 213227,
+    "text_chars": 9245
+  },
+  "perf_kuopion-palloseura_6251_2025": {
+    "url": "https://www.transfermarkt.com/kuopion-palloseura/leistungsdaten/verein/6251/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:30:34.868233+00:00",
+    "status": 200,
+    "title": "Kuopion Palloseura - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 228103,
+    "text_chars": 8563
+  },
+  "perf_lech-posen_238_2025": {
+    "url": "https://www.transfermarkt.com/lech-posen/leistungsdaten/verein/238/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:30:44.975625+00:00",
+    "status": 200,
+    "title": "Lech Poznań - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 206061,
+    "text_chars": 8420
+  },
+  "perf_legia-warschau_255_2025": {
+    "url": "https://www.transfermarkt.com/legia-warschau/leistungsdaten/verein/255/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:30:54.430408+00:00",
+    "status": 200,
+    "title": "Legia Warszawa - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 225858,
+    "text_chars": 10056
+  },
+  "perf_lincoln-red-imps-fc_38204_2025": {
+    "url": "https://www.transfermarkt.com/lincoln-red-imps-fc/leistungsdaten/verein/38204/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:31:04.172555+00:00",
+    "status": 200,
+    "title": "Lincoln Red Imps FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 175022,
+    "text_chars": 6624
+  },
+  "perf_maccabi-tel-aviv_119_2025": {
+    "url": "https://www.transfermarkt.com/maccabi-tel-aviv/leistungsdaten/verein/119/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:31:14.432036+00:00",
+    "status": 200,
+    "title": "Maccabi Tel Aviv - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 237544,
+    "text_chars": 10247
+  },
+  "perf_malmo-ff_496_2025": {
+    "url": "https://www.transfermarkt.com/malmo-ff/leistungsdaten/verein/496/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:31:25.220647+00:00",
+    "status": 200,
+    "title": "Malmö FF - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 234783,
+    "text_chars": 9824
+  },
+  "perf_nk-celje_710_2025": {
+    "url": "https://www.transfermarkt.com/nk-celje/leistungsdaten/verein/710/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:31:34.923805+00:00",
+    "status": 200,
+    "title": "NK Celje - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 177683,
+    "text_chars": 6290
+  },
+  "perf_nottingham-forest_703_2025": {
+    "url": "https://www.transfermarkt.com/nottingham-forest/leistungsdaten/verein/703/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:31:44.569687+00:00",
+    "status": 200,
+    "title": "Nottingham Forest - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 287752,
+    "text_chars": 12359
+  },
+  "perf_ogc-nizza_417_2025": {
+    "url": "https://www.transfermarkt.com/ogc-nizza/leistungsdaten/verein/417/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:31:54.339901+00:00",
+    "status": 200,
+    "title": "OGC Nice - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 260340,
+    "text_chars": 10678
+  },
+  "perf_olympique-lyon_1041_2025": {
+    "url": "https://www.transfermarkt.com/olympique-lyon/leistungsdaten/verein/1041/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:32:04.669787+00:00",
+    "status": 200,
+    "title": "Olympique Lyon - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 257452,
+    "text_chars": 11109
+  },
+  "perf_omonia-nikosia_829_2025": {
+    "url": "https://www.transfermarkt.com/omonia-nikosia/leistungsdaten/verein/829/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:32:14.484279+00:00",
+    "status": 200,
+    "title": "Omonia Nicosia - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 213460,
+    "text_chars": 9361
+  },
+  "perf_panathinaikos-athen_265_2025": {
+    "url": "https://www.transfermarkt.com/panathinaikos-athen/leistungsdaten/verein/265/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:32:24.605814+00:00",
+    "status": 200,
+    "title": "Panathinaikos - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 249188,
+    "text_chars": 11215
+  },
+  "perf_paok-thessaloniki_1091_2025": {
+    "url": "https://www.transfermarkt.com/paok-thessaloniki/leistungsdaten/verein/1091/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:32:34.350791+00:00",
+    "status": 200,
+    "title": "PAOK Thessaloniki - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 232076,
+    "text_chars": 10224
+  },
+  "perf_pfk-ludogorets-razgrad_31614_2025": {
+    "url": "https://www.transfermarkt.com/pfk-ludogorets-razgrad/leistungsdaten/verein/31614/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:32:43.819610+00:00",
+    "status": 200,
+    "title": "Ludogorets Razgrad - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 189217,
+    "text_chars": 7053
+  },
+  "perf_rakow-czestochowa_9644_2025": {
+    "url": "https://www.transfermarkt.com/rakow-czestochowa/leistungsdaten/verein/9644/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:32:54.107388+00:00",
+    "status": 200,
+    "title": "Raków Częstochowa - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 174576,
+    "text_chars": 5963
+  },
+  "perf_rayo-vallecano_367_2025": {
+    "url": "https://www.transfermarkt.com/rayo-vallecano/leistungsdaten/verein/367/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:33:04.108176+00:00",
+    "status": 200,
+    "title": "Rayo Vallecano - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 200004,
+    "text_chars": 7235
+  },
+  "perf_rc-strassburg-alsace_667_2025": {
+    "url": "https://www.transfermarkt.com/rc-strassburg-alsace/leistungsdaten/verein/667/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:33:13.442005+00:00",
+    "status": 200,
+    "title": "RC Strasbourg Alsace - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 262034,
+    "text_chars": 10706
+  },
+  "perf_red-bull-salzburg_409_2025": {
+    "url": "https://www.transfermarkt.com/red-bull-salzburg/leistungsdaten/verein/409/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:33:23.362585+00:00",
+    "status": 200,
+    "title": "Red Bull Salzburg - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 254829,
+    "text_chars": 10829
+  },
+  "perf_roter-stern-belgrad_159_2025": {
+    "url": "https://www.transfermarkt.com/roter-stern-belgrad/leistungsdaten/verein/159/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:33:33.179946+00:00",
+    "status": 200,
+    "title": "Red Star Belgrade - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 240875,
+    "text_chars": 10072
+  },
+  "perf_samsunspor_152_2025": {
+    "url": "https://www.transfermarkt.com/samsunspor/leistungsdaten/verein/152/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:33:42.948901+00:00",
+    "status": 200,
+    "title": "Samsunspor - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 217742,
+    "text_chars": 7868
+  },
+  "perf_sc-braga_1075_2025": {
+    "url": "https://www.transfermarkt.com/sc-braga/leistungsdaten/verein/1075/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:33:53.069643+00:00",
+    "status": 200,
+    "title": "SC Braga - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 229429,
+    "text_chars": 9340
+  },
+  "perf_sc-freiburg_60_2025": {
+    "url": "https://www.transfermarkt.com/sc-freiburg/leistungsdaten/verein/60/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:34:03.173573+00:00",
+    "status": 200,
+    "title": "SC Freiburg - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 189785,
+    "text_chars": 6634
+  },
+  "perf_shamrock-rovers_3258_2025": {
+    "url": "https://www.transfermarkt.com/shamrock-rovers/leistungsdaten/verein/3258/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:34:13.313211+00:00",
+    "status": 200,
+    "title": "Shamrock Rovers - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 250799,
+    "text_chars": 11091
+  },
+  "perf_shelbourne-fc_3909_2025": {
+    "url": "https://www.transfermarkt.com/shelbourne-fc/leistungsdaten/verein/3909/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:34:23.749488+00:00",
+    "status": 200,
+    "title": "Shelbourne FC - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 224272,
+    "text_chars": 9446
+  },
+  "perf_shkendija-tetovo_1167_2025": {
+    "url": "https://www.transfermarkt.com/shkendija-tetovo/leistungsdaten/verein/1167/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:34:33.357842+00:00",
+    "status": 200,
+    "title": "Shkendija Tetovo - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 160985,
+    "text_chars": 5522
+  },
+  "perf_sk-brann_1100_2025": {
+    "url": "https://www.transfermarkt.com/sk-brann/leistungsdaten/verein/1100/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:34:43.086421+00:00",
+    "status": 200,
+    "title": "SK Brann - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 222240,
+    "text_chars": 8382
+  },
+  "perf_sk-rapid-wien_170_2025": {
+    "url": "https://www.transfermarkt.com/sk-rapid-wien/leistungsdaten/verein/170/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:34:52.567888+00:00",
+    "status": 200,
+    "title": "Rapid Vienna - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 288607,
+    "text_chars": 13497
+  },
+  "perf_sk-sigma-olmutz_2311_2025": {
+    "url": "https://www.transfermarkt.com/sk-sigma-olmutz/leistungsdaten/verein/2311/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:35:02.513568+00:00",
+    "status": 200,
+    "title": "SK Sigma Olomouc - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 207492,
+    "text_chars": 7526
+  },
+  "perf_sk-sturm-graz_122_2025": {
+    "url": "https://www.transfermarkt.com/sk-sturm-graz/leistungsdaten/verein/122/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:35:12.685205+00:00",
+    "status": 200,
+    "title": "SK Sturm Graz - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 260556,
+    "text_chars": 11135
+  },
+  "perf_universitatea-craiova_40812_2025": {
+    "url": "https://www.transfermarkt.com/universitatea-craiova/leistungsdaten/verein/40812/reldata/%262025/plus/1",
+    "captured_at_utc": "2026-10-12T20:35:22.869198+00:00",
+    "status": 200,
+    "title": "Universitatea Craiova - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 182812,
+    "text_chars": 6479
   }
 }

@@ -117,6 +117,34 @@ def held_out(table: pd.DataFrame, market: dict, columns: list[str], draw_grid=(0
     return result
 
 
+def availability_held_out(table: pd.DataFrame, market: dict) -> tuple[dict, dict]:
+    """Held-out verdicts without and with Availability, on the matches where it is known."""
+    from clpred.availability import centred, fit_effects, log_rates, with_missing
+
+    known = with_missing(table.reset_index().rename(columns={"index": "row"})).set_index("row")
+    results = []
+    for use in (False, True):
+        result = {"log_loss": 0.0, "points": 0, "exact": 0, "per_season": [], "learned": []}
+        for test in REPLAY_SEASONS:
+            train, typical = centred(known[known.season != test])
+            test_rows, _ = centred(known[known.season == test], typical)
+            x = fit_effects(train, with_availability=use)
+            parts = []
+            for rows in (train, test_rows):
+                home, away = log_rates(rows, x)
+                parts.append(rows.assign(home_rate=np.exp(home), away_rate=np.exp(away)))
+            share = min(BLEND_GRID, key=lambda s: judge(parts[0], market, s)["log_loss"])
+            verdict = judge(parts[1], market, share)
+            result["log_loss"] += verdict["log_loss"] * len(test_rows) / len(known)
+            result["points"] += verdict["points"]
+            result["exact"] += verdict["exact"]
+            result["per_season"].append(round(verdict["log_loss"], 4))
+            result["learned"].append({"coefficients": [round(float(v), 3) for v in x[1:]], "share": float(share), "draws": 0.0})
+        results.append(result)
+    print(f"Availability known for {len(known)} matches")
+    return results[0], results[1]
+
+
 def show(name: str, result: dict, reference: dict | None = None) -> None:
     better = ""
     if reference:
@@ -160,6 +188,9 @@ def main() -> None:
     show("+ travel distance", held_out(table, market, ["travel"]), reference)
     show("+ squad-value gap", held_out(table, market, ["value_gap"]), reference)
     show("+ squad value beyond the ratings", held_out(table, market, ["value_surprise"]), reference)
+    without, with_it = availability_held_out(table, market)
+    show("same matches, no Availability", without)
+    show("+ Availability (attack, defence)", with_it, without)
     show("+ more or fewer draws", held_out(table, market, [], draw_grid=(-0.1, -0.05, 0.0, 0.05, 0.1, 0.15, 0.2)), reference)
 
 

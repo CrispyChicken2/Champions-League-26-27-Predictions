@@ -33,13 +33,6 @@ MAX_ADJUSTMENT = 0.30
 # apply to a domestic league only, so they are not counted.
 COUNTED_SUSPENSIONS = {"No eligibility"}
 PLAYER_THRESHOLD = 0.75
-# Prior belief about both effects: a club missing 25% of its goal production
-# scores about 10% less. An assumption, not a measurement; the spread says how
-# far the truth may plausibly sit from it.
-PRIOR_EFFECT = 0.4
-PRIOR_SPREAD = 0.2
-# A player first named in a squad this late is taken to have joined in the winter window.
-LATE_ARRIVAL_MATCHDAY = 7
 
 
 def plain(name: str) -> str:
@@ -91,22 +84,11 @@ def rate_changes(home_missing: tuple[float, float], away_missing: tuple[float, f
 
 
 def effects_in_use() -> dict | None:
-    """The attack and defence effects applied to Predictions.
-
-    The past matches alone leave each effect very uncertain, so the fitted
-    value is combined with a prior belief, each weighted by how sure it is.
-    """
+    """The attack and defence effects applied to Predictions: the values fitted on the replay."""
     if not COEFFICIENTS.exists():
         return None
     fitted = json.loads(COEFFICIENTS.read_text("utf-8"))
-    used = {}
-    for part in ("attack", "defence"):
-        low, high = fitted[f"{part}_range"]
-        data_variance = ((high - low) / (2 * 1.645)) ** 2
-        prior_variance = PRIOR_SPREAD ** 2
-        weight = prior_variance / (prior_variance + data_variance)
-        used[part] = weight * fitted[f"{part}_effect"] + (1 - weight) * PRIOR_EFFECT
-    return used
+    return {"attack": fitted["attack_effect"], "defence": fitted["defence_effect"]}
 
 
 def squad_importance(player_seasons: pd.DataFrame, squad: pd.DataFrame, club: str, seasons: tuple[int, ...]) -> pd.DataFrame:
@@ -186,24 +168,28 @@ def centred(table: pd.DataFrame, typical: dict[str, float] | None = None) -> tup
     return out, typical
 
 
+def with_missing(table: pd.DataFrame) -> pd.DataFrame:
+    """The replay matches for which both clubs' missing figures are known, with those figures."""
+    lineups = pd.read_csv("data/lineups.csv")
+    features = historical_missing(lineups, pd.read_csv("data/player_seasons.csv"))
+    clubs_of = lineups.groupby("match_id").club.unique()
+    dates = lineups.drop_duplicates("match_id").set_index("match_id").date
+    match_of = {(dates[match_id], club): match_id for match_id, clubs in clubs_of.items() for club in clubs}
+    table = table.assign(match_id=[match_of.get((m.date, m.home)) for m in table.itertuples()])
+    for side in ("home", "away"):
+        side_features = features.rename(columns={"club": side, "attack_missing": f"{side}_attack_missing",
+                                                 "defence_missing": f"{side}_defence_missing"})
+        table = table.merge(side_features, on=["match_id", side], how="left")
+    return table.dropna(subset=["home_attack_missing", "away_attack_missing"])
+
+
 def main() -> None:
     from clpred.model import Settings
     from clpred.replay import expected_goals, replay_matches
 
     matches, targets = replay_matches()
     table = expected_goals(matches, targets, Settings())
-    lineups = pd.read_csv("data/lineups.csv")
-    features = historical_missing(lineups, pd.read_csv("data/player_seasons.csv"))
-
-    ids = lineups.drop_duplicates("match_id").merge(
-        lineups.groupby("match_id").club.unique().rename("clubs"), on="match_id")[["match_id", "date", "clubs"]]
-    match_of = {(row.date, club): row.match_id for row in ids.itertuples() for club in row.clubs}
-    table["match_id"] = [match_of.get((m.date, m.home)) for m in table.itertuples()]
-    for side in ("home", "away"):
-        side_features = features.rename(columns={"club": side, "attack_missing": f"{side}_attack_missing",
-                                                 "defence_missing": f"{side}_defence_missing"})
-        table = table.merge(side_features, on=["match_id", side], how="left")
-    known = table.dropna(subset=["home_attack_missing", "away_attack_missing"])
+    known = with_missing(table)
     print(f"{len(known)} of {len(table)} replay matches have line-ups and player tables for both clubs")
     print(known[["home_attack_missing", "home_defence_missing"]].describe().loc[["mean", "50%", "max"]].round(3).to_string())
 

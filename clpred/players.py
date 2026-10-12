@@ -94,7 +94,7 @@ def importance(table: pd.DataFrame) -> pd.DataFrame:
 
 def all_spellings() -> dict[str, list[str]]:
     spellings: dict[str, list[str]] = {}
-    for path in Path("data/history").glob("european_ucl_*.json"):
+    for path in Path("data/history").glob("european_*.json"):
         for match in json.loads(path.read_text("utf-8")):
             for team in (match["homeTeam"], match["awayTeam"]):
                 names = team.get("translations", {})

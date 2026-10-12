@@ -31,6 +31,7 @@ class Settings:
     form_decay_per_day: float = 0.02  # how fast that extra weight fades (0.02 halves it every 5 weeks)
     ucl_weight: float = 2.0           # weight of a Champions League match relative to a domestic one
     shots_share: float = 0.0          # share of the target taken from shots on target instead of goals
+    odds_share: float = 0.0           # share of the target taken from the goals bookmakers' odds implied, where known
     xg_share: float = 0.0             # share of the target taken from expected goals (xG) where known
     strength_penalty: float = 0.3     # pull of attack/defence towards the average
     venue_penalty: float = 200.0      # pull of the Venue Effect towards zero
@@ -115,6 +116,16 @@ def fit(matches: pd.DataFrame, as_of: str, settings: Settings, start: np.ndarray
         has_xg = ~np.isnan(home_xg) & ~np.isnan(away_xg)
         y_home = np.where(has_xg, (1 - settings.xg_share) * y_home + settings.xg_share * np.nan_to_num(home_xg), y_home)
         y_away = np.where(has_xg, (1 - settings.xg_share) * y_away + settings.xg_share * np.nan_to_num(away_xg), y_away)
+
+    # And for the expected goals the bookmakers' odds implied on the day.
+    if "home_implied" in data and settings.odds_share > 0:
+        home_implied, away_implied = data["home_implied"].to_numpy(float), data["away_implied"].to_numpy(float)
+        priced = ~np.isnan(home_implied) & ~np.isnan(away_implied)
+        # 1X2 odds pin down who is stronger better than how many goals fall, so the level is set from real goals.
+        level = (home_goals[priced].sum() + away_goals[priced].sum()) / (home_implied[priced].sum() + away_implied[priced].sum())
+        home_implied, away_implied = home_implied * level, away_implied * level
+        y_home = np.where(priced, (1 - settings.odds_share) * y_home + settings.odds_share * np.nan_to_num(home_implied), y_home)
+        y_away = np.where(priced, (1 - settings.odds_share) * y_away + settings.odds_share * np.nan_to_num(away_implied), y_away)
 
     def unpack(x):
         return x[0], x[1], x[2], x[3], x[4:4 + n], x[4 + n:4 + 2 * n], x[4 + 2 * n:]
