@@ -1,0 +1,1042 @@
+{
+  "uefa_fixtures": {
+    "url": "https://www.uefa.com/uefachampionsleague/fixtures-results/",
+    "captured_at_utc": "2026-10-12T16:27:18.224027+00:00",
+    "status": 200,
+    "title": "Fixtures & results | UEFA Champions League 2026/27 | UEFA.com",
+    "html_bytes": 378020,
+    "text_chars": 4236
+  },
+  "tm_injuries_suspensions": {
+    "url": "https://www.transfermarkt.com/uefa-champions-league/sperrenundverletzungen/pokalwettbewerb/CL",
+    "captured_at_utc": "2026-10-12T16:27:36.733641+00:00",
+    "status": 404,
+    "title": "Error | Transfermarkt",
+    "html_bytes": 74583,
+    "text_chars": 901
+  },
+  "oddsportal_cl": {
+    "url": "https://www.oddsportal.com/football/europe/champions-league/",
+    "captured_at_utc": "2026-10-12T16:27:42.581857+00:00",
+    "status": 200,
+    "title": "Champions League Odds 2026/2027: Match Lines and Fixtures",
+    "html_bytes": 766092,
+    "text_chars": 4686
+  },
+  "odds_aek__shakhtar_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/aek-ANpZncAM/shakhtar-4ENWX2OA/#Y1LED1zo",
+    "captured_at_utc": "2026-10-12T16:29:08.521381+00:00",
+    "status": 200,
+    "title": "Shakhtar Donetsk - AEK Athens Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 630611,
+    "text_chars": 5870
+  },
+  "odds_aek__shakhtar_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/aek-ANpZncAM/shakhtar-4ENWX2OA/#Y1LED1zo:over-under;2",
+    "captured_at_utc": "2026-10-12T16:29:15.123869+00:00",
+    "status": null,
+    "title": "Shakhtar Donetsk - AEK Athens Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 639003,
+    "text_chars": 6303
+  },
+  "odds_aek__shakhtar_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/aek-ANpZncAM/shakhtar-4ENWX2OA/#Y1LED1zo:cs;2",
+    "captured_at_utc": "2026-10-12T16:29:19.183260+00:00",
+    "status": null,
+    "title": "Shakhtar Donetsk - AEK Athens Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 632464,
+    "text_chars": 5964
+  },
+  "odds_arsenal__lille_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/arsenal-hA1Zm19f/lille-pfDZL71o/#pOc8KuDl",
+    "captured_at_utc": "2026-10-12T16:29:23.237281+00:00",
+    "status": 200,
+    "title": "Arsenal - Lille Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 590293,
+    "text_chars": 6901
+  },
+  "odds_arsenal__lille_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/arsenal-hA1Zm19f/lille-pfDZL71o/#pOc8KuDl:over-under;2",
+    "captured_at_utc": "2026-10-12T16:29:28.654029+00:00",
+    "status": null,
+    "title": "Arsenal - Lille Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 605053,
+    "text_chars": 7440
+  },
+  "odds_arsenal__lille_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/arsenal-hA1Zm19f/lille-pfDZL71o/#pOc8KuDl:cs;2",
+    "captured_at_utc": "2026-10-12T16:29:32.698225+00:00",
+    "status": null,
+    "title": "Arsenal - Lille Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 591973,
+    "text_chars": 7004
+  },
+  "odds_as-roma__real-madrid_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/as-roma-zVqqL0ma/real-madrid-W8mj7MDD/#4j50U1OM",
+    "captured_at_utc": "2026-10-12T16:29:36.754279+00:00",
+    "status": 200,
+    "title": "[[EventName]] Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 667655,
+    "text_chars": 6120
+  },
+  "odds_as-roma__real-madrid_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/as-roma-zVqqL0ma/real-madrid-W8mj7MDD/#4j50U1OM:over-under;2",
+    "captured_at_utc": "2026-10-12T16:29:42.933912+00:00",
+    "status": null,
+    "title": "[[EventName]] Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 678064,
+    "text_chars": 6592
+  },
+  "odds_as-roma__real-madrid_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/as-roma-zVqqL0ma/real-madrid-W8mj7MDD/#4j50U1OM:cs;2",
+    "captured_at_utc": "2026-10-12T16:29:46.985008+00:00",
+    "status": null,
+    "title": "[[EventName]] Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 669342,
+    "text_chars": 6219
+  },
+  "odds_aston-villa__fenerbahce_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/aston-villa-W00wmLO0/fenerbahce-MsbmracL/#OhXJC6X0",
+    "captured_at_utc": "2026-10-12T16:29:51.038011+00:00",
+    "status": 200,
+    "title": "Aston Villa - Fenerbahce Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 636832,
+    "text_chars": 5553
+  },
+  "odds_aston-villa__fenerbahce_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/aston-villa-W00wmLO0/fenerbahce-MsbmracL/#OhXJC6X0:over-under;2",
+    "captured_at_utc": "2026-10-12T16:29:57.287099+00:00",
+    "status": null,
+    "title": "Aston Villa - Fenerbahce Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 645050,
+    "text_chars": 5989
+  },
+  "odds_aston-villa__fenerbahce_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/aston-villa-W00wmLO0/fenerbahce-MsbmracL/#OhXJC6X0:cs;2",
+    "captured_at_utc": "2026-10-12T16:30:01.354770+00:00",
+    "status": null,
+    "title": "Aston Villa - Fenerbahce Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 638514,
+    "text_chars": 5653
+  },
+  "odds_atl-madrid__manchester-united_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/atl-madrid-jaarqpLQ/manchester-united-ppjDR086/#C0GBpZVH",
+    "captured_at_utc": "2026-10-12T16:30:05.408419+00:00",
+    "status": 200,
+    "title": "Atl. Madrid - Manchester Utd Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 659269,
+    "text_chars": 7539
+  },
+  "odds_atl-madrid__manchester-united_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/atl-madrid-jaarqpLQ/manchester-united-ppjDR086/#C0GBpZVH:over-under;2",
+    "captured_at_utc": "2026-10-12T16:30:11.656927+00:00",
+    "status": null,
+    "title": "Atl. Madrid - Manchester Utd Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 674033,
+    "text_chars": 8076
+  },
+  "odds_atl-madrid__manchester-united_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/atl-madrid-jaarqpLQ/manchester-united-ppjDR086/#C0GBpZVH:cs;2",
+    "captured_at_utc": "2026-10-12T16:30:15.711995+00:00",
+    "status": null,
+    "title": "Atl. Madrid - Manchester Utd Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 660950,
+    "text_chars": 7637
+  },
+  "odds_barcelona__galatasaray_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/barcelona-SKbpVP5K/galatasaray-riaqqurF/#hWJelHWh",
+    "captured_at_utc": "2026-10-12T16:30:19.772529+00:00",
+    "status": 200,
+    "title": "Galatasaray - Barcelona Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 588622,
+    "text_chars": 6579
+  },
+  "odds_barcelona__galatasaray_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/barcelona-SKbpVP5K/galatasaray-riaqqurF/#hWJelHWh:over-under;2",
+    "captured_at_utc": "2026-10-12T16:30:25.189836+00:00",
+    "status": null,
+    "title": "Galatasaray - Barcelona Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 607748,
+    "text_chars": 7196
+  },
+  "odds_barcelona__galatasaray_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/barcelona-SKbpVP5K/galatasaray-riaqqurF/#hWJelHWh:cs;2",
+    "captured_at_utc": "2026-10-12T16:30:29.238751+00:00",
+    "status": null,
+    "title": "Galatasaray - Barcelona Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 590292,
+    "text_chars": 6681
+  },
+  "odds_bayern-munich__viking_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/bayern-munich-nVp0wiqd/viking-bXAgOWwb/#p8JTqdt0",
+    "captured_at_utc": "2026-10-12T16:30:33.284923+00:00",
+    "status": 200,
+    "title": "Viking - Bayern Munich Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 595567,
+    "text_chars": 6703
+  },
+  "odds_bayern-munich__viking_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/bayern-munich-nVp0wiqd/viking-bXAgOWwb/#p8JTqdt0:over-under;2",
+    "captured_at_utc": "2026-10-12T16:30:39.559883+00:00",
+    "status": null,
+    "title": "Viking - Bayern Munich Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 616881,
+    "text_chars": 7346
+  },
+  "odds_bayern-munich__viking_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/bayern-munich-nVp0wiqd/viking-bXAgOWwb/#p8JTqdt0:cs;2",
+    "captured_at_utc": "2026-10-12T16:30:43.603868+00:00",
+    "status": null,
+    "title": "Viking - Bayern Munich Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 597247,
+    "text_chars": 6799
+  },
+  "odds_betis__fc-porto_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/betis-vJbTeCGP/fc-porto-S2NmScGp/#xt5Mx0jU",
+    "captured_at_utc": "2026-10-12T16:30:47.653572+00:00",
+    "status": 200,
+    "title": "Betis - FC Porto Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 628607,
+    "text_chars": 5580
+  },
+  "odds_betis__fc-porto_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/betis-vJbTeCGP/fc-porto-S2NmScGp/#xt5Mx0jU:over-under;2",
+    "captured_at_utc": "2026-10-12T16:30:53.927263+00:00",
+    "status": null,
+    "title": "Betis - FC Porto Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 641208,
+    "text_chars": 6083
+  },
+  "odds_betis__fc-porto_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/betis-vJbTeCGP/fc-porto-S2NmScGp/#xt5Mx0jU:cs;2",
+    "captured_at_utc": "2026-10-12T16:30:57.974663+00:00",
+    "status": null,
+    "title": "Betis - FC Porto Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 630310,
+    "text_chars": 5680
+  },
+  "odds_bodo-glimt__dortmund_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/bodo-glimt-S0WZMUNG/dortmund-nP1i5US1/#QejW1kJr",
+    "captured_at_utc": "2026-10-12T16:31:02.023563+00:00",
+    "status": 200,
+    "title": "Bodo/Glimt - Dortmund Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 632214,
+    "text_chars": 5755
+  },
+  "odds_bodo-glimt__dortmund_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/bodo-glimt-S0WZMUNG/dortmund-nP1i5US1/#QejW1kJr:over-under;2",
+    "captured_at_utc": "2026-10-12T16:31:08.156744+00:00",
+    "status": null,
+    "title": "Bodo/Glimt - Dortmund Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 642787,
+    "text_chars": 6226
+  },
+  "odds_bodo-glimt__dortmund_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/bodo-glimt-S0WZMUNG/dortmund-nP1i5US1/#QejW1kJr:cs;2",
+    "captured_at_utc": "2026-10-12T16:31:12.205750+00:00",
+    "status": null,
+    "title": "Bodo/Glimt - Dortmund Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 634065,
+    "text_chars": 5853
+  },
+  "odds_club-brugge__inter_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/club-brugge-rgTHIK74/inter-Iw7eKK25/#YkFBumlL",
+    "captured_at_utc": "2026-10-12T16:31:16.255760+00:00",
+    "status": 200,
+    "title": "Inter - Club Brugge KV Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 635205,
+    "text_chars": 7248
+  },
+  "odds_club-brugge__inter_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/club-brugge-rgTHIK74/inter-Iw7eKK25/#YkFBumlL:over-under;2",
+    "captured_at_utc": "2026-10-12T16:31:22.708332+00:00",
+    "status": null,
+    "title": "Inter - Club Brugge KV Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 649979,
+    "text_chars": 7796
+  },
+  "odds_club-brugge__inter_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/club-brugge-rgTHIK74/inter-Iw7eKK25/#YkFBumlL:cs;2",
+    "captured_at_utc": "2026-10-12T16:31:26.754101+00:00",
+    "status": null,
+    "title": "Inter - Club Brugge KV Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 636888,
+    "text_chars": 7349
+  },
+  "odds_como__feyenoord_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/como-ttyLthOA/feyenoord-8zjySeoN/#rFNyQVP7",
+    "captured_at_utc": "2026-10-12T16:31:30.801595+00:00",
+    "status": 200,
+    "title": "Feyenoord - Como Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 623726,
+    "text_chars": 5631
+  },
+  "odds_como__feyenoord_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/como-ttyLthOA/feyenoord-8zjySeoN/#rFNyQVP7:over-under;2",
+    "captured_at_utc": "2026-10-12T16:31:37.030699+00:00",
+    "status": null,
+    "title": "Feyenoord - Como Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 638504,
+    "text_chars": 6181
+  },
+  "odds_como__feyenoord_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/como-ttyLthOA/feyenoord-8zjySeoN/#rFNyQVP7:cs;2",
+    "captured_at_utc": "2026-10-12T16:31:41.091390+00:00",
+    "status": null,
+    "title": "Feyenoord - Como Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 625409,
+    "text_chars": 5730
+  },
+  "odds_lask-linz__liverpool_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/lask-linz-MipWYeKQ/liverpool-lId4TMwf/#6cITvAb3",
+    "captured_at_utc": "2026-10-12T16:31:45.157740+00:00",
+    "status": 200,
+    "title": "LASK - Liverpool Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 593518,
+    "text_chars": 5141
+  },
+  "odds_lask-linz__liverpool_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/lask-linz-MipWYeKQ/liverpool-lId4TMwf/#6cITvAb3:over-under;2",
+    "captured_at_utc": "2026-10-12T16:31:51.302146+00:00",
+    "status": null,
+    "title": "LASK - Liverpool Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 603925,
+    "text_chars": 5612
+  },
+  "odds_lask-linz__liverpool_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/lask-linz-MipWYeKQ/liverpool-lId4TMwf/#6cITvAb3:cs;2",
+    "captured_at_utc": "2026-10-12T16:31:55.346923+00:00",
+    "status": null,
+    "title": "LASK - Liverpool Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 595206,
+    "text_chars": 5242
+  },
+  "odds_lens__sporting-cp_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/lens-IBmris38/sporting-cp-tljXuHBC/#boMhjDLM",
+    "captured_at_utc": "2026-10-12T16:31:59.403648+00:00",
+    "status": 200,
+    "title": "[[EventName]] Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 630186,
+    "text_chars": 7137
+  },
+  "odds_lens__sporting-cp_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/lens-IBmris38/sporting-cp-tljXuHBC/#boMhjDLM:over-under;2",
+    "captured_at_utc": "2026-10-12T16:32:05.582521+00:00",
+    "status": null,
+    "title": "[[EventName]] Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 642924,
+    "text_chars": 7642
+  },
+  "odds_lens__sporting-cp_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/lens-IBmris38/sporting-cp-tljXuHBC/#boMhjDLM:cs;2",
+    "captured_at_utc": "2026-10-12T16:32:09.643034+00:00",
+    "status": null,
+    "title": "[[EventName]] Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 632021,
+    "text_chars": 7234
+  },
+  "odds_manchester-city__psg_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/manchester-city-Wtn9Stg0/psg-CjhkPw0k/#UH6LCxcK",
+    "captured_at_utc": "2026-10-12T16:32:13.704002+00:00",
+    "status": 200,
+    "title": "Manchester City - PSG Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 665508,
+    "text_chars": 5787
+  },
+  "odds_manchester-city__psg_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/manchester-city-Wtn9Stg0/psg-CjhkPw0k/#UH6LCxcK:over-under;2",
+    "captured_at_utc": "2026-10-12T16:32:19.277170+00:00",
+    "status": null,
+    "title": "Manchester City - PSG Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 675895,
+    "text_chars": 6257
+  },
+  "odds_manchester-city__psg_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/manchester-city-Wtn9Stg0/psg-CjhkPw0k/#UH6LCxcK:cs;2",
+    "captured_at_utc": "2026-10-12T16:32:23.327814+00:00",
+    "status": null,
+    "title": "Manchester City - PSG Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 667170,
+    "text_chars": 5881
+  },
+  "odds_napoli__villarreal_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/napoli-69Dxbc61/villarreal-lUatW5jE/#QcgCe8c2",
+    "captured_at_utc": "2026-10-12T16:32:27.383817+00:00",
+    "status": 200,
+    "title": "Villarreal - Napoli Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 635926,
+    "text_chars": 7182
+  },
+  "odds_napoli__villarreal_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/napoli-69Dxbc61/villarreal-lUatW5jE/#QcgCe8c2:over-under;2",
+    "captured_at_utc": "2026-10-12T16:32:33.610428+00:00",
+    "status": null,
+    "title": "Villarreal - Napoli Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 646335,
+    "text_chars": 7649
+  },
+  "odds_napoli__villarreal_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/napoli-69Dxbc61/villarreal-lUatW5jE/#QcgCe8c2:cs;2",
+    "captured_at_utc": "2026-10-12T16:32:37.660055+00:00",
+    "status": null,
+    "title": "Villarreal - Napoli Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 637618,
+    "text_chars": 7278
+  },
+  "odds_psv__rb-leipzig_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/psv-M9UEHJWi/rb-leipzig-KbS1suSm/#SK2I6Y53",
+    "captured_at_utc": "2026-10-12T16:32:41.717076+00:00",
+    "status": 200,
+    "title": "RB Leipzig - PSV Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 553280,
+    "text_chars": 6246
+  },
+  "odds_psv__rb-leipzig_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/psv-M9UEHJWi/rb-leipzig-KbS1suSm/#SK2I6Y53:over-under;2",
+    "captured_at_utc": "2026-10-12T16:32:47.939412+00:00",
+    "status": null,
+    "title": "RB Leipzig - PSV Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 563695,
+    "text_chars": 6715
+  },
+  "odds_psv__rb-leipzig_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/psv-M9UEHJWi/rb-leipzig-KbS1suSm/#SK2I6Y53:cs;2",
+    "captured_at_utc": "2026-10-12T16:32:51.979065+00:00",
+    "status": null,
+    "title": "RB Leipzig - PSV Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 554975,
+    "text_chars": 6344
+  },
+  "odds_sabah-baku__slavia-prague_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/sabah-baku-fNGcxbyr/slavia-prague-viXGgnyB/#69rU3o8C",
+    "captured_at_utc": "2026-10-12T16:32:56.025301+00:00",
+    "status": 200,
+    "title": "Sabah Baku - Slavia Prague Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 635511,
+    "text_chars": 7139
+  },
+  "odds_sabah-baku__slavia-prague_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/sabah-baku-fNGcxbyr/slavia-prague-viXGgnyB/#69rU3o8C:over-under;2",
+    "captured_at_utc": "2026-10-12T16:33:02.245567+00:00",
+    "status": null,
+    "title": "Sabah Baku - Slavia Prague Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 643708,
+    "text_chars": 7571
+  },
+  "odds_sabah-baku__slavia-prague_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/sabah-baku-fNGcxbyr/slavia-prague-viXGgnyB/#69rU3o8C:cs;2",
+    "captured_at_utc": "2026-10-12T16:33:06.305623+00:00",
+    "status": null,
+    "title": "Sabah Baku - Slavia Prague Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 637172,
+    "text_chars": 7235
+  },
+  "odds_slovan-bratislava__vfb-stuttgart_1x2": {
+    "url": "https://www.oddsportal.com/football/h2h/slovan-bratislava-QRaWdwQf/vfb-stuttgart-nJQmYp1B/#pfE25bqH",
+    "captured_at_utc": "2026-10-12T16:33:10.367931+00:00",
+    "status": 200,
+    "title": "Slovan Bratislava - Stuttgart Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 589272,
+    "text_chars": 5180
+  },
+  "odds_slovan-bratislava__vfb-stuttgart_ou": {
+    "url": "https://www.oddsportal.com/football/h2h/slovan-bratislava-QRaWdwQf/vfb-stuttgart-nJQmYp1B/#pfE25bqH:over-under;2",
+    "captured_at_utc": "2026-10-12T16:33:16.547770+00:00",
+    "status": null,
+    "title": "Slovan Bratislava - Stuttgart Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 604055,
+    "text_chars": 5719
+  },
+  "odds_slovan-bratislava__vfb-stuttgart_cs": {
+    "url": "https://www.oddsportal.com/football/h2h/slovan-bratislava-QRaWdwQf/vfb-stuttgart-nJQmYp1B/#pfE25bqH:cs;2",
+    "captured_at_utc": "2026-10-12T16:33:20.604276+00:00",
+    "status": null,
+    "title": "Slovan Bratislava - Stuttgart Odds, Predictions & H2H | OddsPortal",
+    "html_bytes": 590975,
+    "text_chars": 5283
+  },
+  "absences_aek-athen": {
+    "url": "https://www.transfermarkt.com/aek-athen/sperrenundverletzungen/verein/2441",
+    "captured_at_utc": "2026-10-12T16:33:24.660581+00:00",
+    "status": 200,
+    "title": "AEK Athens - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 95635,
+    "text_chars": 1601
+  },
+  "squad_aek-athen": {
+    "url": "https://www.transfermarkt.com/aek-athen/kader/verein/2441/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:33:30.146443+00:00",
+    "status": 200,
+    "title": "AEK Athens - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 173076,
+    "text_chars": 4807
+  },
+  "absences_as-rom": {
+    "url": "https://www.transfermarkt.com/as-rom/sperrenundverletzungen/verein/12",
+    "captured_at_utc": "2026-10-12T16:33:35.437959+00:00",
+    "status": 200,
+    "title": "AS Roma - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96755,
+    "text_chars": 1627
+  },
+  "squad_as-rom": {
+    "url": "https://www.transfermarkt.com/as-rom/kader/verein/12/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:33:40.393652+00:00",
+    "status": 200,
+    "title": "AS Roma - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 173686,
+    "text_chars": 4520
+  },
+  "absences_aston-villa": {
+    "url": "https://www.transfermarkt.com/aston-villa/sperrenundverletzungen/verein/405",
+    "captured_at_utc": "2026-10-12T16:33:45.436032+00:00",
+    "status": 200,
+    "title": "Aston Villa - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 99701,
+    "text_chars": 1835
+  },
+  "squad_aston-villa": {
+    "url": "https://www.transfermarkt.com/aston-villa/kader/verein/405/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:33:50.403752+00:00",
+    "status": 200,
+    "title": "Aston Villa - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 192763,
+    "text_chars": 5120
+  },
+  "absences_atletico-madrid": {
+    "url": "https://www.transfermarkt.com/atletico-madrid/sperrenundverletzungen/verein/13",
+    "captured_at_utc": "2026-10-12T16:33:55.435576+00:00",
+    "status": 200,
+    "title": "Atlético de Madrid - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 95291,
+    "text_chars": 1461
+  },
+  "squad_atletico-madrid": {
+    "url": "https://www.transfermarkt.com/atletico-madrid/kader/verein/13/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:34:00.313613+00:00",
+    "status": 200,
+    "title": "Atlético de Madrid - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 173044,
+    "text_chars": 4561
+  },
+  "absences_borussia-dortmund": {
+    "url": "https://www.transfermarkt.com/borussia-dortmund/sperrenundverletzungen/verein/16",
+    "captured_at_utc": "2026-10-12T16:34:05.482874+00:00",
+    "status": 200,
+    "title": "Borussia Dortmund - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 105651,
+    "text_chars": 2164
+  },
+  "squad_borussia-dortmund": {
+    "url": "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:34:10.496394+00:00",
+    "status": 200,
+    "title": "Borussia Dortmund - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 180410,
+    "text_chars": 4958
+  },
+  "absences_como-1907": {
+    "url": "https://www.transfermarkt.com/como-1907/sperrenundverletzungen/verein/1047",
+    "captured_at_utc": "2026-10-12T16:34:15.514143+00:00",
+    "status": 200,
+    "title": "Como 1907 - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 94185,
+    "text_chars": 1547
+  },
+  "squad_como-1907": {
+    "url": "https://www.transfermarkt.com/como-1907/kader/verein/1047/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:34:20.448068+00:00",
+    "status": 200,
+    "title": "Como 1907 - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 170710,
+    "text_chars": 4627
+  },
+  "absences_fc-arsenal": {
+    "url": "https://www.transfermarkt.com/fc-arsenal/sperrenundverletzungen/verein/11",
+    "captured_at_utc": "2026-10-12T16:34:25.486915+00:00",
+    "status": 200,
+    "title": "Arsenal FC - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97586,
+    "text_chars": 1696
+  },
+  "squad_fc-arsenal": {
+    "url": "https://www.transfermarkt.com/fc-arsenal/kader/verein/11/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:34:30.475629+00:00",
+    "status": 200,
+    "title": "Arsenal FC - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 176608,
+    "text_chars": 4653
+  },
+  "absences_fc-barcelona": {
+    "url": "https://www.transfermarkt.com/fc-barcelona/sperrenundverletzungen/verein/131",
+    "captured_at_utc": "2026-10-12T16:34:36.139779+00:00",
+    "status": 200,
+    "title": "FC Barcelona - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 100489,
+    "text_chars": 1800
+  },
+  "squad_fc-barcelona": {
+    "url": "https://www.transfermarkt.com/fc-barcelona/kader/verein/131/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:34:41.077484+00:00",
+    "status": 200,
+    "title": "FC Barcelona - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 186447,
+    "text_chars": 4912
+  },
+  "absences_fc-bayern-munchen": {
+    "url": "https://www.transfermarkt.com/fc-bayern-munchen/sperrenundverletzungen/verein/27",
+    "captured_at_utc": "2026-10-12T16:34:46.179751+00:00",
+    "status": 200,
+    "title": "Bayern Munich - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96422,
+    "text_chars": 1557
+  },
+  "squad_fc-bayern-munchen": {
+    "url": "https://www.transfermarkt.com/fc-bayern-munchen/kader/verein/27/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:34:51.117098+00:00",
+    "status": 200,
+    "title": "Bayern Munich - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 166121,
+    "text_chars": 4324
+  },
+  "absences_fc-brugge": {
+    "url": "https://www.transfermarkt.com/fc-brugge/sperrenundverletzungen/verein/2282",
+    "captured_at_utc": "2026-10-12T16:34:56.047561+00:00",
+    "status": 200,
+    "title": "Club Brugge KV - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96650,
+    "text_chars": 1636
+  },
+  "squad_fc-brugge": {
+    "url": "https://www.transfermarkt.com/fc-brugge/kader/verein/2282/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:35:00.952058+00:00",
+    "status": 200,
+    "title": "Club Brugge KV - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 168550,
+    "text_chars": 4626
+  },
+  "absences_fc-liverpool": {
+    "url": "https://www.transfermarkt.com/fc-liverpool/sperrenundverletzungen/verein/31",
+    "captured_at_utc": "2026-10-12T16:35:06.334564+00:00",
+    "status": 200,
+    "title": "Liverpool FC - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 101481,
+    "text_chars": 1947
+  },
+  "squad_fc-liverpool": {
+    "url": "https://www.transfermarkt.com/fc-liverpool/kader/verein/31/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:35:11.314352+00:00",
+    "status": 200,
+    "title": "Liverpool FC - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 188464,
+    "text_chars": 5152
+  },
+  "absences_fc-paris-saint-germain": {
+    "url": "https://www.transfermarkt.com/fc-paris-saint-germain/sperrenundverletzungen/verein/583",
+    "captured_at_utc": "2026-10-12T16:35:16.649375+00:00",
+    "status": 200,
+    "title": "Paris Saint-Germain - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 98613,
+    "text_chars": 1610
+  },
+  "squad_fc-paris-saint-germain": {
+    "url": "https://www.transfermarkt.com/fc-paris-saint-germain/kader/verein/583/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:35:21.642661+00:00",
+    "status": 200,
+    "title": "Paris Saint-Germain - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 156594,
+    "text_chars": 4177
+  },
+  "absences_fc-porto": {
+    "url": "https://www.transfermarkt.com/fc-porto/sperrenundverletzungen/verein/720",
+    "captured_at_utc": "2026-10-12T16:35:26.636082+00:00",
+    "status": 200,
+    "title": "FC Porto - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 100973,
+    "text_chars": 1866
+  },
+  "squad_fc-porto": {
+    "url": "https://www.transfermarkt.com/fc-porto/kader/verein/720/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:35:31.773567+00:00",
+    "status": 200,
+    "title": "FC Porto - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 176406,
+    "text_chars": 4810
+  },
+  "absences_fc-villarreal": {
+    "url": "https://www.transfermarkt.com/fc-villarreal/sperrenundverletzungen/verein/1050",
+    "captured_at_utc": "2026-10-12T16:35:36.794782+00:00",
+    "status": 200,
+    "title": "Villarreal CF - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 94114,
+    "text_chars": 1549
+  },
+  "squad_fc-villarreal": {
+    "url": "https://www.transfermarkt.com/fc-villarreal/kader/verein/1050/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:35:41.712882+00:00",
+    "status": 200,
+    "title": "Villarreal CF - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 151388,
+    "text_chars": 4117
+  },
+  "absences_fenerbahce-istanbul": {
+    "url": "https://www.transfermarkt.com/fenerbahce-istanbul/sperrenundverletzungen/verein/36",
+    "captured_at_utc": "2026-10-12T16:35:46.780551+00:00",
+    "status": 200,
+    "title": "Fenerbahce - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97205,
+    "text_chars": 1667
+  },
+  "squad_fenerbahce-istanbul": {
+    "url": "https://www.transfermarkt.com/fenerbahce-istanbul/kader/verein/36/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:35:51.797725+00:00",
+    "status": 200,
+    "title": "Fenerbahce - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 190141,
+    "text_chars": 5133
+  },
+  "absences_feyenoord-rotterdam": {
+    "url": "https://www.transfermarkt.com/feyenoord-rotterdam/sperrenundverletzungen/verein/234",
+    "captured_at_utc": "2026-10-12T16:35:57.079832+00:00",
+    "status": 200,
+    "title": "Feyenoord Rotterdam - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 105397,
+    "text_chars": 2081
+  },
+  "squad_feyenoord-rotterdam": {
+    "url": "https://www.transfermarkt.com/feyenoord-rotterdam/kader/verein/234/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:36:02.041633+00:00",
+    "status": 200,
+    "title": "Feyenoord Rotterdam - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 188537,
+    "text_chars": 5185
+  },
+  "absences_fk-bodo-glimt": {
+    "url": "https://www.transfermarkt.com/fk-bodo-glimt/sperrenundverletzungen/verein/501",
+    "captured_at_utc": "2026-10-12T16:36:06.977121+00:00",
+    "status": 200,
+    "title": "FK Bodø/Glimt - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97503,
+    "text_chars": 1801
+  },
+  "squad_fk-bodo-glimt": {
+    "url": "https://www.transfermarkt.com/fk-bodo-glimt/kader/verein/501/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:36:12.160888+00:00",
+    "status": 200,
+    "title": "FK Bodø/Glimt - Detailed squad 2027 (Detailed view) | Transfermarkt",
+    "html_bytes": 159231,
+    "text_chars": 4709
+  },
+  "absences_galatasaray-istanbul": {
+    "url": "https://www.transfermarkt.com/galatasaray-istanbul/sperrenundverletzungen/verein/141",
+    "captured_at_utc": "2026-10-12T16:36:17.368618+00:00",
+    "status": 200,
+    "title": "Galatasaray - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97381,
+    "text_chars": 1579
+  },
+  "squad_galatasaray-istanbul": {
+    "url": "https://www.transfermarkt.com/galatasaray-istanbul/kader/verein/141/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:36:22.408109+00:00",
+    "status": 200,
+    "title": "Galatasaray - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 193954,
+    "text_chars": 5284
+  },
+  "absences_inter-mailand": {
+    "url": "https://www.transfermarkt.com/inter-mailand/sperrenundverletzungen/verein/46",
+    "captured_at_utc": "2026-10-12T16:36:27.836158+00:00",
+    "status": 200,
+    "title": "Inter Milan - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96321,
+    "text_chars": 1559
+  },
+  "squad_inter-mailand": {
+    "url": "https://www.transfermarkt.com/inter-mailand/kader/verein/46/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:36:32.793498+00:00",
+    "status": 200,
+    "title": "Inter Milan - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 172354,
+    "text_chars": 4521
+  },
+  "absences_lask": {
+    "url": "https://www.transfermarkt.com/lask/sperrenundverletzungen/verein/413",
+    "captured_at_utc": "2026-10-12T16:36:37.979923+00:00",
+    "status": 200,
+    "title": "LASK - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96032,
+    "text_chars": 1551
+  },
+  "squad_lask": {
+    "url": "https://www.transfermarkt.com/lask/kader/verein/413/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:36:42.921961+00:00",
+    "status": 200,
+    "title": "LASK - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 176969,
+    "text_chars": 4572
+  },
+  "absences_losc-lille": {
+    "url": "https://www.transfermarkt.com/losc-lille/sperrenundverletzungen/verein/1082",
+    "captured_at_utc": "2026-10-12T16:36:48.109435+00:00",
+    "status": 200,
+    "title": "LOSC Lille - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97818,
+    "text_chars": 1700
+  },
+  "squad_losc-lille": {
+    "url": "https://www.transfermarkt.com/losc-lille/kader/verein/1082/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:36:53.071812+00:00",
+    "status": 200,
+    "title": "LOSC Lille - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 169737,
+    "text_chars": 4499
+  },
+  "absences_manchester-city": {
+    "url": "https://www.transfermarkt.com/manchester-city/sperrenundverletzungen/verein/281",
+    "captured_at_utc": "2026-10-12T16:36:57.979639+00:00",
+    "status": 200,
+    "title": "Manchester City - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 94700,
+    "text_chars": 1455
+  },
+  "squad_manchester-city": {
+    "url": "https://www.transfermarkt.com/manchester-city/kader/verein/281/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:37:02.928508+00:00",
+    "status": 200,
+    "title": "Manchester City - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 179863,
+    "text_chars": 4644
+  },
+  "absences_manchester-united": {
+    "url": "https://www.transfermarkt.com/manchester-united/sperrenundverletzungen/verein/985",
+    "captured_at_utc": "2026-10-12T16:37:08.142302+00:00",
+    "status": 200,
+    "title": "Manchester United - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96371,
+    "text_chars": 1571
+  },
+  "squad_manchester-united": {
+    "url": "https://www.transfermarkt.com/manchester-united/kader/verein/985/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:37:13.104176+00:00",
+    "status": 200,
+    "title": "Manchester United - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 186392,
+    "text_chars": 5077
+  },
+  "absences_psv-eindhoven": {
+    "url": "https://www.transfermarkt.com/psv-eindhoven/sperrenundverletzungen/verein/383",
+    "captured_at_utc": "2026-10-12T16:37:18.328286+00:00",
+    "status": 200,
+    "title": "PSV Eindhoven - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 103836,
+    "text_chars": 2024
+  },
+  "squad_psv-eindhoven": {
+    "url": "https://www.transfermarkt.com/psv-eindhoven/kader/verein/383/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:37:23.372393+00:00",
+    "status": 200,
+    "title": "PSV Eindhoven - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 189066,
+    "text_chars": 5128
+  },
+  "absences_rasenballsport-leipzig": {
+    "url": "https://www.transfermarkt.com/rasenballsport-leipzig/sperrenundverletzungen/verein/23826",
+    "captured_at_utc": "2026-10-12T16:37:28.608029+00:00",
+    "status": 200,
+    "title": "RB Leipzig - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 100717,
+    "text_chars": 1847
+  },
+  "squad_rasenballsport-leipzig": {
+    "url": "https://www.transfermarkt.com/rasenballsport-leipzig/kader/verein/23826/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:37:33.560265+00:00",
+    "status": 200,
+    "title": "RB Leipzig - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 155567,
+    "text_chars": 4423
+  },
+  "absences_rc-lens": {
+    "url": "https://www.transfermarkt.com/rc-lens/sperrenundverletzungen/verein/826",
+    "captured_at_utc": "2026-10-12T16:37:38.791471+00:00",
+    "status": 200,
+    "title": "RC Lens - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97170,
+    "text_chars": 1620
+  },
+  "squad_rc-lens": {
+    "url": "https://www.transfermarkt.com/rc-lens/kader/verein/826/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:37:43.787183+00:00",
+    "status": 200,
+    "title": "RC Lens - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 176210,
+    "text_chars": 4797
+  },
+  "absences_real-betis-sevilla": {
+    "url": "https://www.transfermarkt.com/real-betis-sevilla/sperrenundverletzungen/verein/150",
+    "captured_at_utc": "2026-10-12T16:37:49.073317+00:00",
+    "status": 200,
+    "title": "Real Betis Balompié - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 95160,
+    "text_chars": 1546
+  },
+  "squad_real-betis-sevilla": {
+    "url": "https://www.transfermarkt.com/real-betis-sevilla/kader/verein/150/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:37:54.035427+00:00",
+    "status": 200,
+    "title": "Real Betis Balompié - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 166775,
+    "text_chars": 4446
+  },
+  "absences_real-madrid": {
+    "url": "https://www.transfermarkt.com/real-madrid/sperrenundverletzungen/verein/418",
+    "captured_at_utc": "2026-10-12T16:37:59.272392+00:00",
+    "status": 200,
+    "title": "Real Madrid - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 102197,
+    "text_chars": 1901
+  },
+  "squad_real-madrid": {
+    "url": "https://www.transfermarkt.com/real-madrid/kader/verein/418/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:38:04.224242+00:00",
+    "status": 200,
+    "title": "Real Madrid - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 181212,
+    "text_chars": 4857
+  },
+  "absences_sabah-fk": {
+    "url": "https://www.transfermarkt.com/sabah-fk/sperrenundverletzungen/verein/63993",
+    "captured_at_utc": "2026-10-12T16:38:09.471870+00:00",
+    "status": 200,
+    "title": "Sabah FK - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 93456,
+    "text_chars": 1543
+  },
+  "squad_sabah-fk": {
+    "url": "https://www.transfermarkt.com/sabah-fk/kader/verein/63993/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:38:14.456361+00:00",
+    "status": 200,
+    "title": "Sabah FK - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 149318,
+    "text_chars": 4207
+  },
+  "absences_shakhtar-donetsk": {
+    "url": "https://www.transfermarkt.com/shakhtar-donetsk/sperrenundverletzungen/verein/660",
+    "captured_at_utc": "2026-10-12T16:38:19.771607+00:00",
+    "status": 200,
+    "title": "Shakhtar Donetsk - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 97899,
+    "text_chars": 1607
+  },
+  "squad_shakhtar-donetsk": {
+    "url": "https://www.transfermarkt.com/shakhtar-donetsk/kader/verein/660/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:38:24.855681+00:00",
+    "status": 200,
+    "title": "Shakhtar Donetsk - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 183571,
+    "text_chars": 5222
+  },
+  "absences_sk-slavia-prag": {
+    "url": "https://www.transfermarkt.com/sk-slavia-prag/sperrenundverletzungen/verein/62",
+    "captured_at_utc": "2026-10-12T16:38:30.107239+00:00",
+    "status": 200,
+    "title": "SK Slavia Prague - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 102884,
+    "text_chars": 1947
+  },
+  "squad_sk-slavia-prag": {
+    "url": "https://www.transfermarkt.com/sk-slavia-prag/kader/verein/62/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:38:37.624636+00:00",
+    "status": 200,
+    "title": "SK Slavia Prague - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 179544,
+    "text_chars": 4777
+  },
+  "absences_slovan-bratislava": {
+    "url": "https://www.transfermarkt.com/slovan-bratislava/sperrenundverletzungen/verein/540",
+    "captured_at_utc": "2026-10-12T16:38:42.560373+00:00",
+    "status": 200,
+    "title": "Slovan Bratislava - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96510,
+    "text_chars": 1563
+  },
+  "squad_slovan-bratislava": {
+    "url": "https://www.transfermarkt.com/slovan-bratislava/kader/verein/540/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:38:47.491360+00:00",
+    "status": 200,
+    "title": "Slovan Bratislava - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 171311,
+    "text_chars": 4737
+  },
+  "absences_sporting-lissabon": {
+    "url": "https://www.transfermarkt.com/sporting-lissabon/sperrenundverletzungen/verein/336",
+    "captured_at_utc": "2026-10-12T16:38:53.020747+00:00",
+    "status": 200,
+    "title": "Sporting CP - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 96565,
+    "text_chars": 1522
+  },
+  "squad_sporting-lissabon": {
+    "url": "https://www.transfermarkt.com/sporting-lissabon/kader/verein/336/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:38:58.040903+00:00",
+    "status": 200,
+    "title": "Sporting CP - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 180108,
+    "text_chars": 4843
+  },
+  "absences_ssc-neapel": {
+    "url": "https://www.transfermarkt.com/ssc-neapel/sperrenundverletzungen/verein/6195",
+    "captured_at_utc": "2026-10-12T16:39:03.239215+00:00",
+    "status": 200,
+    "title": "SSC Napoli - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 101374,
+    "text_chars": 1948
+  },
+  "squad_ssc-neapel": {
+    "url": "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:39:08.371729+00:00",
+    "status": 200,
+    "title": "SSC Napoli - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 176924,
+    "text_chars": 4733
+  },
+  "absences_vfb-stuttgart": {
+    "url": "https://www.transfermarkt.com/vfb-stuttgart/sperrenundverletzungen/verein/79",
+    "captured_at_utc": "2026-10-12T16:39:13.572102+00:00",
+    "status": 200,
+    "title": "VfB Stuttgart - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 106775,
+    "text_chars": 2193
+  },
+  "squad_vfb-stuttgart": {
+    "url": "https://www.transfermarkt.com/vfb-stuttgart/kader/verein/79/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:39:18.569126+00:00",
+    "status": 200,
+    "title": "VfB Stuttgart - Detailed squad 26/27 (Detailed view) | Transfermarkt",
+    "html_bytes": 181561,
+    "text_chars": 4946
+  },
+  "absences_viking-stavanger": {
+    "url": "https://www.transfermarkt.com/viking-stavanger/sperrenundverletzungen/verein/239",
+    "captured_at_utc": "2026-10-12T16:39:23.942124+00:00",
+    "status": 200,
+    "title": "Viking FK - Suspensions and injuries | Transfermarkt",
+    "html_bytes": 98538,
+    "text_chars": 1842
+  },
+  "squad_viking-stavanger": {
+    "url": "https://www.transfermarkt.com/viking-stavanger/kader/verein/239/saison_id/2026/plus/1",
+    "captured_at_utc": "2026-10-12T16:39:28.954561+00:00",
+    "status": 200,
+    "title": "Viking FK - Detailed squad 2027 (Detailed view) | Transfermarkt",
+    "html_bytes": 172914,
+    "text_chars": 5203
+  },
+  "tm_participants": {
+    "url": "https://www.transfermarkt.com/uefa-champions-league/teilnehmer/pokalwettbewerb/CL/saison_id/2026",
+    "captured_at_utc": "2026-10-12T16:39:34.485922+00:00",
+    "status": 200,
+    "title": "UEFA Champions League 26/27 - Participating teams | Transfermarkt",
+    "html_bytes": 110494,
+    "text_chars": 2551
+  }
+}
