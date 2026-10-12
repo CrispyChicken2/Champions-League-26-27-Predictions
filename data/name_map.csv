@@ -2,7 +2,7 @@ league,source_name,uefa_name,best_candidate,score
 E0,Arsenal,Arsenal,Arsenal,1.0
 E0,Aston Villa,Aston Villa,Aston Villa,1.0
 E0,Bournemouth,Bournemouth,Bournemouth,1.0
-E0,Brentford,,Nott'm Forest,0.45
+E0,Brentford,,Bournemouth,0.4
 E0,Brighton,Brighton,Brighton,1.0
 E0,Burnley,,Bournemouth,0.56
 E0,Chelsea,Chelsea,Chelsea,1.0
@@ -25,7 +25,7 @@ E0,Sheffield United,,Man Utd,0.61
 E0,Southampton,,West Ham,0.53
 E0,Sunderland,Sunderland,Sunderland,1.0
 E0,Tottenham,Tottenham,Tottenham,1.0
-E0,Watford,,Nott'm Forest,0.4
+E0,Watford,,Newcastle,0.38
 E0,West Ham,West Ham,West Ham,1.0
 E0,Wolves,,West Ham,0.43
 D1,Augsburg,,Wolfsburg,0.59
@@ -183,7 +183,7 @@ B1,RWD Molenbeek,,Genk,0.48
 B1,Seraing,,Charleroi,0.38
 B1,St Truiden,Sint-Truidense,Sint-Truidense,0.83
 B1,St. Gilloise,Union SG,Union SG,1.0
-B1,Standard,,Anderlecht,0.45
+B1,Standard,,Anderlecht,0.5
 B1,Waregem,,Club Brugge,0.46
 B1,Westerlo,,Antwerp,0.4
 P1,AVS,,Braga,0.25

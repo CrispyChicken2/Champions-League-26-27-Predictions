@@ -8,8 +8,10 @@ matches played before its Matchday, then compared with what happened and with
 the bookmaker Baseline of the time.
 """
 
+import json
 import sys
 from dataclasses import replace
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -116,6 +118,8 @@ def main() -> None:
     print(f"\n{len(table)} matches, settings {settings}")
     print(f"best low-score correction {rho}, best model share in blend {blend}")
     print(pd.DataFrame(verdict).T.round(4).to_string())
+    summary = {"matches": len(table), "model_share": float(blend), "low_score_rho": float(rho), "verdict": verdict}
+    Path("data/replay_summary.json").write_text(json.dumps(summary, indent=2, default=float), "utf-8")
 
     # Honest check of the blend: choose its share on one season, judge it on the other.
     for test in REPLAY_SEASONS:

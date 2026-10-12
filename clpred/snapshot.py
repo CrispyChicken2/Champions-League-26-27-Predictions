@@ -19,6 +19,7 @@ from clpred.names import best_match
 BOOKMAKER_ROW = re.compile(r"\|([\d.]+)\|\s*\|([\d.]+)\|\s*\|([\d.]+)\|\s*\|\d+\.\d%")
 OVER_UNDER_ROW = re.compile(r"Over/Under \+2\.5\|\d+\|[\s|]*([\d.]+)[\s|]*([\d.]+)[\s|]*[\d.]+%")
 CORRECT_SCORE_ROW = re.compile(r"\|(\d+):(\d+)\|\d+\|[\s|]*([\d.]+)\|")
+HEADING = re.compile(r"\|([^|]+) - ([^|]+)\|\1\|-\|\2\|")
 NAME_THRESHOLD = 0.6
 
 
@@ -48,7 +49,12 @@ def extract_odds(source: Path, manifest: dict, fixtures: pd.DataFrame, clubs: di
         if not (name.startswith("odds_") and name.endswith("_1x2")):
             continue
         stem = name[: -len("_1x2")]
-        home_text, away_text = entry["title"].split(" Odds")[0].split(" - ", 1)
+        # The page heading reads "Home - Away|Home|-|Away"; the page title is not always filled in.
+        heading = HEADING.search(flat(source / f"{name}.txt"))
+        if not heading:
+            print(f"UNREADABLE heading for {name}")
+            continue
+        home_text, away_text = heading.groups()
         home, home_score = best_match(home_text, clubs)
         away, away_score = best_match(away_text, clubs)
         fixture = fixtures[(fixtures.home == home) & (fixtures.away == away)]

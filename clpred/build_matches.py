@@ -18,6 +18,7 @@ from pathlib import Path
 import pandas as pd
 
 from clpred.names import best_match
+from clpred.recent_results import recent_rows
 
 HISTORY = Path("data/history")
 OUT = Path("data")
@@ -141,6 +142,13 @@ def main() -> None:
     for row in domestic:
         row["home"] = renames[(row["competition"], row["home"])]
         row["away"] = renames[(row["competition"], row["away"])]
+
+    # Latest rounds and uncovered leagues, read from saved results pages.
+    recent, notes = recent_rows(domestic, name_map, clubs)
+    for note in notes:
+        print(note if note.startswith("CHECK") else "LEFT OUT " + note)
+    print(f"{len(recent)} matches added from data/recent")
+    domestic += recent
 
     matches = pd.DataFrame(domestic + european).sort_values(["date", "competition", "home"])
     matches.to_csv(OUT / "matches.csv", index=False)

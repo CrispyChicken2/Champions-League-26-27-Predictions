@@ -1,0 +1,562 @@
+{
+  "E0": {
+    "url": "https://www.betexplorer.com/football/england/premier-league/results/",
+    "captured_at_utc": "2026-10-12T17:03:11.708705+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football England | Betexplorer",
+    "html_bytes": 335342,
+    "text_chars": 5297
+  },
+  "D1": {
+    "url": "https://www.betexplorer.com/football/germany/bundesliga/results/",
+    "captured_at_utc": "2026-10-12T17:03:22.385346+00:00",
+    "status": 200,
+    "title": "Bundesliga Results, Football Germany | Betexplorer",
+    "html_bytes": 321950,
+    "text_chars": 4742
+  },
+  "I1": {
+    "url": "https://www.betexplorer.com/football/italy/serie-a/results/",
+    "captured_at_utc": "2026-10-12T17:03:31.728870+00:00",
+    "status": 200,
+    "title": "Serie A Results, Football Italy | Betexplorer",
+    "html_bytes": 330308,
+    "text_chars": 4950
+  },
+  "SP1": {
+    "url": "https://www.betexplorer.com/football/spain/laliga/results/",
+    "captured_at_utc": "2026-10-12T17:03:41.204744+00:00",
+    "status": 200,
+    "title": "LaLiga Results, Football Spain | Betexplorer",
+    "html_bytes": 344480,
+    "text_chars": 6310
+  },
+  "F1": {
+    "url": "https://www.betexplorer.com/football/france/ligue-1/results/",
+    "captured_at_utc": "2026-10-12T17:03:50.861383+00:00",
+    "status": 200,
+    "title": "Ligue 1 Results, Football France | Betexplorer",
+    "html_bytes": 327325,
+    "text_chars": 4728
+  },
+  "N1": {
+    "url": "https://www.betexplorer.com/football/netherlands/eredivisie/results/",
+    "captured_at_utc": "2026-10-12T17:04:00.238769+00:00",
+    "status": 200,
+    "title": "Eredivisie Results, Football Netherlands | Betexplorer",
+    "html_bytes": 340437,
+    "text_chars": 5921
+  },
+  "B1": {
+    "url": "https://www.betexplorer.com/football/belgium/jupiler-pro-league/results/",
+    "captured_at_utc": "2026-10-12T17:04:09.736369+00:00",
+    "status": 200,
+    "title": "Jupiler Pro League Results, Football Belgium | Betexplorer",
+    "html_bytes": 341361,
+    "text_chars": 6121
+  },
+  "P1": {
+    "url": "https://www.betexplorer.com/football/portugal/liga-portugal/results/",
+    "captured_at_utc": "2026-10-12T17:04:20.153792+00:00",
+    "status": 200,
+    "title": "Liga Portugal Results, Football Portugal | Betexplorer",
+    "html_bytes": 341013,
+    "text_chars": 5922
+  },
+  "T1": {
+    "url": "https://www.betexplorer.com/football/turkey/super-lig/results/",
+    "captured_at_utc": "2026-10-12T17:04:29.506080+00:00",
+    "status": 200,
+    "title": "Super Lig Results, Football Turkey | Betexplorer",
+    "html_bytes": 332601,
+    "text_chars": 5519
+  },
+  "G1": {
+    "url": "https://www.betexplorer.com/football/greece/super-league/results/",
+    "captured_at_utc": "2026-10-12T17:04:38.998787+00:00",
+    "status": 200,
+    "title": "Super League Results, Football Greece | Betexplorer",
+    "html_bytes": 317542,
+    "text_chars": 4549
+  },
+  "AUT": {
+    "url": "https://www.betexplorer.com/football/austria/bundesliga/results/",
+    "captured_at_utc": "2026-10-12T17:04:48.445822+00:00",
+    "status": 200,
+    "title": "Bundesliga Results, Football Austria | Betexplorer",
+    "html_bytes": 322206,
+    "text_chars": 4783
+  },
+  "NOR": {
+    "url": "https://www.betexplorer.com/football/norway/eliteserien/results/",
+    "captured_at_utc": "2026-10-12T17:04:57.847327+00:00",
+    "status": 200,
+    "title": "Eliteserien Results, Football Norway | Betexplorer",
+    "html_bytes": 402241,
+    "text_chars": 11016
+  },
+  "CZE": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga/results/",
+    "captured_at_utc": "2026-10-12T17:05:07.171157+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 343455,
+    "text_chars": 6421
+  },
+  "SVK": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga/results/",
+    "captured_at_utc": "2026-10-12T17:05:16.636571+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 328240,
+    "text_chars": 5311
+  },
+  "AZE": {
+    "url": "https://www.betexplorer.com/football/azerbaijan/premier-league/results/",
+    "captured_at_utc": "2026-10-12T17:05:27.200377+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Azerbaijan | Betexplorer",
+    "html_bytes": 316596,
+    "text_chars": 4332
+  },
+  "UKR": {
+    "url": "https://www.betexplorer.com/football/ukraine/premier-league/results/",
+    "captured_at_utc": "2026-10-12T17:05:36.909795+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Ukraine | Betexplorer",
+    "html_bytes": 331173,
+    "text_chars": 5746
+  },
+  "CZE_2025-2026": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2025-2026/results/",
+    "captured_at_utc": "2026-10-12T17:06:10.517692+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303396,
+    "text_chars": 3297
+  },
+  "SVK_2025-2026": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2025-2026/results/",
+    "captured_at_utc": "2026-10-12T17:06:20.831597+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313198,
+    "text_chars": 4113
+  },
+  "AZE_2025-2026": {
+    "url": "https://www.betexplorer.com/football/azerbaijan/premier-league-2025-2026/results/",
+    "captured_at_utc": "2026-10-12T17:06:30.279653+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Azerbaijan | Betexplorer",
+    "html_bytes": 424850,
+    "text_chars": 12320
+  },
+  "UKR_2025-2026": {
+    "url": "https://www.betexplorer.com/football/ukraine/premier-league-2025-2026/results/",
+    "captured_at_utc": "2026-10-12T17:06:40.169722+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Ukraine | Betexplorer",
+    "html_bytes": 453929,
+    "text_chars": 16103
+  },
+  "CZE_2024-2025": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2024-2025/results/",
+    "captured_at_utc": "2026-10-12T17:06:50.533061+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303466,
+    "text_chars": 3340
+  },
+  "SVK_2024-2025": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2024-2025/results/",
+    "captured_at_utc": "2026-10-12T17:07:00.000209+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313198,
+    "text_chars": 4180
+  },
+  "AZE_2024-2025": {
+    "url": "https://www.betexplorer.com/football/azerbaijan/premier-league-2024-2025/results/",
+    "captured_at_utc": "2026-10-12T17:07:09.465294+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Azerbaijan | Betexplorer",
+    "html_bytes": 413400,
+    "text_chars": 11864
+  },
+  "UKR_2024-2025": {
+    "url": "https://www.betexplorer.com/football/ukraine/premier-league-2024-2025/results/",
+    "captured_at_utc": "2026-10-12T17:07:19.086552+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Ukraine | Betexplorer",
+    "html_bytes": 468986,
+    "text_chars": 18134
+  },
+  "CZE_2023-2024": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2023-2024/results/",
+    "captured_at_utc": "2026-10-12T17:07:29.637440+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303269,
+    "text_chars": 3351
+  },
+  "SVK_2023-2024": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2023-2024/results/",
+    "captured_at_utc": "2026-10-12T17:07:39.690895+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313115,
+    "text_chars": 4198
+  },
+  "AZE_2023-2024": {
+    "url": "https://www.betexplorer.com/football/azerbaijan/premier-league-2023-2024/results/",
+    "captured_at_utc": "2026-10-12T17:07:49.313388+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Azerbaijan | Betexplorer",
+    "html_bytes": 413537,
+    "text_chars": 11779
+  },
+  "UKR_2023-2024": {
+    "url": "https://www.betexplorer.com/football/ukraine/premier-league-2023-2024/results/",
+    "captured_at_utc": "2026-10-12T17:07:59.130478+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Ukraine | Betexplorer",
+    "html_bytes": 455388,
+    "text_chars": 16609
+  },
+  "CZE_2022-2023": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2022-2023/results/",
+    "captured_at_utc": "2026-10-12T17:08:08.903337+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303404,
+    "text_chars": 3369
+  },
+  "SVK_2022-2023": {
+    "url": "https://www.betexplorer.com/football/slovakia/fortuna-liga-2022-2023/results/",
+    "captured_at_utc": "2026-10-12T17:08:18.431972+00:00",
+    "status": 200,
+    "title": "Fortuna liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313747,
+    "text_chars": 4297
+  },
+  "AZE_2022-2023": {
+    "url": "https://www.betexplorer.com/football/azerbaijan/premier-league-2022-2023/results/",
+    "captured_at_utc": "2026-10-12T17:08:29.936052+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Azerbaijan | Betexplorer",
+    "html_bytes": 413284,
+    "text_chars": 11898
+  },
+  "UKR_2022-2023": {
+    "url": "https://www.betexplorer.com/football/ukraine/premier-league-2022-2023/results/",
+    "captured_at_utc": "2026-10-12T17:08:40.583279+00:00",
+    "status": 200,
+    "title": "Premier League Results, Football Ukraine | Betexplorer",
+    "html_bytes": 454763,
+    "text_chars": 16368
+  },
+  "CZE_2022-2023_I1R2hLmf": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2022-2023/results/?stage=I1R2hLmf",
+    "captured_at_utc": "2026-10-12T17:09:03.840704+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 295510,
+    "text_chars": 2689
+  },
+  "CZE_2022-2023_bB1Na3eK": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2022-2023/results/?stage=bB1Na3eK",
+    "captured_at_utc": "2026-10-12T17:09:14.525243+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 456531,
+    "text_chars": 15796
+  },
+  "CZE_2022-2023_fsmgfsJs": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2022-2023/results/?stage=fsmgfsJs",
+    "captured_at_utc": "2026-10-12T17:09:24.663378+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 297184,
+    "text_chars": 2898
+  },
+  "CZE_2022-2023_hY0RbNAQ": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2022-2023/results/?stage=hY0RbNAQ",
+    "captured_at_utc": "2026-10-12T17:09:34.165385+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303343,
+    "text_chars": 3357
+  },
+  "CZE_2022-2023_zg4jg1Ym": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2022-2023/results/?stage=zg4jg1Ym",
+    "captured_at_utc": "2026-10-12T17:09:43.599329+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 302905,
+    "text_chars": 3228
+  },
+  "CZE_2023-2024_GMjZ2ord": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2023-2024/results/?stage=GMjZ2ord",
+    "captured_at_utc": "2026-10-12T17:09:53.081794+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 295659,
+    "text_chars": 2716
+  },
+  "CZE_2023-2024_KhYnATkM": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2023-2024/results/?stage=KhYnATkM",
+    "captured_at_utc": "2026-10-12T17:10:02.532779+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 457583,
+    "text_chars": 15966
+  },
+  "CZE_2023-2024_MoxW3RSk": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2023-2024/results/?stage=MoxW3RSk",
+    "captured_at_utc": "2026-10-12T17:10:15.401024+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303748,
+    "text_chars": 3306
+  },
+  "CZE_2023-2024_rewS47Dq": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2023-2024/results/?stage=rewS47Dq",
+    "captured_at_utc": "2026-10-12T17:10:24.822038+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 298061,
+    "text_chars": 3006
+  },
+  "CZE_2023-2024_xE0a9m5S": {
+    "url": "https://www.betexplorer.com/football/czech-republic/fortuna-liga-2023-2024/results/?stage=xE0a9m5S",
+    "captured_at_utc": "2026-10-12T17:10:34.287640+00:00",
+    "status": 200,
+    "title": "FORTUNA:LIGA Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303378,
+    "text_chars": 3351
+  },
+  "CZE_2024-2025_ALFJhbmQ": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2024-2025/results/?stage=ALFJhbmQ",
+    "captured_at_utc": "2026-10-12T17:10:43.660770+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303478,
+    "text_chars": 3347
+  },
+  "CZE_2024-2025_OSefndQg": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2024-2025/results/?stage=OSefndQg",
+    "captured_at_utc": "2026-10-12T17:10:53.115033+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 295475,
+    "text_chars": 2690
+  },
+  "CZE_2024-2025_U5djmxBm": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2024-2025/results/?stage=U5djmxBm",
+    "captured_at_utc": "2026-10-12T17:11:05.780307+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303447,
+    "text_chars": 3357
+  },
+  "CZE_2024-2025_WUGFgvYJ": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2024-2025/results/?stage=WUGFgvYJ",
+    "captured_at_utc": "2026-10-12T17:11:15.730176+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 457944,
+    "text_chars": 16215
+  },
+  "CZE_2024-2025_jFcnlIes": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2024-2025/results/?stage=jFcnlIes",
+    "captured_at_utc": "2026-10-12T17:11:25.988056+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 297104,
+    "text_chars": 2862
+  },
+  "CZE_2025-2026_be5GJGqg": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2025-2026/results/?stage=be5GJGqg",
+    "captured_at_utc": "2026-10-12T17:11:38.170302+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 295612,
+    "text_chars": 2709
+  },
+  "CZE_2025-2026_ltMnGsw1": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2025-2026/results/?stage=ltMnGsw1",
+    "captured_at_utc": "2026-10-12T17:11:48.670469+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303303,
+    "text_chars": 3307
+  },
+  "CZE_2025-2026_p8FeEL7D": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2025-2026/results/?stage=p8FeEL7D",
+    "captured_at_utc": "2026-10-12T17:11:58.158156+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 297266,
+    "text_chars": 2851
+  },
+  "CZE_2025-2026_tGIvI38l": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2025-2026/results/?stage=tGIvI38l",
+    "captured_at_utc": "2026-10-12T17:12:08.747135+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 455881,
+    "text_chars": 15432
+  },
+  "CZE_2025-2026_vgkFLxFt": {
+    "url": "https://www.betexplorer.com/football/czech-republic/chance-liga-2025-2026/results/?stage=vgkFLxFt",
+    "captured_at_utc": "2026-10-12T17:12:18.737846+00:00",
+    "status": 200,
+    "title": "Chance Liga Results, Football Czech Republic | Betexplorer",
+    "html_bytes": 303035,
+    "text_chars": 3226
+  },
+  "SVK_2022-2023_4Ic6QYGg": {
+    "url": "https://www.betexplorer.com/football/slovakia/fortuna-liga-2022-2023/results/?stage=4Ic6QYGg",
+    "captured_at_utc": "2026-10-12T17:12:28.646409+00:00",
+    "status": 200,
+    "title": "Fortuna liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 293640,
+    "text_chars": 2628
+  },
+  "SVK_2022-2023_GY6IPqxH": {
+    "url": "https://www.betexplorer.com/football/slovakia/fortuna-liga-2022-2023/results/?stage=GY6IPqxH",
+    "captured_at_utc": "2026-10-12T17:12:38.001323+00:00",
+    "status": 200,
+    "title": "Fortuna liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 294411,
+    "text_chars": 2633
+  },
+  "SVK_2022-2023_QatbSohb": {
+    "url": "https://www.betexplorer.com/football/slovakia/fortuna-liga-2022-2023/results/?stage=QatbSohb",
+    "captured_at_utc": "2026-10-12T17:12:47.385871+00:00",
+    "status": 200,
+    "title": "Fortuna liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 382953,
+    "text_chars": 10183
+  },
+  "SVK_2022-2023_YPq6QPMA": {
+    "url": "https://www.betexplorer.com/football/slovakia/fortuna-liga-2022-2023/results/?stage=YPq6QPMA",
+    "captured_at_utc": "2026-10-12T17:12:59.051416+00:00",
+    "status": 200,
+    "title": "Fortuna liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313224,
+    "text_chars": 4259
+  },
+  "SVK_2022-2023_v3p2R574": {
+    "url": "https://www.betexplorer.com/football/slovakia/fortuna-liga-2022-2023/results/?stage=v3p2R574",
+    "captured_at_utc": "2026-10-12T17:13:08.505544+00:00",
+    "status": 200,
+    "title": "Fortuna liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313496,
+    "text_chars": 4280
+  },
+  "SVK_2023-2024_2LTAy8I5": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2023-2024/results/?stage=2LTAy8I5",
+    "captured_at_utc": "2026-10-12T17:13:17.949598+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 312849,
+    "text_chars": 4195
+  },
+  "SVK_2023-2024_IoDCOUYa": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2023-2024/results/?stage=IoDCOUYa",
+    "captured_at_utc": "2026-10-12T17:13:27.331171+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 293467,
+    "text_chars": 2550
+  },
+  "SVK_2023-2024_drTEzSXB": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2023-2024/results/?stage=drTEzSXB",
+    "captured_at_utc": "2026-10-12T17:13:36.698555+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313028,
+    "text_chars": 4203
+  },
+  "SVK_2023-2024_p01bxl3a": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2023-2024/results/?stage=p01bxl3a",
+    "captured_at_utc": "2026-10-12T17:13:47.246858+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 381587,
+    "text_chars": 10027
+  },
+  "SVK_2024-2025_EZZam8it": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2024-2025/results/?stage=EZZam8it",
+    "captured_at_utc": "2026-10-12T17:13:56.871926+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 312708,
+    "text_chars": 4162
+  },
+  "SVK_2024-2025_GGJwcO37": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2024-2025/results/?stage=GGJwcO37",
+    "captured_at_utc": "2026-10-12T17:14:06.488229+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 293580,
+    "text_chars": 2611
+  },
+  "SVK_2024-2025_UJNsdrJD": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2024-2025/results/?stage=UJNsdrJD",
+    "captured_at_utc": "2026-10-12T17:14:15.853181+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 381348,
+    "text_chars": 9870
+  },
+  "SVK_2024-2025_r9v4nS6n": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2024-2025/results/?stage=r9v4nS6n",
+    "captured_at_utc": "2026-10-12T17:14:25.476093+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 294067,
+    "text_chars": 2601
+  },
+  "SVK_2024-2025_xACW4zND": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2024-2025/results/?stage=xACW4zND",
+    "captured_at_utc": "2026-10-12T17:14:34.850116+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313257,
+    "text_chars": 4187
+  },
+  "SVK_2025-2026_6T2WcZiS": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2025-2026/results/?stage=6T2WcZiS",
+    "captured_at_utc": "2026-10-12T17:14:44.183864+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 313132,
+    "text_chars": 4094
+  },
+  "SVK_2025-2026_QDq3hDFk": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2025-2026/results/?stage=QDq3hDFk",
+    "captured_at_utc": "2026-10-12T17:14:53.999674+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 312195,
+    "text_chars": 3881
+  },
+  "SVK_2025-2026_UctGaeNF": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2025-2026/results/?stage=UctGaeNF",
+    "captured_at_utc": "2026-10-12T17:15:03.982173+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 380521,
+    "text_chars": 9539
+  },
+  "SVK_2025-2026_bFXvyllm": {
+    "url": "https://www.betexplorer.com/football/slovakia/nike-liga-2025-2026/results/?stage=bFXvyllm",
+    "captured_at_utc": "2026-10-12T17:15:13.669419+00:00",
+    "status": 200,
+    "title": "Nike liga Results, Football Slovakia | Betexplorer",
+    "html_bytes": 290921,
+    "text_chars": 2325
+  }
+}

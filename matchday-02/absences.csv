@@ -1,0 +1,119 @@
+club,player,position,kind,reason,since,expected_return,captured_at_utc
+AEK Athens,Thomas Strakosha,Goalkeeper,Injuries,Hand injury,07/09/2026,,2026-10-12T16:33:24.660581+00:00
+AEK Athens,Barnabás Varga,Centre-Forward,Injuries,bruise,17/09/2026,,2026-10-12T16:33:24.660581+00:00
+Roma,Mile Svilar,Goalkeeper,Injuries,Broken finger,09/10/2026,09/11/2026,2026-10-12T16:33:35.437959+00:00
+Roma,Bryan Cristante,Defensive Midfield,Injuries,Inflammation in the knee,01/10/2026,,2026-10-12T16:33:35.437959+00:00
+Aston Villa,Amadou Onana,Defensive Midfield,Injuries,Cruciate ligament tear,07/07/2026,01/06/2027,2026-10-12T16:33:45.436032+00:00
+Aston Villa,Ian Maatsen,Left-Back,Injuries,Ankle injury,12/09/2026,20/11/2026,2026-10-12T16:33:45.436032+00:00
+Aston Villa,Modou Kéba Cissé,Centre-Back,Injuries,Knock,14/09/2026,23/10/2026,2026-10-12T16:33:45.436032+00:00
+Aston Villa,Leon Goretzka,Central Midfield,Injuries,Fitness,05/10/2026,23/10/2026,2026-10-12T16:33:45.436032+00:00
+Aston Villa,Brian Madjo,Centre-Forward,Injuries,Fitness,30/09/2026,16/10/2026,2026-10-12T16:33:45.436032+00:00
+B. Dortmund,Emre Can,Centre-Back,Injuries,Cruciate ligament tear,01/03/2026,,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Justin Lerma,Attacking Midfield,Injuries,Muscle injury,26/08/2026,,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Giannis Konstantelias,Attacking Midfield,Injuries,Cruciate ligament tear,30/08/2026,,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Julian Ryerson,Right-Back,Injuries,Bruised ribs,02/10/2026,,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Carney Chukwuemeka,Central Midfield,Injuries,muscular problems,07/10/2026,,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Emre Can,Centre-Back,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Giannis Konstantelias,Attacking Midfield,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Justin Lerma,Attacking Midfield,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:34:05.482874+00:00
+B. Dortmund,Ramy Bensebaini,Centre-Back,Suspensions,Red card suspension,23/08/2026,29/10/2026,2026-10-12T16:34:05.482874+00:00
+Como,Moise Kean,Centre-Forward,Injuries,Shin bruise,04/10/2026,16/10/2026,2026-10-12T16:34:15.514143+00:00
+Arsenal,William Saliba,Centre-Back,Injuries,Back injury,19/07/2026,11/12/2026,2026-10-12T16:34:25.486915+00:00
+Arsenal,Christos Tzolis,Left Winger,Injuries,Thigh problems,01/10/2026,30/10/2026,2026-10-12T16:34:25.486915+00:00
+Arsenal,Kai Havertz,Centre-Forward,Injuries,Thigh problems,24/09/2026,,2026-10-12T16:34:25.486915+00:00
+Barcelona,Roony Bardghji,Right Winger,Injuries,Cruciate ligament tear,10/08/2026,10/05/2027,2026-10-12T16:34:36.139779+00:00
+Barcelona,Frenkie de Jong,Central Midfield,Injuries,Knee medial ligament tear,30/06/2026,17/10/2026,2026-10-12T16:34:36.139779+00:00
+Barcelona,Andreas Christensen,Centre-Back,Injuries,Muscle injury,19/09/2026,16/11/2026,2026-10-12T16:34:36.139779+00:00
+Barcelona,Raphinha,Centre-Forward,Injuries,Thigh problems,29/09/2026,15/10/2026,2026-10-12T16:34:36.139779+00:00
+Bayern München,Jamal Musiala,Attacking Midfield,Injuries,Torn muscle fiber,23/09/2026,,2026-10-12T16:34:46.179751+00:00
+Club Brugge,Joel Ordóñez,Centre-Back,Injuries,Metatarsal fracture,01/07/2026,,2026-10-12T16:34:56.047561+00:00
+Liverpool,Conor Bradley,Right-Back,Injuries,Knee surgery,09/01/2026,21/11/2026,2026-10-12T16:35:06.334564+00:00
+Liverpool,Hugo Ekitiké,Centre-Forward,Injuries,Achilles tendon rupture,15/04/2026,31/12/2026,2026-10-12T16:35:06.334564+00:00
+Liverpool,Federico Chiesa,Right Winger,Injuries,Muscle injury,19/08/2026,,2026-10-12T16:35:06.334564+00:00
+Liverpool,Dominik Szoboszlai,Attacking Midfield,Injuries,Thigh problems,10/10/2026,,2026-10-12T16:35:06.334564+00:00
+Liverpool,Alexander Isak,Centre-Forward,Injuries,Thigh problems,26/09/2026,,2026-10-12T16:35:06.334564+00:00
+Liverpool,Cody Gakpo,Left Winger,Injuries,Ankle injury,27/09/2026,,2026-10-12T16:35:06.334564+00:00
+Liverpool,Giovanni Leoni,Centre-Back,Injuries,Fitness,13/10/2026,,2026-10-12T16:35:06.334564+00:00
+Paris,Alessandro Longoni,Goalkeeper,Injuries,Dead leg,03/09/2026,,2026-10-12T16:35:16.649375+00:00
+Paris,Senny Mayulu,Central Midfield,Injuries,Dead leg,01/10/2026,,2026-10-12T16:35:16.649375+00:00
+Porto,João Costa,Goalkeeper,Injuries,Meniscus injury,11/09/2026,31/03/2027,2026-10-12T16:35:26.636082+00:00
+Porto,Zaidu Sanusi,Left-Back,Injuries,Adductor injury,30/08/2026,,2026-10-12T16:35:26.636082+00:00
+Porto,Martim Fernandes,Right-Back,Injuries,unknown injury,21/09/2026,,2026-10-12T16:35:26.636082+00:00
+Porto,William Gomes,Right Winger,Injuries,unknown injury,11/10/2026,,2026-10-12T16:35:26.636082+00:00
+Porto,Gabriel Mec,Right Winger,Injuries,Pubic bone bruise,29/08/2026,,2026-10-12T16:35:26.636082+00:00
+Porto,Vasco Sousa,Central Midfield,Injuries,Broken fibula,15/12/2025,,2026-10-12T16:35:26.636082+00:00
+Villarreal,Tajon Buchanan,Right Winger,Injuries,Hamstring injury,05/10/2026,19/10/2026,2026-10-12T16:35:36.794782+00:00
+Fenerbahçe,Jayden Oosterwolde,Centre-Back,Injuries,Partial muscle tear,05/08/2026,01/12/2026,2026-10-12T16:35:46.780551+00:00
+Fenerbahçe,Mert Müldür,Right-Back,Injuries,Meniscus tear,18/09/2026,09/11/2026,2026-10-12T16:35:46.780551+00:00
+Feyenoord,Thomas Beelen,Centre-Back,Injuries,Broken leg,19/07/2025,,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Jordan Bos,Left-Back,Injuries,Knee surgery,04/07/2026,01/01/2027,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Bart Nieuwkoop,Right-Back,Injuries,unknown injury,15/03/2026,,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Jakub Moder,Central Midfield,Injuries,Knee surgery,23/04/2026,16/10/2026,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Gijs Smal,Left-Back,Injuries,Ankle injury,01/07/2026,,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Gonçalo Borges,Right Winger,Injuries,unknown injury,12/09/2026,,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Shaqueel van Persie,Centre-Forward,Injuries,unknown injury,19/09/2026,,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Reiss Nelson,Left Winger,Injuries,Muscle injury,05/10/2026,,2026-10-12T16:35:57.079832+00:00
+Feyenoord,Tsuyoshi Watanabe,Centre-Back,Injuries,Leg injury,29/09/2026,13/10/2026,2026-10-12T16:35:57.079832+00:00
+Bodø/Glimt,Isak Sjong,Goalkeeper,Injuries,unknown injury,01/01/2026,,2026-10-12T16:36:06.977121+00:00
+Bodø/Glimt,Håkon Evjen,Central Midfield,Injuries,Knee injury,27/07/2026,,2026-10-12T16:36:06.977121+00:00
+Bodø/Glimt,August Mikkelsen,Second Striker,Injuries,Groin surgery,03/08/2026,,2026-10-12T16:36:06.977121+00:00
+Bodø/Glimt,Magnus Riisnæs,Central Midfield,Injuries,unknown injury,17/08/2026,,2026-10-12T16:36:06.977121+00:00
+Galatasaray,Wilfried Singo,Right-Back,Injuries,Muscle injury,03/09/2026,14/10/2026,2026-10-12T16:36:17.368618+00:00
+Inter,Curtis Jones,Central Midfield,Injuries,Adductor injury,08/10/2026,28/10/2026,2026-10-12T16:36:27.836158+00:00
+LASK,Ramiz Harakaté,Centre-Forward,Injuries,Cruciate ligament tear,26/07/2026,,2026-10-12T16:36:37.979923+00:00
+Lille,Hamza Igamane,Centre-Forward,Injuries,Cruciate ligament tear,19/01/2026,,2026-10-12T16:36:48.109435+00:00
+Lille,Ethan Mbappé,Right Winger,Injuries,Ankle injury,30/09/2026,,2026-10-12T16:36:48.109435+00:00
+Lille,Tiago Santos,Right-Back,Injuries,Cruciate ligament tear,12/10/2026,,2026-10-12T16:36:48.109435+00:00
+Man Utd,Manuel Ugarte,Defensive Midfield,Injuries,Cruciate ligament tear,28/06/2026,,2026-10-12T16:37:08.142302+00:00
+PSV,Jerdy Schouten,Defensive Midfield,Injuries,Cruciate ligament tear,04/04/2026,01/05/2027,2026-10-12T16:37:18.328286+00:00
+PSV,Alassane Pléa,Centre-Forward,Injuries,surgery,14/08/2026,01/01/2027,2026-10-12T16:37:18.328286+00:00
+PSV,Kiliann Sildillia,Right-Back,Injuries,surgery,29/08/2026,01/01/2027,2026-10-12T16:37:18.328286+00:00
+PSV,Adamo Nagalo,Centre-Back,Injuries,unknown injury,01/07/2026,,2026-10-12T16:37:18.328286+00:00
+PSV,Ricardo Pepi,Centre-Forward,Injuries,unknown injury,21/09/2026,,2026-10-12T16:37:18.328286+00:00
+PSV,Paul Wanner,Central Midfield,Injuries,Foot injury,27/09/2026,,2026-10-12T16:37:18.328286+00:00
+PSV,Sami Ouaissa,Right Winger,Injuries,Hamstring injury,12/08/2026,,2026-10-12T16:37:18.328286+00:00
+PSV,Sam Lammers,Centre-Forward,Injuries,unknown injury,26/08/2026,,2026-10-12T16:37:18.328286+00:00
+Leipzig,Christoph Baumgartner,Attacking Midfield,Injuries,Hamstring injury,01/06/2026,,2026-10-12T16:37:28.608029+00:00
+Leipzig,Assan Ouédraogo,Central Midfield,Injuries,Shoulder injury,14/09/2026,,2026-10-12T16:37:28.608029+00:00
+Leipzig,Marc Guiu,Centre-Forward,Injuries,Hamstring injury,18/09/2026,,2026-10-12T16:37:28.608029+00:00
+Leipzig,Leopold Zingerle,Goalkeeper,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:37:28.608029+00:00
+Leipzig,Abdoul Koné,Centre-Back,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:37:28.608029+00:00
+Lens,Abdallah Sima,Left Winger,Injuries,Dead leg,02/10/2026,30/11/2026,2026-10-12T16:37:38.791471+00:00
+Lens,Maik Nawrocki,Centre-Back,Injuries,Cruciate ligament tear,30/08/2026,,2026-10-12T16:37:38.791471+00:00
+Real Betis,Junior Firpo,Left-Back,Injuries,Muscle injury,02/10/2026,01/11/2026,2026-10-12T16:37:49.073317+00:00
+Real Madrid,Rodrygo,Right Winger,Injuries,Cruciate ligament tear,03/03/2026,01/01/2027,2026-10-12T16:37:59.272392+00:00
+Real Madrid,Éder Militão,Centre-Back,Injuries,Muscle injury,21/04/2026,01/11/2026,2026-10-12T16:37:59.272392+00:00
+Real Madrid,Ferland Mendy,Left-Back,Injuries,Tendon rupture,03/05/2026,16/11/2026,2026-10-12T16:37:59.272392+00:00
+Real Madrid,Raúl Asencio,Centre-Back,Injuries,fatigue fracture,30/09/2026,01/01/2027,2026-10-12T16:37:59.272392+00:00
+Real Madrid,Ibrahima Konaté,Centre-Back,Injuries,Ligament injury,24/09/2026,,2026-10-12T16:37:59.272392+00:00
+Sabah,Khayal Aliyev,Left Winger,Injuries,Tendon rupture,03/06/2026,,2026-10-12T16:38:09.471870+00:00
+Shakhtar,Eguinaldo,Left Winger,Injuries,Shoulder injury,13/07/2026,,2026-10-12T16:38:19.771607+00:00
+Shakhtar,Irakli Azarovi,Left-Back,Injuries,unknown injury,04/09/2026,,2026-10-12T16:38:19.771607+00:00
+Slavia Praha,Igoh Ogbu,Centre-Back,Injuries,Achilles tendon rupture,06/06/2026,31/10/2026,2026-10-12T16:38:30.107239+00:00
+Slavia Praha,Hamidou Kante,Left-Back,Injuries,unknown injury,01/07/2026,,2026-10-12T16:38:30.107239+00:00
+Slavia Praha,Stepan Chaloupek,Centre-Back,Injuries,Muscle injury,04/10/2026,22/11/2026,2026-10-12T16:38:30.107239+00:00
+Slavia Praha,Adonija Ouanda,Right Winger,Injuries,unknown injury,01/09/2026,,2026-10-12T16:38:30.107239+00:00
+Slavia Praha,Oskar Kubiak,Left Midfield,Injuries,Muscle injury,18/09/2026,,2026-10-12T16:38:30.107239+00:00
+Slavia Praha,Pavel Kacor,Right Winger,Injuries,Shoulder injury,01/10/2026,,2026-10-12T16:38:30.107239+00:00
+Slavia Praha,Ivan Schranz,Right Winger,Injuries,unknown injury,07/10/2026,,2026-10-12T16:38:30.107239+00:00
+S. Bratislava,Mykola Kukharevych,Centre-Forward,Injuries,unknown injury,11/08/2026,,2026-10-12T16:38:42.560373+00:00
+Napoli,Alessandro Buongiorno,Centre-Back,Injuries,Knee surgery,17/07/2026,01/01/2027,2026-10-12T16:39:03.239215+00:00
+Napoli,Costantino Favasuli,Right-Back,Injuries,Hamstring strain,02/10/2026,30/11/2026,2026-10-12T16:39:03.239215+00:00
+Napoli,Antonio Vergara,Attacking Midfield,Injuries,Calf injury,05/10/2026,02/11/2026,2026-10-12T16:39:03.239215+00:00
+Napoli,Frank Anguissa,Central Midfield,Injuries,Adductor pain,08/09/2026,15/10/2026,2026-10-12T16:39:03.239215+00:00
+Napoli,Alisson Santos,Left Winger,Injuries,Hamstring muscle injury,10/09/2026,15/10/2026,2026-10-12T16:39:03.239215+00:00
+Napoli,Mathías Olivera,Left-Back,Injuries,Groin injury,02/10/2026,19/10/2026,2026-10-12T16:39:03.239215+00:00
+Stuttgart,Dan-Axel Zagadou,Centre-Back,Injuries,Hamstring injury,08/08/2026,,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Tiago Tomás,Right Winger,Injuries,Muscle injury,02/09/2026,,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Ertugrul Yigit,Central Midfield,Injuries,Ligament stretching,17/09/2026,,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Nikolas Nartey,Central Midfield,Injuries,Hamstring injury,02/10/2026,,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Ameen Al-Dakhil,Centre-Back,Injuries,Knee problems,02/10/2026,,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Maximilian Mittelstädt,Left-Back,Injuries,laceration wound,11/10/2026,,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Dan-Axel Zagadou,Centre-Back,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Stefan Drljaca,Goalkeeper,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Leonidas Stergiou,Right-Back,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:39:13.572102+00:00
+Stuttgart,Justin Diehl,Left Winger,Suspensions,No eligibility,03/09/2026,28/01/2027,2026-10-12T16:39:13.572102+00:00
+Viking,Martin Ove Roseth,Centre-Back,Injuries,Knee injury,01/02/2026,,2026-10-12T16:39:23.942124+00:00
+Viking,Veton Berisha,Centre-Forward,Injuries,unknown injury,01/03/2026,,2026-10-12T16:39:23.942124+00:00
+Viking,Anders Bærtelsen,Centre-Back,Injuries,unknown injury,31/07/2026,,2026-10-12T16:39:23.942124+00:00
+Viking,Nick D'Agostino,Centre-Forward,Injuries,Leg injury,24/05/2026,,2026-10-12T16:39:23.942124+00:00
