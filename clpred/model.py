@@ -76,9 +76,10 @@ def fit(matches: pd.DataFrame, as_of: str, settings: Settings, start: np.ndarray
     """Fit club strengths on every match played strictly before `as_of`."""
     as_of_day = pd.Timestamp(as_of)
     dates = pd.to_datetime(matches["date"])
-    age = (as_of_day - dates).dt.days
-    data = matches[(age > 0) & (age <= HISTORY_DAYS)]
-    age = age[data.index].to_numpy()
+    age = (as_of_day - dates).dt.days.to_numpy()
+    kept = (age > 0) & (age <= HISTORY_DAYS)
+    data = matches[kept]
+    age = age[kept]
 
     names = sorted(set(data["home"]) | set(data["away"]))
     clubs = {name: k for k, name in enumerate(names)}
@@ -98,7 +99,8 @@ def fit(matches: pd.DataFrame, as_of: str, settings: Settings, start: np.ndarray
     home_shots = data["home_shots_on_target"].to_numpy(float)
     away_shots = data["away_shots_on_target"].to_numpy(float)
     known = ~np.isnan(home_shots) & ~np.isnan(away_shots)
-    goals_per_shot = (home_goals[known].sum() + away_goals[known].sum()) / (home_shots[known].sum() + away_shots[known].sum())
+    shots = home_shots[known].sum() + away_shots[known].sum()
+    goals_per_shot = (home_goals[known].sum() + away_goals[known].sum()) / shots if shots > 0 else 0.0
     share = settings.shots_share
     y_home = np.where(known, (1 - share) * home_goals + share * goals_per_shot * np.nan_to_num(home_shots), home_goals)
     y_away = np.where(known, (1 - share) * away_goals + share * goals_per_shot * np.nan_to_num(away_shots), away_goals)
