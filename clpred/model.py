@@ -27,6 +27,8 @@ HISTORY_DAYS = 365 * 4
 class Settings:
     # Defaults are the values tuned on the 2024/25 and 2025/26 replay (see clpred.replay).
     decay_per_day: float = 0.001      # weight of a match halves every ln(2)/decay days
+    form_boost: float = 0.0           # extra weight of a match played today, fading with form_decay_per_day
+    form_decay_per_day: float = 0.02  # how fast that extra weight fades (0.02 halves it every 5 weeks)
     ucl_weight: float = 2.0           # weight of a Champions League match relative to a domestic one
     shots_share: float = 0.0          # share of the target taken from shots on target instead of goals
     xg_share: float = 0.0             # share of the target taken from expected goals (xG) where known
@@ -89,6 +91,8 @@ def fit(matches: pd.DataFrame, as_of: str, settings: Settings, start: np.ndarray
     european = data["competition"].isin(EUROPEAN).to_numpy().astype(float)
 
     weight = np.exp(-settings.decay_per_day * age)
+    # Form: extra weight on the last few weeks, on top of the slow decay.
+    weight = weight * (1 + settings.form_boost * np.exp(-settings.form_decay_per_day * age))
     is_ucl = (data["competition"] == "ucl").to_numpy()
     weight = weight * np.where(is_ucl, settings.ucl_weight, np.where(european > 0, np.sqrt(settings.ucl_weight), 1.0))
 
