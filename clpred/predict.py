@@ -23,12 +23,28 @@ MODEL_SHARE = 0.4
 SHOWN_GOALS = 6
 
 
+def with_earlier(new: pd.DataFrame, path: Path) -> pd.DataFrame:
+    """`new` plus the rows already saved for matches it no longer covers.
+
+    A Matchday predicted again on its second day only has the remaining
+    fixtures; the Predictions of matches that have kicked off must survive.
+    """
+    if not path.exists():
+        return new
+    earlier = pd.read_csv(path)
+    fresh = set(zip(new.home, new.away))
+    kept = earlier[[pair not in fresh for pair in zip(earlier.home, earlier.away)]]
+    return pd.concat([kept, new], ignore_index=True)
+
+
 def main() -> None:
     matchday = int(sys.argv[1])
     folder = Path(f"matchday-{matchday:02d}")
     matches = pd.read_csv("data/matches.csv", low_memory=False)
     fixtures = pd.read_csv("data/fixtures.csv")
     fixtures = fixtures[fixtures.matchday == matchday].sort_values(["kickoff_utc", "home"])
+    if fixtures.empty:
+        sys.exit(f"No unplayed fixtures for Matchday {matchday}: nothing to predict, earlier Predictions are left as they are.")
     odds = pd.read_csv(folder / "odds.csv").set_index(["home", "away"]) if (folder / "odds.csv").exists() else None
 
     settings = Settings()
@@ -140,14 +156,16 @@ def main() -> None:
                                       "probability": round(float(blend[i, j]), 6)})
 
     table = pd.DataFrame(rows)
-    table.to_csv(folder / "predictions.csv", index=False)
+    with_earlier(table, folder / "predictions.csv").sort_values(["kickoff_utc", "home"]).to_csv(
+        folder / "predictions.csv", index=False)
     if "baseline_prob_home" in table and club_missing is not None:
         # Does Availability move the model towards the bookmakers, who already know the absences?
         market = table.baseline_prob_home - table.baseline_prob_away
         before = (table.model_prob_home_without_availability - table.model_prob_away_without_availability - market).abs().mean()
         after = (table.model_prob_home - table.model_prob_away - market).abs().mean()
         print(f"Mean gap between model and Baseline (home minus away probability): {before:.4f} without Availability, {after:.4f} with")
-    pd.DataFrame(distributions).to_csv(folder / "score_distributions.csv", index=False)
+    with_earlier(pd.DataFrame(distributions), folder / "score_distributions.csv").to_csv(
+        folder / "score_distributions.csv", index=False)
     print(f"{len(rows)} Predictions for Matchday {matchday}, history up to {history.date.max()}, "
           f"{sum(bool(r['degraded']) for r in rows)} degraded")
 

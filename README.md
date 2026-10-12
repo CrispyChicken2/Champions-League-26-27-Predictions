@@ -10,16 +10,25 @@ Predicts the score of every league-phase match, Matchday by Matchday (2 to 8), a
 
 ## Running a Matchday
 
-Run from the project folder, in this order.
+Two commands, run from the project folder:
+
+```
+uv run scripts/run_matchday.py N             before kick-off: capture, predict, write the report (about 35 minutes)
+uv run scripts/run_matchday.py N --results   after the matches: fill in the Results
+```
+
+The first can be run again on a match day for fresher odds and absences; matches already kicked off keep their earlier Prediction. It does not write the Rationale texts (`matchday-NN/rationale.json`).
+
+The steps it runs, for when one of them needs repeating on its own:
 
 1. `uv run scripts/download_history.py` — domestic CSVs, UEFA's match feed and Understat xG.
-2. `uv run scripts/capture_raw.py data/recent <league>=<url> ...` — BetExplorer results pages for the rounds the CSVs lag behind (see `data/recent/manifest.json` for the URLs used last time).
-3. `uv run python -m clpred.build_matches` — rebuilds `data/matches.csv`. Read every `CHECK` and `LEFT OUT` line: they are club names matched with doubt or not at all.
-4. `uv run scripts/capture_raw.py matchday-NN/source <name>=<url> ...` — the Snapshot, before the first kick-off: OddsPortal 1X2, over/under and correct-score pages per match, Transfermarkt absences and squad per club (`matchday-02/source/manifest.json` shows the naming).
+2. `uv run python -m clpred.build_matches` — builds `data/matches.csv` and `data/fixtures.csv`. Read every `CHECK` and `LEFT OUT` line: they are club names matched with doubt or not at all.
+3. `uv run scripts/capture_matchday.py N` — with a browser: latest league rounds into `data/recent/`, the Snapshot (odds, absences, squads) into `matchday-NN/source/`, player performance into `data/players/`. Add `--list` to see the pages without fetching them.
+4. `uv run python -m clpred.build_matches` again, then `uv run python -m clpred.players`.
 5. `uv run python -m clpred.snapshot N` — extracts `odds.csv`, `absences.csv` and `squads.csv`. Squad pages of calendar-year leagues (Norway) must be captured without a season in the URL.
-6. `uv run python -m clpred.predict N` — writes the Predictions, with Availability applied. It needs `data/player_seasons.csv`: capture the clubs' Transfermarkt performance pages into `data/players/` (naming as in its `manifest.json`) and run `uv run python -m clpred.players`.
+6. `uv run python -m clpred.predict N` — writes the Predictions, with Availability applied.
 7. Write `matchday-NN/rationale.json` (two or three sentences per match).
-8. `uv run python -m clpred.report N` — writes `report.html`. Run steps 1, 3 and 8 again after the matches to fill in the Results.
+8. `uv run python -m clpred.report N` — writes `report.html`. 
 
 `uv run python -m clpred.replay [--tune]` replays the 2024/25 and 2025/26 league phases to judge or re-tune the model.
 

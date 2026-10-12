@@ -22,10 +22,16 @@ PAUSE_SECONDS = 4
 SCROLL_STEPS = 8
 
 
-def capture(out_dir: Path, targets: dict[str, str]) -> None:
+def capture(out_dir: Path, targets: dict[str, str], skip_existing: bool = False) -> dict:
+    """Save every target page; returns the manifest. With `skip_existing`, pages already saved are left alone."""
     out_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = out_dir / "manifest.json"
     manifest = json.loads(manifest_path.read_text("utf-8")) if manifest_path.exists() else {}
+    if skip_existing:
+        targets = {name: url for name, url in targets.items()
+                   if "error" in manifest.get(name, {"error": 1}) or not (out_dir / f"{name}.txt").exists()}
+    if not targets:
+        return manifest
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -66,6 +72,7 @@ def capture(out_dir: Path, targets: dict[str, str]) -> None:
             manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), "utf-8")
             print(name, json.dumps(entry, ensure_ascii=True), flush=True)
         browser.close()
+    return manifest
 
 
 if __name__ == "__main__":
