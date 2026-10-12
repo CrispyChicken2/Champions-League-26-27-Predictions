@@ -1030,5 +1030,69 @@
     "title": "Viking FK - Squad statistics (Detailed view) | Transfermarkt",
     "html_bytes": 216677,
     "text_chars": 7787
+  },
+  "perf_1-fc-heidenheim-1846_2036_2024": {
+    "url": "https://www.transfermarkt.com/1-fc-heidenheim-1846/leistungsdaten/verein/2036/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:13:45.011154+00:00",
+    "status": 200,
+    "title": "1.FC Heidenheim 1846 - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 173775,
+    "text_chars": 5880
+  },
+  "perf_ac-florenz_430_2024": {
+    "url": "https://www.transfermarkt.com/ac-florenz/leistungsdaten/verein/430/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:13:54.900518+00:00",
+    "status": 200,
+    "title": "ACF Fiorentina - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 262510,
+    "text_chars": 10339
+  },
+  "perf_ajax-amsterdam_610_2024": {
+    "url": "https://www.transfermarkt.com/ajax-amsterdam/leistungsdaten/verein/610/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:14:04.696956+00:00",
+    "status": 200,
+    "title": "Ajax Amsterdam - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 300066,
+    "text_chars": 14176
+  },
+  "perf_apoel-nikosia_2784_2024": {
+    "url": "https://www.transfermarkt.com/apoel-nikosia/leistungsdaten/verein/2784/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:14:14.106153+00:00",
+    "status": 200,
+    "title": "APOEL Nicosia - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 223736,
+    "text_chars": 9910
+  },
+  "perf_as-rom_12_2024": {
+    "url": "https://www.transfermarkt.com/as-rom/leistungsdaten/verein/12/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:14:23.762870+00:00",
+    "status": 200,
+    "title": "AS Roma - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 256108,
+    "text_chars": 10184
+  },
+  "perf_athletic-bilbao_621_2024": {
+    "url": "https://www.transfermarkt.com/athletic-bilbao/leistungsdaten/verein/621/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:14:33.027378+00:00",
+    "status": 200,
+    "title": "Athletic Bilbao - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 261288,
+    "text_chars": 10579
+  },
+  "perf_az-alkmaar_1090_2024": {
+    "url": "https://www.transfermarkt.com/az-alkmaar/leistungsdaten/verein/1090/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:14:42.696252+00:00",
+    "status": 200,
+    "title": "AZ Alkmaar - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 227391,
+    "text_chars": 8987
+  },
+  "perf_besiktas-istanbul_114_2024": {
+    "url": "https://www.transfermarkt.com/besiktas-istanbul/leistungsdaten/verein/114/reldata/%262024/plus/1",
+    "captured_at_utc": "2026-10-12T20:14:52.608942+00:00",
+    "status": 200,
+    "title": "Beşiktaş JK - Squad statistics (Detailed view) | Transfermarkt",
+    "html_bytes": 247684,
+    "text_chars": 10377
   }
 }
