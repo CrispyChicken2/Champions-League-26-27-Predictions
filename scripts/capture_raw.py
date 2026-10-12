@@ -1,6 +1,6 @@
 """Save raw pages for a Matchday Snapshot.
 
-Usage: uv run scripts/capture_raw.py <out_dir> <name>=<url> [<name>=<url> ...]
+Usage: uv run scripts/capture_raw.py matchday-NN/source <name>=<url> [<name>=<url> ...]
 
 Each page is saved as <name>.html (rendered DOM) and <name>.txt (visible text),
 with a manifest.json recording the URL, HTTP status and capture time (UTC).
