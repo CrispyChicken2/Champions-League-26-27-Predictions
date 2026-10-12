@@ -46,7 +46,7 @@ SQUAD VIKING FK
  This page displays a detailed overview of the club's current squad. It shows all personal information about the players, including age, nationality, contract duration and market value. It also contains a table with average age, cumulative market value and average market value for each player position and overall.
 
 Filter by season	
-2027
+2026
 2027
 2026
 2025
@@ -130,165 +130,129 @@ Market value
 30	
 	Lubomir Belko
 Goalkeeper
-	04/02/2002 (23)		1,92m	right	02/02/2026		31/12/2029	€2.00m
+	04/02/2002 (24)		1,92m	right	02/02/2026		31/12/2029	€1.20m
 1	
 	Arild Østbø
 Goalkeeper
-	19/04/1991 (34)		1,83m	right	09/01/2020		31/12/2026	€175k
+	19/04/1991 (35)		1,83m	right	09/01/2020		31/12/2026	€150k
 12	
 	Erlend Jacobsen
 Goalkeeper
-	25/06/1999 (26)		1,86m	right	14/07/2026		31/12/2027	-
+	25/06/1999 (27)		1,86m	right	14/07/2026		31/12/2027	-
 25	
 	Henrik Falchener
 Centre-Back
-	08/05/2003 (22)		1,94m	right	30/01/2025		31/12/2029	€4.00m
-27	
-	Jesper Daland
-Centre-Back
-	06/01/2000 (25)		1,91m	right	04/08/2026		31/01/2027	€2.50m
+	08/05/2003 (23)		1,94m	right	30/01/2025		31/12/2029	€10.00m
 6	
 	Gianni Stensness
 Centre-Back
-	07/02/1999 (26)	
-	1,85m	right	26/08/2021		31/12/2027	€800k
--	
-	Anders Fiskum Larsen
+	07/02/1999 (27)	
+	1,85m	right	26/08/2021		31/12/2027	€1.80m
+27	
+	Jesper Daland
 Centre-Back
-	01/01/2010 (15)		-	 		 	-	-
+	06/01/2000 (26)		1,91m	right	04/08/2026		31/01/2027	€1.50m
+4	
+	Martin Ove Roseth 
+Centre-Back
+	10/07/1998 (28)		1,88m	left	06/03/2025		31/12/2028	€800k
+21	
+	Anders Bærtelsen 
+Centre-Back
+	09/05/2000 (26)		1,90m	right	25/03/2025		31/12/2028	€700k
+24	
+	Vetle Auklend
+Left-Back
+	22/03/2005 (21)		1,82m	left	16/01/2024		31/12/2028	€700k
 28	
 	Kristoffer Haugen
 Left-Back
-	21/02/1994 (31)		1,88m	left	12/07/2025		31/12/2027	€700k
+	21/02/1994 (32)		1,88m	left	12/07/2025		31/12/2027	€650k
 3	
 	Viljar Vevatne
 Left-Back
 	07/12/1994 (31)		1,83m	left	12/01/2018		31/12/2027	€250k
-24	
-	Vetle Auklend
-Left-Back
-	22/03/2005 (20)		1,82m	left	16/01/2024		31/12/2028	€250k
--	
-	Elias Dahman
-Left-Back
-	15/07/2007 (18)	
-	1,85m	left		 	-	-
--	
-	Jonathan Debes
-Left-Back
-	18/12/2009 (16)		-	 		 	-	-
 5	
 	Henrik Heggheim
 Right-Back
-	22/04/2001 (24)		1,89m	right	30/08/2024		31/12/2028	€1.50m
-2	
-	Herman Haugen
-Right-Back
-	25/04/2000 (25)		1,82m	right	06/02/2020		31/12/2028	€500k
-18	
-	Sondre Bjørshol
-Right-Back
-	30/04/1994 (31)		1,84m	right	15/08/2018		31/12/2027	€350k
+	22/04/2001 (25)		1,89m	right	30/08/2024		31/12/2028	€1.80m
 17	
 	Essien Bassey
 Right-Back
 	01/11/2006 (19)	
-	1,87m	right	02/09/2026		31/12/2030	€150k
--	
-	Mats Sekse Johannesen
+	1,87m	right	02/09/2026		31/12/2030	€900k
+2	
+	Herman Haugen
 Right-Back
-	18/06/2008 (17)		-	 		 	-	-
+	25/04/2000 (26)		1,82m	right	06/02/2020		31/12/2028	€500k
+18	
+	Sondre Bjørshol
+Right-Back
+	30/04/1994 (32)		1,84m	right	15/08/2018		31/12/2027	€300k
 8	
 	Joe Bell
 Defensive Midfield
-	27/04/1999 (26)	
-	1,82m	right	30/08/2023		31/12/2027	€3.00m
--	
-	Henrik Kvelvane
-Defensive Midfield
-	23/07/2008 (17)		-	 		 	-	-
-7	
-	Kristoffer Askildsen
-Central Midfield
-	09/01/2001 (24)		1,90m	right	26/03/2025		31/12/2028	€1.80m
-26	
-	Simen Kvia-Egeskog
-Central Midfield
-	26/05/2003 (22)		1,85m	right	30/06/2021		31/12/2029	€1.50m
--	
-	Ruben Alte
-Central Midfield
-	28/02/2000 (25)		1,77m	right	18/07/2025		30/06/2027	€1.00m
-16	
-	Henrik Bjørdal
-Central Midfield
-	04/02/1997 (28)		1,88m	right	02/09/2026		31/12/2030	€800k
+	27/04/1999 (27)	
+	1,82m	right	30/08/2023		31/12/2027	€3.50m
 29	
 	Tobias Moi
 Central Midfield
-	03/03/2006 (19)	
-	1,80m	right	28/01/2025		31/12/2029	€100k
--	
-	Jacob Nordbø Middelthon
+	03/03/2006 (20)	
+	1,80m	right	28/01/2025		31/12/2029	€6.00m
+7	
+	Kristoffer Askildsen
 Central Midfield
-	25/05/2007 (18)		-	 		 	-	-
+	09/01/2001 (25)		1,90m	right	26/03/2025		31/12/2028	€4.00m
+26	
+	Simen Kvia-Egeskog
+Central Midfield
+	26/05/2003 (23)		1,85m	right	30/06/2021		31/12/2029	€3.50m
+16	
+	Henrik Bjørdal
+Central Midfield
+	04/02/1997 (29)		1,88m	right	02/09/2026		31/12/2030	€1.80m
 33	
 	Jakob Segadal Hansen
 Attacking Midfield
-	16/06/2005 (20)		1,83m	right	29/11/2024		31/12/2029	€1.80m
--	
-	Ola Visted
-Attacking Midfield
-	30/03/2005 (20)		1,78m	right	10/03/2025		31/12/2026	€400k
--	
-	Edvin Austbø
-Left Winger
-	01/05/2005 (20)		1,72m	right	01/01/2022		30/06/2030	€7.00m
+	16/06/2005 (21)		1,83m	right	29/11/2024		31/12/2029	€1.20m
 10	
 	Zlatko Tripic 
 Left Winger
-	02/12/1992 (33)		1,82m	both	07/05/2021		31/12/2027	€1.20m
+	02/12/1992 (33)		1,82m	both	07/05/2021		31/12/2027	€1.00m
 19	
 	Amin Cosic
 Left Winger
 	27/10/2005 (20)	
-	1,85m	right	14/07/2026		31/12/2030	€75k
+	1,85m	right	14/07/2026		31/12/2030	€600k
 42	
 	Kelvin Frimpong
 Left Winger
-	02/01/2008 (17)		1,78m	right	20/03/2026		31/12/2030	-
+	02/01/2008 (18)		1,78m	right	20/03/2026		31/12/2030	-
 23	
 	Niklas Fuglestad
 Right Winger
-	20/05/2006 (19)		1,80m	left	01/07/2024		31/12/2029	€600k
-22	
-	Erik Botheim
-Centre-Forward
-	10/01/2000 (25)		1,87m	right	02/09/2026		31/12/2030	€3.50m
+	20/05/2006 (20)		1,80m	left	01/07/2024		31/12/2029	€1.80m
 20	
 	Peter Christiansen
 Centre-Forward
-	02/12/1999 (26)		1,75m	right	22/03/2024		31/12/2027	€2.50m
+	02/12/1999 (26)		1,75m	right	22/03/2024		31/12/2027	€6.00m
+22	
+	Erik Botheim
+Centre-Forward
+	10/01/2000 (26)		1,87m	right	02/09/2026		31/12/2030	€3.50m
 11	
 	Romano Postema
 Centre-Forward
-	07/02/2002 (23)		1,75m	right	14/07/2026		31/12/2030	€600k
--	
-	Christopher Salvesen-Svenning
+	07/02/2002 (24)		1,75m	right	14/07/2026		31/12/2030	€900k
+9	
+	Nick D'Agostino 
 Centre-Forward
-	30/04/2009 (16)		-	 		 	31/12/2027	-
--	
-	Rasmus Gjelsvik Steigen
-Striker
-	04/02/2009 (16)		-	 		 	-	-
--	
-	Sondre Tveiten
+	25/02/1998 (28)	
+	1,75m	right	13/02/2023		31/12/2027	€500k
+14	
+	Veton Berisha 
 Centre-Forward
-	17/10/2007 (18)		-	right		 	-	-
--	
-	Sondre Bakken
-Striker
-	29/07/2009 (16)		-	 		 	31/12/2027	-
+	13/04/1994 (32)		1,74m	right	05/08/2025		31/12/2027	€450k
 QUICK LINKS
 Most valuable players in the world
 Latest transfers

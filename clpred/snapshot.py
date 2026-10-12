@@ -2,8 +2,8 @@
 
 Usage: uv run python -m clpred.snapshot <matchday number>
 
-Reads matchday-NN/source/, writes matchday-NN/odds.csv, correct_score_odds.csv
-and absences.csv, using UEFA's club names. Anything that cannot be read is
+Reads matchday-NN/source/, writes matchday-NN/odds.csv, correct_score_odds.csv,
+absences.csv and squads.csv, using UEFA's club names. Anything that cannot be read is
 reported and left out, so later steps can see what is missing.
 """
 
@@ -21,6 +21,11 @@ OVER_UNDER_ROW = re.compile(r"Over/Under \+2\.5\|\d+\|[\s|]*([\d.]+)[\s|]*([\d.]
 CORRECT_SCORE_ROW = re.compile(r"\|(\d+):(\d+)\|\d+\|[\s|]*([\d.]+)\|")
 HEADING = re.compile(r"\|([^|]+) - ([^|]+)\|\1\|-\|\2\|")
 NAME_THRESHOLD = 0.6
+MARKET_VALUE = re.compile(r"€([\d.]+)(m|k)")
+BIRTH_DATE = re.compile(r"\d\d/\d\d/\d{4} \(\d+\)")
+POSITIONS = {"Goalkeeper", "Centre-Back", "Left-Back", "Right-Back", "Defensive Midfield", "Central Midfield",
+             "Attacking Midfield", "Left Midfield", "Right Midfield", "Left Winger", "Right Winger",
+             "Second Striker", "Centre-Forward"}
 
 
 def flat(path: Path) -> str:
@@ -111,6 +116,28 @@ def extract_absences(source: Path, manifest: dict, clubs: dict) -> list:
     return absences
 
 
+def extract_squads(source: Path, manifest: dict, clubs: dict) -> list:
+    squads = []
+    for name, entry in manifest.items():
+        if not name.startswith("squad_"):
+            continue
+        club, score = best_match(entry["title"].split(" - ")[0], clubs)
+        if score < NAME_THRESHOLD:
+            print(f"UNREADABLE club for {name}: {entry['title']} -> {club} ({score:.2f})")
+            continue
+        lines = [line for line in (source / f"{name}.txt").read_text("utf-8").split("\n") if line.strip()]
+        for k in range(1, len(lines) - 1):
+            # A player takes three lines: name, position, then details ending in the market value.
+            # For players flagged as injured the details wrap onto a second line.
+            value = MARKET_VALUE.search(lines[k + 1]) or (
+                MARKET_VALUE.search(lines[k + 2]) if k + 2 < len(lines) and BIRTH_DATE.search(lines[k + 1]) else None)
+            if lines[k].strip() in POSITIONS and value:
+                amount = float(value.group(1)) * (1.0 if value.group(2) == "m" else 0.001)
+                squads.append({"club": club, "player": " ".join(lines[k - 1].split()),
+                               "position": lines[k].strip(), "value_m": amount})
+    return squads
+
+
 def main() -> None:
     matchday = int(sys.argv[1])
     folder = Path(f"matchday-{matchday:02d}")
@@ -124,9 +151,16 @@ def main() -> None:
     absences = extract_absences(source, manifest, clubs)
     pd.DataFrame(odds).round(3).to_csv(folder / "odds.csv", index=False)
     pd.DataFrame(correct_scores).to_csv(folder / "correct_score_odds.csv", index=False)
-    pd.DataFrame(absences).to_csv(folder / "absences.csv", index=False)
+    absences = pd.DataFrame(absences).drop_duplicates(["club", "player", "kind"])
+    absences.to_csv(folder / "absences.csv", index=False)
+    squads = pd.DataFrame(extract_squads(source, manifest, clubs)).drop_duplicates(["club", "player"])
+    squads.to_csv(folder / "squads.csv", index=False)
+    for club in clubs:
+        if club in set(fixtures.home) | set(fixtures.away) and (squads.club == club).sum() < 18:
+            print(f"THIN squad for {club}: {(squads.club == club).sum()} players read")
     print(f"{len(odds)} of {len(fixtures)} fixtures with odds, {len(correct_scores)} correct-score prices, "
-          f"{len(absences)} absences across {len({a['club'] for a in absences})} clubs")
+          f"{len(absences)} absences across {absences.club.nunique()} clubs, "
+          f"{len(squads)} squad players across {squads.club.nunique()} clubs")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 Usage: uv run python -m clpred.report <matchday number>
 
-Reads matchday-NN/predictions.csv, rationale.json and absences.csv, and the
+Reads matchday-NN/predictions.csv and rationale.json, and the
 match table for any Results already known. Writes matchday-NN/report.html.
 """
 
@@ -43,7 +43,6 @@ def main() -> None:
     folder = Path(f"matchday-{matchday:02d}")
     predictions = pd.read_csv(folder / "predictions.csv")
     rationale = json.loads((folder / "rationale.json").read_text("utf-8")) if (folder / "rationale.json").exists() else {}
-    absences = pd.read_csv(folder / "absences.csv") if (folder / "absences.csv").exists() else pd.DataFrame(columns=["club"])
     matches = pd.read_csv("data/matches.csv", low_memory=False)
     played = matches[(matches.competition == "ucl") & (matches.date >= predictions.date.min())]
     scores = {(m.home, m.away): (int(m.home_goals), int(m.away_goals)) for m in played.itertuples()}
@@ -72,10 +71,10 @@ def main() -> None:
             f"<td>{baseline}</td>{result_cell}</tr>"
         )
         out = []
-        for club in (p.home, p.away):
-            names = absences[absences.club == club].player.drop_duplicates().tolist()
-            if names:
-                out.append(f"{html.escape(club)}: {html.escape(', '.join(names))}")
+        for club, change, counted in ((p.home, p.home_availability, p.home_absent_counted),
+                                      (p.away, p.away_availability, p.away_absent_counted)):
+            if isinstance(counted, str) and counted:
+                out.append(f"{html.escape(club)} {change:+.3f} ({html.escape(counted)})")
         degraded = f'<p class="warn">Missing input: {html.escape(p.degraded)}</p>' if isinstance(p.degraded, str) and p.degraded else ""
         cards.append(
             f'<div class="match"><h3>{html.escape(p.home)} – {html.escape(p.away)}: {p.pick}</h3>'
@@ -85,7 +84,8 @@ def main() -> None:
             f'<p class="muted">Home / draw / away: model {percent(p.model_prob_home)} / {percent(p.model_prob_draw)} / {percent(p.model_prob_away)}'
             + (f", Baseline {percent(p.baseline_prob_home)} / {percent(p.baseline_prob_draw)} / {percent(p.baseline_prob_away)}" if baseline != "n/a" else "")
             + f" · expected goals {p.expected_home_goals} – {p.expected_away_goals}</p>"
-            + (f'<p class="muted">Listed absences (not yet used by the model): {"; ".join(out)}</p>' if out else "")
+            + (f'<p class="muted">Availability, change in strength from absent players: {"; ".join(out)}. '
+               f'Pick without Availability: {p.pick_without_availability}.</p>' if out else "")
             + degraded + result_line + "</div>"
         )
 
@@ -117,7 +117,9 @@ def main() -> None:
 <style>{STYLE}</style></head><body>
 <h1>Champions League 2026/27 – Matchday {matchday} Predictions</h1>
 <p class="muted">{snapshot_note} History used: every match up to the day before the first kick-off.
-Pick = scoreline with the highest expected points (3 exact, 1 right outcome). Confidence = probability given before kick-off.</p>
+Pick = scoreline with the highest expected points (3 exact, 1 right outcome). Confidence = probability given before kick-off.
+Availability = how much weaker a club is rated because of absent players, from the market value of its best eleven with and
+without them (0 = no loss; -0.10 is roughly 5% fewer goals scored and 5% more conceded).</p>
 {summary}
 <table><tr><th>Match</th><th>Pick</th><th class="n">Confidence, score</th><th class="n">Confidence, outcome</th>
 <th class="n">Home / draw / away</th><th>Baseline Pick</th><th>Result</th></tr>

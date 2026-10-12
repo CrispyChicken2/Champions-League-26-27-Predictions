@@ -1,0 +1,984 @@
+club,player,position,value_m
+AEK Athens,Thomas Strakosha,Goalkeeper,3.0
+AEK Athens,Alberto Brignoli,Goalkeeper,0.7000000000000001
+AEK Athens,Marios Balamotis,Goalkeeper,0.15
+AEK Athens,Harold Moukoudi,Centre-Back,6.0
+AEK Athens,Filipe Relvas,Centre-Back,4.5
+AEK Athens,Martin Georgiev,Centre-Back,2.0
+AEK Athens,Christos Alexiou,Centre-Back,1.5
+AEK Athens,Domagoj Vida,Centre-Back,0.5
+AEK Athens,Stavro Pilo,Left-Back,2.5
+AEK Athens,Charalampos Lykogiannis,Left-Back,1.0
+AEK Athens,Lazaros Rota,Right-Back,4.5
+AEK Athens,Spyros Christakopoulos,Right-Back,0.1
+AEK Athens,Kervin Arriaga,Defensive Midfield,2.5
+AEK Athens,Hakim Sahabo,Defensive Midfield,1.5
+AEK Athens,Kaan Kairinen,Central Midfield,6.0
+AEK Athens,Răzvan Marin,Central Midfield,4.0
+AEK Athens,Milán Vitális,Central Midfield,2.5
+AEK Athens,Lovro Majer,Attacking Midfield,8.0
+AEK Athens,Dimitrios Kaloskamis,Attacking Midfield,1.8
+AEK Athens,Mijat Gacinovic,Attacking Midfield,1.5
+AEK Athens,João Mário,Attacking Midfield,1.2
+AEK Athens,Petros Mantalos,Attacking Midfield,0.8
+AEK Athens,Aboubakary Koita,Left Winger,5.0
+AEK Athens,Dereck Kutesa,Left Winger,3.0
+AEK Athens,Oleksandr Zubkov,Right Winger,5.0
+AEK Athens,Luka Jović,Centre-Forward,9.0
+AEK Athens,Barnabás Varga,Centre-Forward,4.0
+AEK Athens,Zini,Centre-Forward,3.0
+AEK Athens,Frantzdy Pierrot,Centre-Forward,1.2
+Roma,Mile Svilar,Goalkeeper,35.0
+Roma,Devis Vásquez,Goalkeeper,0.8
+Roma,Pierluigi Gollini,Goalkeeper,0.8
+Roma,Giorgio De Marzi,Goalkeeper,0.1
+Roma,Evan Ndicka,Centre-Back,35.0
+Roma,Konstantinos Koulierakis,Centre-Back,20.0
+Roma,Leonardo Balerdi,Centre-Back,18.0
+Roma,Daniele Ghilardi,Centre-Back,18.0
+Roma,Gianluca Mancini,Centre-Back,15.0
+Roma,Mario Hermoso,Centre-Back,7.0
+Roma,Wesley,Right-Back,40.0
+Roma,Nahuel Molina,Right-Back,15.0
+Roma,Devyne Rensch,Right-Back,8.5
+Roma,Emanuele Lulli,Right-Back,8.0
+Roma,Bryan Cristante,Defensive Midfield,7.0
+Roma,Marten de Roon,Defensive Midfield,3.2
+Roma,Manu Koné,Central Midfield,60.0
+Roma,Niccolò Pisilli,Central Midfield,30.0
+Roma,Rodrigo Mora,Attacking Midfield,38.0
+Roma,Lorenzo Pellegrini,Attacking Midfield,8.0
+Roma,Matías Soulé,Right Winger,35.0
+Roma,Paulo Dybala,Second Striker,5.0
+Roma,Donyell Malen,Centre-Forward,55.0
+Roma,Santiago Castro,Centre-Forward,32.0
+Roma,Antonio Arena,Centre-Forward,4.0
+Aston Villa,Zion Suzuki,Goalkeeper,30.0
+Aston Villa,Marco Bizot,Goalkeeper,1.5
+Aston Villa,James Wright,Goalkeeper,0.2
+Aston Villa,Taylor Harwood-Bellis,Centre-Back,25.0
+Aston Villa,Pau Torres,Centre-Back,20.0
+Aston Villa,Modou Kéba Cissé,Centre-Back,6.0
+Aston Villa,Victor Lindelöf,Centre-Back,5.0
+Aston Villa,Tyrone Mings,Centre-Back,3.0
+Aston Villa,Ian Maatsen,Left-Back,35.0
+Aston Villa,Matteo Ruggeri,Left-Back,28.0
+Aston Villa,Matty Cash,Right-Back,22.0
+Aston Villa,Aaron Wan-Bissaka,Right-Back,15.0
+Aston Villa,Boubacar Kamara,Defensive Midfield,50.0
+Aston Villa,Amadou Onana,Defensive Midfield,40.0
+Aston Villa,Lamare Bogarde,Defensive Midfield,18.0
+Aston Villa,João Gomes,Central Midfield,40.0
+Aston Villa,Leon Goretzka,Central Midfield,10.0
+Aston Villa,Ross Barkley,Central Midfield,4.0
+Aston Villa,John McGinn,Right Midfield,13.0
+Aston Villa,Johan Manzambi,Attacking Midfield,65.0
+Aston Villa,Emiliano Buendía,Attacking Midfield,16.0
+Aston Villa,Alejandro Garnacho,Left Winger,22.0
+Aston Villa,George Hemmings,Left Winger,15.0
+Aston Villa,Ibrahim Mbaye,Right Winger,50.0
+Aston Villa,Alysson,Right Winger,15.0
+Aston Villa,Nicolas Jackson,Centre-Forward,45.0
+Aston Villa,Brian Madjo,Centre-Forward,22.0
+Aston Villa,Tammy Abraham,Centre-Forward,18.0
+Atleti,Jan Oblak,Goalkeeper,15.0
+Atleti,Juan Musso,Goalkeeper,3.0
+Atleti,Salvi Esquivel,Goalkeeper,1.0
+Atleti,Marc Pubill,Centre-Back,50.0
+Atleti,Cristian Romero,Centre-Back,40.0
+Atleti,Dávid Hancko,Centre-Back,35.0
+Atleti,Robin Le Normand,Centre-Back,18.0
+Atleti,Jorge Domínguez,Centre-Back,8.0
+Atleti,Dani Martinez,Centre-Back,2.5
+Atleti,Alejandro Grimaldo,Left-Back,20.0
+Atleti,Marcos Llorente,Right-Back,20.0
+Atleti,Morten Hjulmand,Defensive Midfield,45.0
+Atleti,Pablo Barrios,Central Midfield,70.0
+Atleti,Rodrigo Mendoza,Central Midfield,20.0
+Atleti,Johnny Cardoso,Central Midfield,20.0
+Atleti,Obed Vargas,Central Midfield,10.0
+Atleti,Koke,Central Midfield,5.0
+Atleti,Kang-in Lee,Attacking Midfield,35.0
+Atleti,Álex Baena,Left Winger,45.0
+Atleti,Ademola Lookman,Left Winger,40.0
+Atleti,Arnau Ortiz,Left Winger,6.0
+Atleti,Giuliano Simeone,Right Winger,40.0
+Atleti,Julián Alvarez,Centre-Forward,110.0
+Atleti,Jonathan David,Centre-Forward,30.0
+Atleti,Alexander Sørloth,Centre-Forward,15.0
+B. Dortmund,Gregor Kobel,Goalkeeper,40.0
+B. Dortmund,Alexander Meyer,Goalkeeper,0.5
+B. Dortmund,Patrick Drewes,Goalkeeper,0.3
+B. Dortmund,Silas Ostrzinski,Goalkeeper,0.2
+B. Dortmund,Nico Schlotterbeck,Centre-Back,55.0
+B. Dortmund,Joane Gadou,Centre-Back,28.0
+B. Dortmund,Waldemar Anton,Centre-Back,18.0
+B. Dortmund,Luca Reggiani,Centre-Back,10.0
+B. Dortmund,Ramy Bensebaini,Centre-Back,7.0
+B. Dortmund,Filippo Mane,Centre-Back,5.0
+B. Dortmund,Emre Can,Centre-Back,3.0
+B. Dortmund,Daniel Svensson,Left-Back,22.0
+B. Dortmund,Kauã Prates,Left-Back,10.0
+B. Dortmund,Julian Ryerson,Right-Back,25.0
+B. Dortmund,Mussa Kaba,Defensive Midfield,0.2
+B. Dortmund,Felix Nmecha,Central Midfield,65.0
+B. Dortmund,Jobe Bellingham,Central Midfield,40.0
+B. Dortmund,Joey Veerman,Central Midfield,25.0
+B. Dortmund,Carney Chukwuemeka,Central Midfield,17.0
+B. Dortmund,Marcel Sabitzer,Central Midfield,6.0
+B. Dortmund,Enzo dos Santos,Central Midfield,1.5
+B. Dortmund,Ethan Nwaneri,Attacking Midfield,35.0
+B. Dortmund,Konstantinos Karetsas,Attacking Midfield,35.0
+B. Dortmund,Giannis Konstantelias,Attacking Midfield,22.0
+B. Dortmund,Justin Lerma,Attacking Midfield,3.2
+B. Dortmund,Mathis Albert,Left Winger,5.0
+B. Dortmund,Samuele Inácio,Second Striker,20.0
+B. Dortmund,Maximilian Beier,Centre-Forward,35.0
+B. Dortmund,Serhou Guirassy,Centre-Forward,32.0
+B. Dortmund,Fábio Silva,Centre-Forward,22.0
+Como,Robert Sánchez,Goalkeeper,15.0
+Como,Jean Butez,Goalkeeper,8.0
+Como,Mauro Vigorito,Goalkeeper,0.15
+Como,Jacobo Ramón,Centre-Back,45.0
+Como,Trevoh Chalobah,Centre-Back,35.0
+Como,Alberto Dossena,Centre-Back,5.0
+Como,Marc Oliver Kempf,Centre-Back,3.5
+Como,Willy Kambwala,Centre-Back,3.0
+Como,Edoardo Goldaniga,Centre-Back,2.0
+Como,Kaiki,Left-Back,14.0
+Como,Álex Valle,Left-Back,12.0
+Como,Yan Couto,Right-Back,17.0
+Como,Ivan Smolcic,Right-Back,3.5
+Como,Máximo Perrone,Defensive Midfield,35.0
+Como,Samuele Ricci,Defensive Midfield,22.0
+Como,Lucas Da Cunha,Central Midfield,30.0
+Como,Maxence Caqueret,Central Midfield,13.0
+Como,Adrian Lahdo,Central Midfield,10.0
+Como,Luis Milla,Central Midfield,8.0
+Como,Nico Paz,Attacking Midfield,80.0
+Como,Martin Baturina,Attacking Midfield,55.0
+Como,Mattia Liberali,Attacking Midfield,10.0
+Como,Assane Diao,Left Winger,35.0
+Como,Jesús Rodríguez,Left Winger,30.0
+Como,Jayden Addai,Right Winger,20.0
+Como,Moise Kean,Centre-Forward,32.0
+Como,Anastasios Douvikas,Centre-Forward,25.0
+Arsenal,David Raya,Goalkeeper,30.0
+Arsenal,Illan Meslier,Goalkeeper,6.0
+Arsenal,Kepa Arrizabalaga,Goalkeeper,5.0
+Arsenal,William Saliba,Centre-Back,100.0
+Arsenal,Gabriel,Centre-Back,75.0
+Arsenal,Piero Hincapié,Centre-Back,50.0
+Arsenal,Ezri Konsa,Centre-Back,50.0
+Arsenal,Cristhian Mosquera,Centre-Back,40.0
+Arsenal,Riccardo Calafiori,Left-Back,65.0
+Arsenal,Jurriën Timber,Right-Back,70.0
+Arsenal,Ben White,Right-Back,35.0
+Arsenal,Martín Zubimendi,Defensive Midfield,65.0
+Arsenal,Myles Lewis-Skelly,Defensive Midfield,65.0
+Arsenal,Declan Rice,Central Midfield,120.0
+Arsenal,Bruno Guimarães,Central Midfield,75.0
+Arsenal,Mikel Merino,Central Midfield,25.0
+Arsenal,Martin Ødegaard,Attacking Midfield,80.0
+Arsenal,Eberechi Eze,Attacking Midfield,60.0
+Arsenal,Christos Tzolis,Left Winger,40.0
+Arsenal,Bukayo Saka,Right Winger,110.0
+Arsenal,Max Dowman,Right Winger,50.0
+Arsenal,Noni Madueke,Right Winger,45.0
+Arsenal,Kai Havertz,Centre-Forward,60.0
+Arsenal,Viktor Gyökeres,Centre-Forward,55.0
+Barcelona,Joan García,Goalkeeper,45.0
+Barcelona,Dominik Livakovic,Goalkeeper,4.0
+Barcelona,Wojciech Szczesny,Goalkeeper,0.8
+Barcelona,Pau Cubarsí,Centre-Back,100.0
+Barcelona,Eric García,Centre-Back,45.0
+Barcelona,Gerard Martín,Centre-Back,40.0
+Barcelona,Andreas Christensen,Centre-Back,8.0
+Barcelona,Alejandro Balde,Left-Back,40.0
+Barcelona,Jules Koundé,Right-Back,55.0
+Barcelona,Xavi Espart,Right-Back,25.0
+Barcelona,João Cancelo,Right-Back,7.0
+Barcelona,Rodri,Defensive Midfield,60.0
+Barcelona,Pedri,Central Midfield,150.0
+Barcelona,Marc Bernal,Central Midfield,40.0
+Barcelona,Gavi,Central Midfield,25.0
+Barcelona,Frenkie de Jong,Central Midfield,25.0
+Barcelona,Brian Fariñas,Central Midfield,5.0
+Barcelona,Fermín López,Attacking Midfield,110.0
+Barcelona,Dani Olmo,Attacking Midfield,60.0
+Barcelona,Anthony Gordon,Left Winger,80.0
+Barcelona,Jesse Bisiwu,Left Winger,8.0
+Barcelona,Lamine Yamal,Right Winger,220.0
+Barcelona,Karim Adeyemi,Right Winger,40.0
+Barcelona,Roony Bardghji,Right Winger,8.0
+Barcelona,Raphinha,Centre-Forward,70.0
+Barcelona,Gabriel Jesus,Centre-Forward,17.0
+Barcelona,Hamza Abdelkarim,Centre-Forward,8.0
+Bayern München,Jonas Urbig,Goalkeeper,18.0
+Bayern München,Manuel Neuer,Goalkeeper,4.0
+Bayern München,Sven Ulreich,Goalkeeper,0.5
+Bayern München,Dayot Upamecano,Centre-Back,75.0
+Bayern München,Jonathan Tah,Centre-Back,28.0
+Bayern München,Min-jae Kim,Centre-Back,20.0
+Bayern München,Hiroki Ito,Centre-Back,18.0
+Bayern München,Nathaniel Brown,Left-Back,50.0
+Bayern München,Alphonso Davies,Left-Back,45.0
+Bayern München,Josip Stanisic,Right-Back,40.0
+Bayern München,Konrad Laimer,Right-Back,32.0
+Bayern München,Sacha Boey,Right-Back,7.0
+Bayern München,Aleksandar Pavlovic,Defensive Midfield,90.0
+Bayern München,Joshua Kimmich,Defensive Midfield,35.0
+Bayern München,Tom Bischof,Central Midfield,45.0
+Bayern München,Bara Sapoko Ndiaye,Central Midfield,8.0
+Bayern München,Jamal Musiala,Attacking Midfield,80.0
+Bayern München,Lennart Karl,Attacking Midfield,60.0
+Bayern München,Ismael Saibari,Attacking Midfield,55.0
+Bayern München,Luis Díaz,Left Winger,70.0
+Bayern München,Michael Olise,Right Winger,180.0
+Bayern München,Serge Gnabry,Second Striker,18.0
+Bayern München,Harry Kane,Centre-Forward,60.0
+Club Brugge,Yann Sommer,Goalkeeper,2.0
+Club Brugge,Nordin Jackers,Goalkeeper,1.0
+Club Brugge,Argus Vanden Driessche,Goalkeeper,1.0
+Club Brugge,Axl De Corte,Goalkeeper,0.4
+Club Brugge,Joel Ordóñez,Centre-Back,33.0
+Club Brugge,Han-beom Lee,Centre-Back,7.0
+Club Brugge,Jorne Spileers,Centre-Back,3.0
+Club Brugge,Brandon Mechele,Centre-Back,2.8
+Club Brugge,Samba Coulibaly,Centre-Back,0.5
+Club Brugge,Joaquin Seys,Left-Back,27.0
+Club Brugge,Matteo Dams,Left-Back,3.5
+Club Brugge,Kyriani Sabbe,Right-Back,13.0
+Club Brugge,Hugo Siquet,Right-Back,4.0
+Club Brugge,Freddie Potts,Defensive Midfield,10.0
+Club Brugge,Lynnt Audoor,Defensive Midfield,1.5
+Club Brugge,Gianluca Okon-Engstler,Defensive Midfield,1.5
+Club Brugge,Cheveyo Tsawa,Central Midfield,6.0
+Club Brugge,Hugo Vetlesen,Central Midfield,5.0
+Club Brugge,Félix Lemaréchal,Attacking Midfield,6.0
+Club Brugge,Hans Vanaken,Attacking Midfield,5.0
+Club Brugge,Tian Nai Koren,Attacking Midfield,3.0
+Club Brugge,Jan Virgili,Left Winger,15.0
+Club Brugge,Mamadou Diakhon,Left Winger,7.0
+Club Brugge,Wisdom Mike,Left Winger,5.0
+Club Brugge,Carlos Forbs,Right Winger,23.0
+Club Brugge,Nicolò Tresoldi,Centre-Forward,35.0
+Club Brugge,Romeo Vermant,Centre-Forward,12.0
+Club Brugge,Andrej Vasovic,Centre-Forward,5.0
+Liverpool,Giorgi Mamardashvili,Goalkeeper,28.0
+Liverpool,Alisson,Goalkeeper,15.0
+Liverpool,Vitezslav Jaros,Goalkeeper,5.0
+Liverpool,Freddie Woodman,Goalkeeper,3.0
+Liverpool,Harvey Davies,Goalkeeper,0.5
+Liverpool,Jérémy Jacquet,Centre-Back,65.0
+Liverpool,Giovanni Leoni,Centre-Back,25.0
+Liverpool,Ronald Araujo,Centre-Back,25.0
+Liverpool,Virgil van Dijk,Centre-Back,15.0
+Liverpool,Joe Gomez,Centre-Back,11.0
+Liverpool,Milos Kerkez,Left-Back,35.0
+Liverpool,Konstantinos Tsimikas,Left-Back,4.5
+Liverpool,Jeremie Frimpong,Right-Back,30.0
+Liverpool,Conor Bradley,Right-Back,20.0
+Liverpool,Ryan Gravenberch,Defensive Midfield,75.0
+Liverpool,Wataru Endo,Defensive Midfield,3.0
+Liverpool,Alexis Mac Allister,Central Midfield,70.0
+Liverpool,Trey Nyoni,Central Midfield,18.0
+Liverpool,James McConnell,Central Midfield,1.5
+Liverpool,Dominik Szoboszlai,Attacking Midfield,100.0
+Liverpool,Florian Wirtz,Attacking Midfield,85.0
+Liverpool,Bradley Barcola,Left Winger,100.0
+Liverpool,Cody Gakpo,Left Winger,75.0
+Liverpool,Rio Ngumoha,Left Winger,50.0
+Liverpool,Víctor Muñoz,Left Winger,40.0
+Liverpool,Federico Chiesa,Right Winger,10.0
+Liverpool,Alexander Isak,Centre-Forward,90.0
+Liverpool,Hugo Ekitiké,Centre-Forward,80.0
+Liverpool,Lewis Koumas,Centre-Forward,8.0
+Paris,Matvey Safonov,Goalkeeper,30.0
+Paris,Lucas Chevalier,Goalkeeper,22.0
+Paris,Alessandro Longoni,Goalkeeper,0.3
+Paris,Willian Pacho,Centre-Back,80.0
+Paris,Ilya Zabarnyi,Centre-Back,40.0
+Paris,Marquinhos,Centre-Back,28.0
+Paris,Lucas Beraldo,Centre-Back,22.0
+Paris,Nuno Mendes,Left-Back,80.0
+Paris,Lucas Hernández,Left-Back,18.0
+Paris,Lucas Digne,Left-Back,6.0
+Paris,Achraf Hakimi,Right-Back,80.0
+Paris,Vitinha,Defensive Midfield,140.0
+Paris,João Neves,Central Midfield,140.0
+Paris,Warren Zaïre-Emery,Central Midfield,80.0
+Paris,Senny Mayulu,Central Midfield,40.0
+Paris,Fabián Ruiz,Central Midfield,30.0
+Paris,Dro Fernández,Attacking Midfield,15.0
+Paris,Khvicha Kvaratskhelia,Left Winger,140.0
+Paris,Mika Godts,Left Winger,40.0
+Paris,Quentin Ndjantou,Left Winger,6.0
+Paris,Désiré Doué,Right Winger,120.0
+Paris,Maghnes Akliouche,Right Winger,50.0
+Paris,Ousmane Dembélé,Centre-Forward,100.0
+Paris,Ferran Torres,Centre-Forward,55.0
+Porto,Diogo Costa,Goalkeeper,40.0
+Porto,Cláudio Ramos,Goalkeeper,0.5
+Porto,João Costa,Goalkeeper,0.5
+Porto,Jakub Kiwior,Centre-Back,40.0
+Porto,Jan Bednarek,Centre-Back,11.0
+Porto,Nehuén Pérez,Centre-Back,10.0
+Porto,Dominik Prpić,Centre-Back,4.0
+Porto,Chris Smalling,Centre-Back,1.0
+Porto,Souza,Left-Back,12.0
+Porto,Francisco Moura,Left-Back,7.0
+Porto,Zaidu Sanusi,Left-Back,3.0
+Porto,Alberto Costa,Right-Back,18.0
+Porto,Martim Fernandes,Right-Back,12.0
+Porto,Alan Varela,Defensive Midfield,28.0
+Porto,Pablo Rosario,Defensive Midfield,10.0
+Porto,Victor Froholdt,Central Midfield,50.0
+Porto,Seko Fofana,Central Midfield,8.0
+Porto,In-beom Hwang,Central Midfield,7.0
+Porto,Vasco Sousa,Central Midfield,2.0
+Porto,Gabri Veiga,Attacking Midfield,35.0
+Porto,Oskar Pietuszewski,Left Winger,25.0
+Porto,Borja Sainz,Left Winger,20.0
+Porto,William Gomes,Right Winger,30.0
+Porto,Pepê,Right Winger,17.0
+Porto,Gabriel Mec,Right Winger,16.0
+Porto,Duarte Cunha,Right Winger,1.5
+Porto,Samu Aghehowa,Centre-Forward,40.0
+Porto,Santiago Gimenez,Centre-Forward,18.0
+Porto,André Silva,Centre-Forward,5.0
+Villarreal,Luiz Júnior,Goalkeeper,12.0
+Villarreal,Péter Gulácsi,Goalkeeper,1.0
+Villarreal,Rubén Gómez,Goalkeeper,0.4
+Villarreal,Renato Veiga,Centre-Back,30.0
+Villarreal,Logan Costa,Centre-Back,15.0
+Villarreal,Pau Navarro,Centre-Back,15.0
+Villarreal,Juan Foyth,Centre-Back,8.0
+Villarreal,Carlos Romero,Left-Back,25.0
+Villarreal,Sergi Cardona,Left-Back,9.0
+Villarreal,Santiago Mouriño,Right-Back,20.0
+Villarreal,Alex Freeman,Right-Back,15.0
+Villarreal,Pape Gueye,Central Midfield,40.0
+Villarreal,Carlos Macià,Central Midfield,15.0
+Villarreal,Nathan Saliba,Central Midfield,15.0
+Villarreal,Santi Comesaña,Central Midfield,8.0
+Villarreal,Alassane Diatta,Central Midfield,5.0
+Villarreal,Alberto Moleiro,Left Winger,50.0
+Villarreal,Nízar El Jmili,Left Winger,0.15
+Villarreal,Ilias Akhomach,Right Winger,12.0
+Villarreal,Tajon Buchanan,Right Winger,12.0
+Villarreal,Nicolas Pépé,Right Winger,6.0
+Villarreal,Georges Mikautadze,Centre-Forward,40.0
+Villarreal,Tani Oluwaseyi,Centre-Forward,7.0
+Villarreal,Ayoze Pérez,Centre-Forward,5.0
+Villarreal,Gerard Moreno,Centre-Forward,2.5
+Fenerbahçe,Ederson,Goalkeeper,8.0
+Fenerbahçe,Tarık Çetin,Goalkeeper,0.6
+Fenerbahçe,Mert Günok,Goalkeeper,0.3
+Fenerbahçe,Jayden Oosterwolde,Centre-Back,17.0
+Fenerbahçe,Kojo Oppong,Centre-Back,12.0
+Fenerbahçe,Nathan Aké,Centre-Back,10.0
+Fenerbahçe,Milan Škriniar,Centre-Back,8.0
+Fenerbahçe,Yiğit Efe Demir,Centre-Back,4.0
+Fenerbahçe,Archie Brown,Left-Back,18.0
+Fenerbahçe,Levent Mercan,Left-Back,5.0
+Fenerbahçe,Mert Müldür,Right-Back,7.0
+Fenerbahçe,Nélson Semedo,Right-Back,4.0
+Fenerbahçe,Ognjen Mimović,Right-Back,2.5
+Fenerbahçe,İsmail Yüksek,Defensive Midfield,15.0
+Fenerbahçe,N'Golo Kanté,Defensive Midfield,4.0
+Fenerbahçe,Bartuğ Elmaz,Defensive Midfield,3.0
+Fenerbahçe,Mattéo Guendouzi,Central Midfield,27.0
+Fenerbahçe,Marco Asensio,Attacking Midfield,12.0
+Fenerbahçe,İrfan Can Kahveci,Attacking Midfield,2.5
+Fenerbahçe,Mert Hakan Yandaş,Attacking Midfield,0.2
+Fenerbahçe,Kerem Aktürkoğlu,Left Winger,18.0
+Fenerbahçe,Oğuz Aydın,Left Winger,9.0
+Fenerbahçe,Amara Diouf,Left Winger,0.8
+Fenerbahçe,Alaettin Ekici,Left Winger,0.3
+Fenerbahçe,Mason Greenwood,Right Winger,40.0
+Fenerbahçe,Dorgeles Nene,Right Winger,20.0
+Fenerbahçe,Vedat Muriqi,Centre-Forward,7.0
+Fenerbahçe,Romelu Lukaku,Centre-Forward,6.0
+Feyenoord,Tjark Ernst,Goalkeeper,6.0
+Feyenoord,Florian Kastenmeier,Goalkeeper,1.0
+Feyenoord,Liam Bossin,Goalkeeper,0.35000000000000003
+Feyenoord,Mannou Berger,Goalkeeper,0.075
+Feyenoord,Mika Mármol,Centre-Back,15.0
+Feyenoord,Tsuyoshi Watanabe,Centre-Back,8.0
+Feyenoord,Thijs Kraaijeveld,Centre-Back,5.0
+Feyenoord,Jeremiah St. Juste,Centre-Back,4.0
+Feyenoord,Thomas Beelen,Centre-Back,3.0
+Feyenoord,Tijme Wessels,Centre-Back,0.6
+Feyenoord,Jordan Bos,Left-Back,12.0
+Feyenoord,Gijs Smal,Left-Back,5.5
+Feyenoord,Javi López,Left-Back,5.0
+Feyenoord,Givairo Read,Right-Back,30.0
+Feyenoord,Mats Deijl,Right-Back,2.0
+Feyenoord,Bart Nieuwkoop,Right-Back,1.5
+Feyenoord,Oussama Targhalline,Defensive Midfield,16.0
+Feyenoord,Charles Vanhoutte,Defensive Midfield,7.0
+Feyenoord,Gjivai Zechiël,Central Midfield,20.0
+Feyenoord,Jakub Moder,Central Midfield,7.0
+Feyenoord,Luciano Valente,Attacking Midfield,24.0
+Feyenoord,Sem Steijn,Attacking Midfield,11.0
+Feyenoord,Tobias van den Elshout,Attacking Midfield,2.0
+Feyenoord,Reiss Nelson,Left Winger,8.0
+Feyenoord,Gaoussou Diarra,Left Winger,1.7
+Feyenoord,Jivayno Zinhagel,Left Winger,1.5
+Feyenoord,Anis Hadj Moussa,Right Winger,28.0
+Feyenoord,Gonçalo Borges,Right Winger,3.0
+Feyenoord,Jerayno Schaken,Right Winger,2.0
+Feyenoord,Nacho Ferri,Centre-Forward,10.0
+Feyenoord,Shaqueel van Persie,Centre-Forward,5.0
+Bodø/Glimt,Nikita Haikin,Goalkeeper,3.0
+Bodø/Glimt,Julian Faye Lund,Goalkeeper,0.3
+Bodø/Glimt,Isak Sjong,Goalkeeper,0.05
+Bodø/Glimt,Odin Bjørtuft,Centre-Back,5.0
+Bodø/Glimt,Villads Nielsen,Centre-Back,2.3
+Bodø/Glimt,Jostein Gundersen,Centre-Back,1.5
+Bodø/Glimt,Haitam Aleesami,Centre-Back,0.225
+Bodø/Glimt,Fredrik Bjørkan,Left-Back,3.5
+Bodø/Glimt,Isak Dybvik Määttä,Left-Back,2.0
+Bodø/Glimt,Fredrik Sjøvold,Right-Back,10.0
+Bodø/Glimt,Patrick Berg,Defensive Midfield,12.0
+Bodø/Glimt,Joshua Kitolano,Defensive Midfield,2.5
+Bodø/Glimt,Håkon Evjen,Central Midfield,5.0
+Bodø/Glimt,Sondre Auklend,Central Midfield,3.5
+Bodø/Glimt,Magnus Riisnæs,Central Midfield,2.0
+Bodø/Glimt,Sondre Brunstad Fet,Central Midfield,1.8
+Bodø/Glimt,Ulrik Saltnes,Central Midfield,0.5
+Bodø/Glimt,Jens Petter Hauge,Left Winger,12.0
+Bodø/Glimt,Ole Didrik Blomberg,Right Winger,5.0
+Bodø/Glimt,Joel Mvuka,Right Winger,1.5
+Bodø/Glimt,August Mikkelsen,Second Striker,0.5
+Bodø/Glimt,Ola Brynhildsen,Centre-Forward,2.5
+Bodø/Glimt,Andreas Helmersen,Centre-Forward,2.5
+Galatasaray,Uğurcan Çakır,Goalkeeper,13.0
+Galatasaray,Jankat Yılmaz,Goalkeeper,2.0
+Galatasaray,Günay Güvenç,Goalkeeper,0.2
+Galatasaray,El Chadaille Bitshiabu,Centre-Back,18.0
+Galatasaray,Davinson Sánchez,Centre-Back,16.0
+Galatasaray,Abdülkerim Bardakcı,Centre-Back,5.5
+Galatasaray,Kaan Ayhan,Centre-Back,1.0
+Galatasaray,Arda Ünyay,Centre-Back,1.0
+Galatasaray,Ismail Jakobs,Left-Back,8.0
+Galatasaray,Eren Elmalı,Left-Back,5.0
+Galatasaray,Kazımcan Karataş,Left-Back,2.5
+Galatasaray,Wilfried Singo,Right-Back,20.0
+Galatasaray,Roland Sallai,Right-Back,12.0
+Galatasaray,Lesley Ugochukwu,Defensive Midfield,22.0
+Galatasaray,Lucas Torreira,Defensive Midfield,9.0
+Galatasaray,Mario Lemina,Defensive Midfield,3.5
+Galatasaray,Eyüp Aydın,Defensive Midfield,0.7000000000000001
+Galatasaray,Gabriel Sara,Central Midfield,27.0
+Galatasaray,Renato Nhaga,Central Midfield,6.0
+Galatasaray,İlkay Gündoğan,Central Midfield,1.5
+Galatasaray,Aleksey Batrakov,Attacking Midfield,28.0
+Galatasaray,Rafael Leão,Left Winger,40.0
+Galatasaray,Barış Alper Yılmaz,Left Winger,30.0
+Galatasaray,Berat Luş,Left Winger,1.0
+Galatasaray,Yunus Akgün,Right Winger,18.0
+Galatasaray,Leroy Sané,Right Winger,15.0
+Galatasaray,Armando Güner,Right Winger,0.5
+Galatasaray,Victor Osimhen,Centre-Forward,65.0
+Galatasaray,Deniz Gül,Centre-Forward,10.0
+Galatasaray,Ada Yüzgeç,Centre-Forward,0.1
+Inter,Josep Martínez,Goalkeeper,10.0
+Inter,Ivan Provedel,Goalkeeper,3.0
+Inter,Raffaele Di Gennaro,Goalkeeper,0.3
+Inter,Alessandro Bastoni,Centre-Back,65.0
+Inter,Yann Bisseck,Centre-Back,50.0
+Inter,Manuel Akanji,Centre-Back,17.0
+Inter,John Stones,Centre-Back,12.0
+Inter,Benjamin Pavard,Centre-Back,12.0
+Inter,Federico Dimarco,Left-Back,50.0
+Inter,Carlos Augusto,Left-Back,23.0
+Inter,Djed Spence,Right-Back,35.0
+Inter,Aleksandar Stanković,Defensive Midfield,32.0
+Inter,Hakan Çalhanoğlu,Defensive Midfield,16.0
+Inter,Nicolò Barella,Central Midfield,50.0
+Inter,Petar Sučić,Central Midfield,45.0
+Inter,Curtis Jones,Central Midfield,35.0
+Inter,Andy Diouf,Central Midfield,30.0
+Inter,Piotr Zielinski,Central Midfield,10.0
+Inter,Henrikh Mkhitaryan,Central Midfield,3.0
+Inter,Luis Henrique,Right Midfield,20.0
+Inter,Lautaro Martínez,Centre-Forward,85.0
+Inter,Marcus Thuram,Centre-Forward,50.0
+Inter,Pio Esposito,Centre-Forward,50.0
+Inter,Ange-Yoan Bonny,Centre-Forward,35.0
+LASK,Lukas Jungwirth,Goalkeeper,3.5
+LASK,Tobias Schützenauer,Goalkeeper,0.25
+LASK,Xavier Mbuyamba,Centre-Back,4.0
+LASK,João Tornich,Centre-Back,4.0
+LASK,Andrés Andrade,Centre-Back,3.0
+LASK,Daniel Elfadli,Centre-Back,2.0
+LASK,Manoël Verhaeghe,Centre-Back,1.2
+LASK,Miguel Freckleton,Centre-Back,0.6
+LASK,Cheikne Kébé,Centre-Back,0.25
+LASK,George Bello,Left-Back,3.5
+LASK,Yvan Dibango,Left-Back,1.3
+LASK,Kasper Jørgensen,Right-Back,4.0
+LASK,Melayro Bogarde,Defensive Midfield,5.0
+LASK,Art Smakaj,Defensive Midfield,0.6
+LASK,Robert Ljubicic,Central Midfield,3.0
+LASK,Sascha Horvath,Central Midfield,2.0
+LASK,Alessandro Schöpf,Central Midfield,0.8
+LASK,Florian Flecker,Right Midfield,0.5
+LASK,Krystof Danek,Attacking Midfield,2.0
+LASK,Nael Kane,Right Winger,0.4
+LASK,Moses Usor,Centre-Forward,8.0
+LASK,Samuel Adeniran,Centre-Forward,5.0
+LASK,Sasa Kalajdzic,Centre-Forward,4.0
+LASK,Christoph Lang,Centre-Forward,2.0
+LASK,Ramiz Harakaté,Centre-Forward,1.5
+Lille,Berke Özer,Goalkeeper,12.0
+Lille,Orlando Gill,Goalkeeper,7.5
+Lille,Nathan Ngoy,Centre-Back,25.0
+Lille,Alexsandro,Centre-Back,15.0
+Lille,Isaac Cossier,Centre-Back,2.5
+Lille,Tanguy Nianzou,Centre-Back,1.2
+Lille,Maxima Goffi,Centre-Back,1.0
+Lille,Romain Perraud,Left-Back,7.0
+Lille,Calvin Verdonk,Left-Back,2.5
+Lille,Tiago Santos,Right-Back,10.0
+Lille,Loun Srdanovic,Right-Back,3.0
+Lille,Ngal'ayel Mukau,Defensive Midfield,15.0
+Lille,Nabil Bentaleb,Defensive Midfield,4.5
+Lille,Benjamin André,Defensive Midfield,3.0
+Lille,Maurits Kjærgaard,Central Midfield,8.0
+Lille,Hákon Arnar Haraldsson,Attacking Midfield,30.0
+Lille,Başar Önal,Left Winger,10.0
+Lille,Osame Sahraoui,Left Winger,7.0
+Lille,Soriba Diaoune,Left Winger,4.0
+Lille,Tiago Morais,Left Winger,1.2
+Lille,Dilane Bakwa,Right Winger,28.0
+Lille,Ethan Mbappé,Right Winger,12.0
+Lille,Gaëtan Perrin,Right Winger,5.0
+Lille,Ayase Ueda,Centre-Forward,20.0
+Lille,Hamza Igamane,Centre-Forward,18.0
+Lille,Olivier Giroud,Centre-Forward,0.9
+Man City,Gianluigi Donnarumma,Goalkeeper,45.0
+Man City,Gerónimo Rulli,Goalkeeper,5.0
+Man City,Marcus Bettinelli,Goalkeeper,0.3
+Man City,Marc Guéhi,Centre-Back,75.0
+Man City,Rúben Dias,Centre-Back,50.0
+Man City,Abdukodir Khusanov,Centre-Back,50.0
+Man City,Vitor Reis,Centre-Back,30.0
+Man City,Josko Gvardiol,Left-Back,75.0
+Man City,Nico O'Reilly,Left-Back,70.0
+Man City,Rayan Aït-Nouri,Left-Back,35.0
+Man City,Matheus Nunes,Right-Back,45.0
+Man City,Rico Lewis,Right-Back,25.0
+Man City,Elliot Anderson,Defensive Midfield,120.0
+Man City,Ayyoub Bouaddi,Defensive Midfield,90.0
+Man City,Enzo Fernández,Central Midfield,120.0
+Man City,Mateo Kovacic,Central Midfield,10.0
+Man City,Rayan Cherki,Attacking Midfield,110.0
+Man City,Phil Foden,Attacking Midfield,65.0
+Man City,Jérémy Doku,Left Winger,75.0
+Man City,Iliman Ndiaye,Left Winger,65.0
+Man City,Antoine Semenyo,Right Winger,80.0
+Man City,Allan,Right Winger,30.0
+Man City,Ryan McAidoo,Right Winger,8.0
+Man City,Erling Haaland,Centre-Forward,220.0
+Man Utd,Senne Lammens,Goalkeeper,35.0
+Man Utd,Karl Darlow,Goalkeeper,0.2
+Man Utd,Tom Heaton,Goalkeeper,0.1
+Man Utd,Lisandro Martínez,Centre-Back,45.0
+Man Utd,Leny Yoro,Centre-Back,45.0
+Man Utd,Ayden Heaven,Centre-Back,30.0
+Man Utd,Matthijs de Ligt,Centre-Back,25.0
+Man Utd,Harry Maguire,Centre-Back,8.0
+Man Utd,Luke Shaw,Left-Back,8.0
+Man Utd,Harry Amass,Left-Back,5.0
+Man Utd,Diogo Dalot,Right-Back,30.0
+Man Utd,Noussair Mazraoui,Right-Back,18.0
+Man Utd,Carlos Baleba,Defensive Midfield,65.0
+Man Utd,Andrey Santos,Defensive Midfield,45.0
+Man Utd,Manuel Ugarte,Defensive Midfield,20.0
+Man Utd,Kobbie Mainoo,Central Midfield,75.0
+Man Utd,Youri Tielemans,Central Midfield,40.0
+Man Utd,Tyler Fletcher,Central Midfield,2.5
+Man Utd,Bruno Fernandes,Attacking Midfield,35.0
+Man Utd,Mason Mount,Attacking Midfield,25.0
+Man Utd,Marcus Rashford,Left Winger,35.0
+Man Utd,Patrick Dorgu,Left Winger,35.0
+Man Utd,Bryan Mbeumo,Right Winger,75.0
+Man Utd,Amad Diallo,Right Winger,45.0
+Man Utd,Shea Lacey,Right Winger,12.0
+Man Utd,Matheus Cunha,Centre-Forward,75.0
+Man Utd,Benjamin Šeško,Centre-Forward,75.0
+Man Utd,Joshua Zirkzee,Centre-Forward,20.0
+PSV,Matej Kovar,Goalkeeper,8.0
+PSV,Nick Olij,Goalkeeper,2.0
+PSV,Tijn Smolenaars,Goalkeeper,0.2
+PSV,Khadim Ngom,Goalkeeper,0.05
+PSV,Lutsharel Geertruida,Centre-Back,20.0
+PSV,Yarek Gasiorowski,Centre-Back,14.0
+PSV,Ryan Flamingo,Centre-Back,12.0
+PSV,Armando Obispo,Centre-Back,6.0
+PSV,Adamo Nagalo,Centre-Back,2.8
+PSV,Fabian Merién,Centre-Back,0.75
+PSV,Mauro Júnior,Left-Back,18.0
+PSV,Filip Kostic,Left-Back,2.0
+PSV,Sergiño Dest,Right-Back,22.0
+PSV,Kiliann Sildillia,Right-Back,7.0
+PSV,Kodai Sano,Defensive Midfield,18.0
+PSV,Jerdy Schouten,Defensive Midfield,16.0
+PSV,Paul Wanner,Central Midfield,22.0
+PSV,Noah Fernandez,Central Midfield,12.0
+PSV,Guus Til,Attacking Midfield,15.0
+PSV,Sven Mijnans,Attacking Midfield,15.0
+PSV,Ayoni Santos,Attacking Midfield,4.0
+PSV,Ruben van Bommel,Left Winger,18.0
+PSV,Amir Bouhamdi,Left Winger,2.0
+PSV,Dennis Man,Right Winger,12.0
+PSV,Esmir Bajraktarevic,Right Winger,10.0
+PSV,Sami Ouaissa,Right Winger,8.0
+PSV,Ivan Perisic,Right Winger,1.2
+PSV,Ricardo Pepi,Centre-Forward,30.0
+PSV,Mikkel Bro Hansen,Centre-Forward,3.0
+PSV,Sam Lammers,Centre-Forward,3.0
+PSV,Alassane Pléa,Centre-Forward,2.5
+Leipzig,Maarten Vandevoordt,Goalkeeper,15.0
+Leipzig,Ørjan Nyland,Goalkeeper,0.8
+Leipzig,Leopold Zingerle,Goalkeeper,0.3
+Leipzig,Castello Lukeba,Centre-Back,50.0
+Leipzig,Maxime Estève,Centre-Back,28.0
+Leipzig,Abdoul Koné,Centre-Back,15.0
+Leipzig,Willi Orbán,Centre-Back,5.0
+Leipzig,Lukas Klostermann,Centre-Back,3.5
+Leipzig,David Raum,Left-Back,25.0
+Leipzig,Max Finkgräfe,Left-Back,5.0
+Leipzig,Ridle Baku,Right-Back,12.0
+Leipzig,Benjamin Henrichs,Right-Back,7.0
+Leipzig,Nicolas Seiwald,Defensive Midfield,25.0
+Leipzig,Neil El Aynaoui,Central Midfield,30.0
+Leipzig,Ezechiel Banzuzi,Central Midfield,22.0
+Leipzig,Assan Ouédraogo,Central Midfield,22.0
+Leipzig,Rocco Reitz,Central Midfield,20.0
+Leipzig,Christoph Baumgartner,Attacking Midfield,40.0
+Leipzig,Brajan Gruda,Attacking Midfield,28.0
+Leipzig,Andrija Maksimovic,Attacking Midfield,9.0
+Leipzig,Viggo Gebel,Attacking Midfield,0.35000000000000003
+Leipzig,Antonio Nusa,Left Winger,45.0
+Leipzig,Tidiam Gomis,Left Winger,15.0
+Leipzig,Johan Bakayoko,Right Winger,20.0
+Leipzig,Rômulo,Centre-Forward,30.0
+Leipzig,Christopher Nkunku,Centre-Forward,25.0
+Leipzig,Marc Guiu,Centre-Forward,12.0
+Leipzig,Samba Konaté,Centre-Forward,5.0
+Lens,Robin Risser,Goalkeeper,30.0
+Lens,Mathieu Gorgelin,Goalkeeper,0.2
+Lens,Régis Gurtner,Goalkeeper,0.1
+Lens,Ismaëlo Ganiou,Centre-Back,30.0
+Lens,Samson Baidoo,Centre-Back,25.0
+Lens,Jean-Clair Todibo,Centre-Back,22.0
+Lens,Kyllian Antonio,Centre-Back,10.0
+Lens,Nidal Celik,Centre-Back,7.0
+Lens,Souleymane Sagnan,Centre-Back,3.0
+Lens,Maik Nawrocki,Centre-Back,2.5
+Lens,Jonathan Gradit,Centre-Back,2.5
+Lens,Matthieu Udol,Left-Back,8.0
+Lens,Jhoanner Chávez,Left-Back,2.0
+Lens,Saud Abdulhamid,Right-Back,9.0
+Lens,Ruben Aguilar,Right-Back,2.5
+Lens,Yacine Titraoui,Central Midfield,9.0
+Lens,Andrija Bulatovic,Central Midfield,8.0
+Lens,Michaël Cuisance,Central Midfield,6.0
+Lens,Amadou Haidara,Central Midfield,5.0
+Lens,Mezian Mesloub,Attacking Midfield,8.0
+Lens,Thorgan Hazard,Attacking Midfield,2.0
+Lens,Abdallah Sima,Left Winger,7.0
+Lens,Michal Skoras,Left Winger,6.0
+Lens,Junior Kadile,Left Winger,5.0
+Lens,Florian Thauvin,Right Winger,5.0
+Lens,Franjo Ivanović,Centre-Forward,15.0
+Lens,Odsonne Édouard,Centre-Forward,12.0
+Lens,Florian Sotoca,Centre-Forward,1.2
+Real Betis,Álvaro Valles,Goalkeeper,10.0
+Real Betis,Diego Conde,Goalkeeper,3.0
+Real Betis,Natan,Centre-Back,30.0
+Real Betis,Valentín Gómez,Centre-Back,12.0
+Real Betis,Diego Llorente,Centre-Back,2.5
+Real Betis,Marc Bartra,Centre-Back,0.9
+Real Betis,Fran García,Left-Back,7.5
+Real Betis,Junior Firpo,Left-Back,3.5
+Real Betis,Ángel Ortiz,Right-Back,6.0
+Real Betis,Héctor Bellerín,Right-Back,2.4
+Real Betis,Facundo Bernal,Defensive Midfield,10.0
+Real Betis,Marc Roca,Defensive Midfield,4.0
+Real Betis,Nelson Deossa,Central Midfield,9.0
+Real Betis,Pablo Fornals,Central Midfield,8.0
+Real Betis,Dani Ceballos,Central Midfield,6.0
+Real Betis,Álvaro Fidalgo,Central Midfield,5.0
+Real Betis,Giovani Lo Celso,Attacking Midfield,7.0
+Real Betis,Isco,Attacking Midfield,3.5
+Real Betis,Iker Losada,Attacking Midfield,1.8
+Real Betis,Abde Ezzalzouli,Left Winger,40.0
+Real Betis,Rodrigo Riquelme,Left Winger,4.0
+Real Betis,Antony,Right Winger,40.0
+Real Betis,Aitor Ruibal,Right Winger,4.0
+Real Betis,Troy Parrott,Centre-Forward,20.0
+Real Betis,Cucho Hernández,Centre-Forward,18.0
+Real Madrid,Thibaut Courtois,Goalkeeper,15.0
+Real Madrid,Andriy Lunin,Goalkeeper,12.0
+Real Madrid,Dean Huijsen,Centre-Back,60.0
+Real Madrid,Ibrahima Konaté,Centre-Back,45.0
+Real Madrid,Raúl Asencio,Centre-Back,18.0
+Real Madrid,Éder Militão,Centre-Back,18.0
+Real Madrid,Antonio Rüdiger,Centre-Back,6.0
+Real Madrid,Marc Cucurella,Left-Back,60.0
+Real Madrid,Álvaro Carreras,Left-Back,50.0
+Real Madrid,Ferland Mendy,Left-Back,4.0
+Real Madrid,Trent Alexander-Arnold,Right-Back,60.0
+Real Madrid,Denzel Dumfries,Right-Back,25.0
+Real Madrid,Aurélien Tchouaméni,Defensive Midfield,70.0
+Real Madrid,Federico Valverde,Central Midfield,90.0
+Real Madrid,Eduardo Camavinga,Central Midfield,50.0
+Real Madrid,Thiago Pitarch,Central Midfield,20.0
+Real Madrid,Jorge Cestero,Central Midfield,7.5
+Real Madrid,Jude Bellingham,Attacking Midfield,160.0
+Real Madrid,Arda Güler,Attacking Midfield,100.0
+Real Madrid,Bernardo Silva,Attacking Midfield,22.0
+Real Madrid,Vinicius Junior,Left Winger,130.0
+Real Madrid,Yan Diomande,Right Winger,120.0
+Real Madrid,Rodrygo,Right Winger,45.0
+Real Madrid,Brahim Díaz,Right Winger,35.0
+Real Madrid,Kylian Mbappé,Centre-Forward,200.0
+Real Madrid,Endrick,Centre-Forward,40.0
+Real Madrid,Carlos Espí,Centre-Forward,40.0
+Sabah,Stas Pokatilov,Goalkeeper,0.6
+Sabah,Amin Ramazanov,Goalkeeper,0.125
+Sabah,Steve Solvet,Centre-Back,1.0
+Sabah,Aden McCarthy,Centre-Back,0.6
+Sabah,Rahman Dashdamirov,Centre-Back,0.5
+Sabah,Júnior Almeida,Centre-Back,0.3
+Sabah,Tymoteusz Puchacz,Left-Back,2.5
+Sabah,Akim Zedadka,Right-Back,0.8
+Sabah,Tellur Mütallimov,Right-Back,0.2
+Sabah,Ivan Lepinjica,Defensive Midfield,2.0
+Sabah,Umarali Rakhmonaliev,Defensive Midfield,1.2
+Sabah,Zinédine Ould Khaled,Defensive Midfield,0.35000000000000003
+Sabah,Rodrigo Fernandes,Defensive Midfield,0.17500000000000002
+Sabah,Du Queiroz,Central Midfield,1.5
+Sabah,Aleksey Isayev,Central Midfield,1.0
+Sabah,Abdulakh Khaybulayev,Central Midfield,0.45
+Sabah,Rauf Rüstamli,Central Midfield,0.3
+Sabah,Khayal Aliyev,Left Winger,0.8
+Sabah,Joy-Lance Mickels,Left Winger,0.8
+Sabah,Veljko Simic,Left Winger,0.75
+Sabah,Christian Nwachukwu,Left Winger,0.6
+Sabah,Kaheem Parris,Right Winger,1.0
+Sabah,Xander Severina,Right Winger,0.6
+Sabah,Carlos Eduardo,Centre-Forward,0.5
+Sabah,Orphé Mbina,Centre-Forward,0.35000000000000003
+Shakhtar,Dmytro Riznyk,Goalkeeper,8.0
+Shakhtar,Kiril Fesyun,Goalkeeper,1.5
+Shakhtar,Denys Tvardovskyi,Goalkeeper,0.4
+Shakhtar,Tymur Puzankov,Goalkeeper,0.1
+Shakhtar,Mykola Matvienko,Centre-Back,12.0
+Shakhtar,Valeriy Bondar,Centre-Back,8.0
+Shakhtar,Alan Matturro,Centre-Back,4.0
+Shakhtar,Marlon,Centre-Back,2.5
+Shakhtar,Alaa Ghram,Centre-Back,1.5
+Shakhtar,Pedro Henrique,Left-Back,8.0
+Shakhtar,Irakli Azarovi,Left-Back,2.5
+Shakhtar,Viktor Korniyenko,Left-Back,0.3
+Shakhtar,Vinícius Tobias,Right-Back,6.0
+Shakhtar,Oleksandr Karavaev,Right-Back,1.0
+Shakhtar,Marlon Gomes,Central Midfield,12.0
+Shakhtar,Dmytro Kryskiv,Central Midfield,4.0
+Shakhtar,Yegor Nazaryna,Central Midfield,2.5
+Shakhtar,Viktor Tsukanov,Central Midfield,0.5
+Shakhtar,Isaque,Attacking Midfield,11.0
+Shakhtar,Oleg Ocheretko,Attacking Midfield,7.0
+Shakhtar,Newerton,Left Winger,7.0
+Shakhtar,Eguinaldo,Left Winger,5.0
+Shakhtar,Ryan Roberto,Left Winger,4.0
+Shakhtar,Gleiker Mendoza,Left Winger,3.0
+Shakhtar,Alisson,Right Winger,13.0
+Shakhtar,Gabriel Carvalho,Right Winger,12.0
+Shakhtar,Pedrinho,Right Winger,10.0
+Shakhtar,Lucas Ferreira,Right Winger,7.0
+Shakhtar,Bruninho,Right Winger,7.0
+Shakhtar,Prosper Obah,Right Winger,4.0
+Shakhtar,Maryan Shved,Right Winger,0.8
+Shakhtar,Kauã Elias,Centre-Forward,15.0
+Shakhtar,Luca Meirelles,Centre-Forward,10.0
+Shakhtar,Lassina Traoré,Centre-Forward,7.0
+Slavia Praha,Nazar Domchak,Goalkeeper,4.0
+Slavia Praha,Jakub Markovic,Goalkeeper,4.0
+Slavia Praha,Ondrej Kolar,Goalkeeper,0.05
+Slavia Praha,Stepan Chaloupek,Centre-Back,10.0
+Slavia Praha,David Zima,Centre-Back,7.0
+Slavia Praha,Igoh Ogbu,Centre-Back,5.0
+Slavia Praha,Ange N'Guessan,Centre-Back,4.5
+Slavia Praha,Tomas Vlcek,Centre-Back,4.0
+Slavia Praha,Mikulas Konecny,Centre-Back,3.0
+Slavia Praha,Tomas Holes,Centre-Back,1.0
+Slavia Praha,David Jurásek,Left-Back,5.0
+Slavia Praha,Hamidou Kante,Left-Back,0.6
+Slavia Praha,Jakub Kolisek,Left-Back,0.6
+Slavia Praha,Samuel Isife,Right-Back,5.0
+Slavia Praha,Elias Pitak,Right-Back,1.0
+Slavia Praha,David Moses,Central Midfield,10.0
+Slavia Praha,Michal Sadílek,Central Midfield,8.0
+Slavia Praha,Wiktor Nowak,Central Midfield,5.0
+Slavia Praha,Toumani Diakite,Central Midfield,3.0
+Slavia Praha,Oskar Kubiak,Left Midfield,1.5
+Slavia Praha,Mubarak Suleiman,Attacking Midfield,3.5
+Slavia Praha,Lukas Provod,Left Winger,7.0
+Slavia Praha,Emmanuel Ayaosi,Left Winger,5.0
+Slavia Praha,Danijel Sturm,Left Winger,3.0
+Slavia Praha,Pavel Kacor,Right Winger,2.0
+Slavia Praha,Adonija Ouanda,Right Winger,1.8
+Slavia Praha,Ivan Schranz,Right Winger,0.45
+Slavia Praha,Mojmír Chytil,Centre-Forward,4.0
+Slavia Praha,Tomas Chory,Centre-Forward,2.2
+S. Bratislava,Dominik Takac,Goalkeeper,2.5
+S. Bratislava,Aleksandar Popovic,Goalkeeper,1.5
+S. Bratislava,Matus Macik,Goalkeeper,0.125
+S. Bratislava,Svetozar Markovic,Centre-Back,2.5
+S. Bratislava,Kenan Bajric,Centre-Back,1.5
+S. Bratislava,Sahmkou Camara,Centre-Back,1.2
+S. Bratislava,Kevin Wimmer,Centre-Back,0.25
+S. Bratislava,Sandro Cruz,Left-Back,1.5
+S. Bratislava,Samuel Kozlovsky,Left-Back,0.6
+S. Bratislava,César Blackman,Right-Back,2.5
+S. Bratislava,Jurij Medvedev,Right-Back,0.15
+S. Bratislava,Peter Pokorný,Defensive Midfield,2.0
+S. Bratislava,Cristian Martínez,Defensive Midfield,1.5
+S. Bratislava,Danylo Ignatenko,Defensive Midfield,1.0
+S. Bratislava,Rahim Ibrahim,Central Midfield,1.7
+S. Bratislava,Daiki Matsuoka,Central Midfield,1.0
+S. Bratislava,Alen Mustafic,Central Midfield,0.35000000000000003
+S. Bratislava,Artur Gajdos,Attacking Midfield,1.0
+S. Bratislava,Leo Hofstädter,Attacking Midfield,0.1
+S. Bratislava,Nino Marcelli,Left Winger,6.5
+S. Bratislava,Alasana Yirajang,Left Winger,1.5
+S. Bratislava,Alexej Maros,Left Winger,0.4
+S. Bratislava,Matus Tomasko,Left Winger,0.1
+S. Bratislava,Suleiman Camara,Right Winger,1.5
+S. Bratislava,Tigran Barseghyan,Right Winger,1.0
+S. Bratislava,Mykola Kukharevych,Centre-Forward,1.5
+S. Bratislava,Andraz Sporar,Centre-Forward,1.5
+S. Bratislava,Roman Cerepkai,Centre-Forward,0.75
+S. Bratislava,Adam Griger,Centre-Forward,0.35000000000000003
+S. Bratislava,Manasse Kianga,Centre-Forward,0.1
+Sporting CP,Rui Silva,Goalkeeper,5.0
+Sporting CP,Kaique Pereira,Goalkeeper,4.0
+Sporting CP,Diego Callai,Goalkeeper,1.5
+Sporting CP,Gonçalo Inácio,Centre-Back,35.0
+Sporting CP,Zeno Debast,Centre-Back,25.0
+Sporting CP,Ibrahima Ba,Centre-Back,20.0
+Sporting CP,Eduardo Quaresma,Centre-Back,17.0
+Sporting CP,Maxi Araújo,Left-Back,40.0
+Sporting CP,Moncef Zekri,Left-Back,4.0
+Sporting CP,Nuno Santos,Left-Back,2.0
+Sporting CP,Rodrigo Dias,Left-Back,1.5
+Sporting CP,Iván Fresneda,Right-Back,20.0
+Sporting CP,Georgios Vagiannidis,Right-Back,6.0
+Sporting CP,Salvador Blopa,Right-Back,2.5
+Sporting CP,Sergi Altimira,Defensive Midfield,25.0
+Sporting CP,Silas Andersen,Defensive Midfield,7.0
+Sporting CP,Issa Doumbia,Central Midfield,20.0
+Sporting CP,João Simões,Central Midfield,15.0
+Sporting CP,Pedro Lima,Central Midfield,3.0
+Sporting CP,Sotiris Alexandropoulos,Central Midfield,1.2
+Sporting CP,Rodrigo Zalazar,Attacking Midfield,30.0
+Sporting CP,Nestory Irankunda,Left Winger,15.0
+Sporting CP,Flávio Gonçalves,Left Winger,15.0
+Sporting CP,Jesse Derry,Left Winger,2.0
+Sporting CP,Geny Catamo,Right Winger,35.0
+Sporting CP,Luís Guilherme,Right Winger,12.0
+Sporting CP,Luis Suárez,Centre-Forward,30.0
+Sporting CP,Fotis Ioannidis,Centre-Forward,16.0
+Sporting CP,Rafael Nel,Centre-Forward,4.0
+Napoli,Vanja Milinković-Savić,Goalkeeper,15.0
+Napoli,Alex Meret,Goalkeeper,8.0
+Napoli,Nikita Contini,Goalkeeper,0.4
+Napoli,Claudio Pugliese,Goalkeeper,0.1
+Napoli,Alessandro Buongiorno,Centre-Back,25.0
+Napoli,Sam Beukema,Centre-Back,18.0
+Napoli,Rafa Marín,Centre-Back,16.0
+Napoli,Benoît Badiashile,Centre-Back,15.0
+Napoli,Amir Rrahmani,Centre-Back,10.0
+Napoli,Luca Marianucci,Centre-Back,7.0
+Napoli,Mathías Olivera,Left-Back,15.0
+Napoli,Leonardo Spinazzola,Left-Back,3.5
+Napoli,Costantino Favasuli,Right-Back,8.0
+Napoli,Giovanni Di Lorenzo,Right-Back,7.5
+Napoli,Billy Gilmour,Defensive Midfield,20.0
+Napoli,Stanislav Lobotka,Defensive Midfield,10.0
+Napoli,Scott McTominay,Central Midfield,40.0
+Napoli,Frank Anguissa,Central Midfield,15.0
+Napoli,Antonio Vergara,Attacking Midfield,20.0
+Napoli,Kevin De Bruyne,Attacking Midfield,8.0
+Napoli,Alisson Santos,Left Winger,28.0
+Napoli,Noa Lang,Left Winger,20.0
+Napoli,David Neres,Right Winger,18.0
+Napoli,Matteo Politano,Right Winger,5.0
+Napoli,Rasmus Højlund,Centre-Forward,60.0
+Napoli,Lorenzo Lucca,Centre-Forward,20.0
+Napoli,Giovane,Centre-Forward,12.0
+Stuttgart,Dennis Seimen,Goalkeeper,10.0
+Stuttgart,Fabian Bredlow,Goalkeeper,1.0
+Stuttgart,Marius Funk,Goalkeeper,0.3
+Stuttgart,Stefan Drljaca,Goalkeeper,0.3
+Stuttgart,Finn Jeltsch,Centre-Back,35.0
+Stuttgart,Ramon Hendriks,Centre-Back,25.0
+Stuttgart,Jeff Chabot,Centre-Back,15.0
+Stuttgart,Luca Jaquez,Centre-Back,10.0
+Stuttgart,Ameen Al-Dakhil,Centre-Back,3.0
+Stuttgart,Dan-Axel Zagadou,Centre-Back,2.0
+Stuttgart,Maximilian Mittelstädt,Left-Back,18.0
+Stuttgart,Josha Vagnoman,Right-Back,12.0
+Stuttgart,Lorenz Assignon,Right-Back,9.0
+Stuttgart,Leonidas Stergiou,Right-Back,2.0
+Stuttgart,Angelo Stiller,Defensive Midfield,45.0
+Stuttgart,Atakan Karazor,Defensive Midfield,5.0
+Stuttgart,Nikolas Nartey,Central Midfield,10.0
+Stuttgart,Yanik Spalt,Central Midfield,4.0
+Stuttgart,Grischa Prömel,Central Midfield,3.5
+Stuttgart,Ertugrul Yigit,Central Midfield,0.75
+Stuttgart,Bilal El Khannouss,Attacking Midfield,35.0
+Stuttgart,Jarzinho Malanga,Attacking Midfield,1.4
+Stuttgart,Leo Sauer,Left Winger,15.0
+Stuttgart,Chris Führich,Left Winger,12.0
+Stuttgart,Justin Diehl,Left Winger,1.2
+Stuttgart,Jamie Leweling,Right Winger,40.0
+Stuttgart,Tiago Tomás,Right Winger,15.0
+Stuttgart,Dzenan Pejcinovic,Centre-Forward,25.0
+Stuttgart,Ermedin Demirovic,Centre-Forward,22.0
+Stuttgart,Deniz Undav,Centre-Forward,22.0
+Viking,Lubomir Belko,Goalkeeper,1.2
+Viking,Arild Østbø,Goalkeeper,0.15
+Viking,Henrik Falchener,Centre-Back,10.0
+Viking,Gianni Stensness,Centre-Back,1.8
+Viking,Jesper Daland,Centre-Back,1.5
+Viking,Martin Ove Roseth,Centre-Back,0.8
+Viking,Anders Bærtelsen,Centre-Back,0.7000000000000001
+Viking,Vetle Auklend,Left-Back,0.7000000000000001
+Viking,Kristoffer Haugen,Left-Back,0.65
+Viking,Viljar Vevatne,Left-Back,0.25
+Viking,Henrik Heggheim,Right-Back,1.8
+Viking,Essien Bassey,Right-Back,0.9
+Viking,Herman Haugen,Right-Back,0.5
+Viking,Sondre Bjørshol,Right-Back,0.3
+Viking,Joe Bell,Defensive Midfield,3.5
+Viking,Tobias Moi,Central Midfield,6.0
+Viking,Kristoffer Askildsen,Central Midfield,4.0
+Viking,Simen Kvia-Egeskog,Central Midfield,3.5
+Viking,Henrik Bjørdal,Central Midfield,1.8
+Viking,Jakob Segadal Hansen,Attacking Midfield,1.2
+Viking,Zlatko Tripic,Left Winger,1.0
+Viking,Amin Cosic,Left Winger,0.6
+Viking,Niklas Fuglestad,Right Winger,1.8
+Viking,Peter Christiansen,Centre-Forward,6.0
+Viking,Erik Botheim,Centre-Forward,3.5
+Viking,Romano Postema,Centre-Forward,0.9
+Viking,Nick D'Agostino,Centre-Forward,0.5
+Viking,Veton Berisha,Centre-Forward,0.45

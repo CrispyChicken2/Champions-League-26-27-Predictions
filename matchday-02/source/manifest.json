@@ -720,12 +720,12 @@
     "text_chars": 1801
   },
   "squad_fk-bodo-glimt": {
-    "url": "https://www.transfermarkt.com/fk-bodo-glimt/kader/verein/501/saison_id/2026/plus/1",
-    "captured_at_utc": "2026-10-12T16:36:12.160888+00:00",
+    "url": "https://www.transfermarkt.com/fk-bodo-glimt/kader/verein/501/plus/1",
+    "captured_at_utc": "2026-10-12T17:29:03.015168+00:00",
     "status": 200,
-    "title": "FK Bodø/Glimt - Detailed squad 2027 (Detailed view) | Transfermarkt",
-    "html_bytes": 159231,
-    "text_chars": 4709
+    "title": "FK Bodø/Glimt - Detailed squad 2026 (Detailed view) | Transfermarkt",
+    "html_bytes": 146810,
+    "text_chars": 4100
   },
   "absences_galatasaray-istanbul": {
     "url": "https://www.transfermarkt.com/galatasaray-istanbul/sperrenundverletzungen/verein/141",
@@ -1024,12 +1024,12 @@
     "text_chars": 1842
   },
   "squad_viking-stavanger": {
-    "url": "https://www.transfermarkt.com/viking-stavanger/kader/verein/239/saison_id/2026/plus/1",
-    "captured_at_utc": "2026-10-12T16:39:28.954561+00:00",
+    "url": "https://www.transfermarkt.com/viking-stavanger/kader/verein/239/plus/1",
+    "captured_at_utc": "2026-10-12T17:29:12.840244+00:00",
     "status": 200,
-    "title": "Viking FK - Detailed squad 2027 (Detailed view) | Transfermarkt",
-    "html_bytes": 172914,
-    "text_chars": 5203
+    "title": "Viking FK - Detailed squad 2026 (Detailed view) | Transfermarkt",
+    "html_bytes": 162828,
+    "text_chars": 4633
   },
   "tm_participants": {
     "url": "https://www.transfermarkt.com/uefa-champions-league/teilnehmer/pokalwettbewerb/CL/saison_id/2026",
