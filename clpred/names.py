@@ -63,6 +63,7 @@ ALIASES = {
     "lask linz": "lask",
     "shakhtar": "shakhtar donetsk",
     "crvena zvezda": "crvena zvezda",
+    "red star belgrade": "crvena zvezda",
     "fc copenhagen": "copenhagen",
     "kairat almaty": "kairat",
     "rasenballsport leipzig": "rb leipzig",

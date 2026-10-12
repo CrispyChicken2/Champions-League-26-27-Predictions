@@ -71,10 +71,12 @@ def main() -> None:
             f"<td>{baseline}</td>{result_cell}</tr>"
         )
         out = []
-        for club, change, counted in ((p.home, p.home_availability, p.home_absent_counted),
-                                      (p.away, p.away_availability, p.away_absent_counted)):
+        for club, attack, defence, counted in (
+                (p.home, p.home_attack_missing, p.home_defence_missing, p.home_absent_counted),
+                (p.away, p.away_attack_missing, p.away_defence_missing, p.away_absent_counted)):
             if isinstance(counted, str) and counted:
-                out.append(f"{html.escape(club)} {change:+.3f} ({html.escape(counted)})")
+                out.append(f"{html.escape(club)} misses {attack:.0%} of its goal production and {defence:.0%} of its "
+                           f"regular defence ({html.escape(counted)})")
         degraded = f'<p class="warn">Missing input: {html.escape(p.degraded)}</p>' if isinstance(p.degraded, str) and p.degraded else ""
         cards.append(
             f'<div class="match"><h3>{html.escape(p.home)} – {html.escape(p.away)}: {p.pick}</h3>'
@@ -84,7 +86,8 @@ def main() -> None:
             f'<p class="muted">Home / draw / away: model {percent(p.model_prob_home)} / {percent(p.model_prob_draw)} / {percent(p.model_prob_away)}'
             + (f", Baseline {percent(p.baseline_prob_home)} / {percent(p.baseline_prob_draw)} / {percent(p.baseline_prob_away)}" if baseline != "n/a" else "")
             + f" · expected goals {p.expected_home_goals} – {p.expected_away_goals}</p>"
-            + (f'<p class="muted">Availability, change in strength from absent players: {"; ".join(out)}. '
+            + (f'<p class="muted">Availability: {"; ".join(out)}. Effect on expected goals: '
+               f'{html.escape(p.home)} {p.home_goals_change:+.0%}, {html.escape(p.away)} {p.away_goals_change:+.0%}. '
                f'Pick without Availability: {p.pick_without_availability}.</p>' if out else "")
             + degraded + result_line + "</div>"
         )
@@ -118,8 +121,8 @@ def main() -> None:
 <h1>Champions League 2026/27 – Matchday {matchday} Predictions</h1>
 <p class="muted">{snapshot_note} History used: every match up to the day before the first kick-off.
 Pick = scoreline with the highest expected points (3 exact, 1 right outcome). Confidence = probability given before kick-off.
-Availability = how much weaker a club is rated because of absent players, from the market value of its best eleven with and
-without them (0 = no loss; -0.10 is roughly 5% fewer goals scored and 5% more conceded).</p>
+Availability = what a club is missing through absent players: the share of its goals and assists they usually produce, and the
+share of its regular defence. A club missing more than the typical club scores less or concedes more.</p>
 {summary}
 <table><tr><th>Match</th><th>Pick</th><th class="n">Confidence, score</th><th class="n">Confidence, outcome</th>
 <th class="n">Home / draw / away</th><th>Baseline Pick</th><th>Result</th></tr>

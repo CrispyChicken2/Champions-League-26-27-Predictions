@@ -17,11 +17,13 @@ Run from the project folder, in this order.
 3. `uv run python -m clpred.build_matches` — rebuilds `data/matches.csv`. Read every `CHECK` and `LEFT OUT` line: they are club names matched with doubt or not at all.
 4. `uv run scripts/capture_raw.py matchday-NN/source <name>=<url> ...` — the Snapshot, before the first kick-off: OddsPortal 1X2, over/under and correct-score pages per match, Transfermarkt absences and squad per club (`matchday-02/source/manifest.json` shows the naming).
 5. `uv run python -m clpred.snapshot N` — extracts `odds.csv`, `absences.csv` and `squads.csv`. Squad pages of calendar-year leagues (Norway) must be captured without a season in the URL.
-6. `uv run python -m clpred.predict N` — writes the Predictions.
+6. `uv run python -m clpred.predict N` — writes the Predictions, with Availability applied. It needs `data/player_seasons.csv`: capture the clubs' Transfermarkt performance pages into `data/players/` (naming as in its `manifest.json`) and run `uv run python -m clpred.players`.
 7. Write `matchday-NN/rationale.json` (two or three sentences per match).
 8. `uv run python -m clpred.report N` — writes `report.html`. Run steps 1, 3 and 8 again after the matches to fill in the Results.
 
 `uv run python -m clpred.replay [--tune]` replays the 2024/25 and 2025/26 league phases to judge or re-tune the model.
+
+`uv run scripts/download_lineups.py` then `uv run python -m clpred.availability` re-learns how much absent players change the score, from past line-ups.
 
 `uv run pytest` runs the automated tests (club-name matching, the model, Availability, the page readers).
 

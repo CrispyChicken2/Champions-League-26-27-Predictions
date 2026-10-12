@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from clpred.availability import adjustment, strength_per_log_value
+from clpred.availability import absent_players, effects_in_use, missing, rate_changes, squad_importance
 from clpred.model import EUROPEAN, Settings, fit, market_distribution, outcome_probabilities, pick, score_matrix
 
 # Share of the model in the blend with the market, tuned on the replay.
@@ -37,15 +37,23 @@ def main() -> None:
     model = fit(history, as_of, settings)
     domestic_clubs = set(history[~history.competition.isin(EUROPEAN)].home)
 
-    # Availability: how much each club loses through its absent players.
+    # Availability: what each club is missing through its absent players.
     squads = pd.read_csv(folder / "squads.csv") if (folder / "squads.csv").exists() else None
     absences = pd.read_csv(folder / "absences.csv") if (folder / "absences.csv").exists() else None
-    slope = None
-    if squads is not None and absences is not None:
-        playing = set(fixtures.home) | set(fixtures.away)
-        strength = {c: float(model.attack[model.clubs[c]] + model.defence[model.clubs[c]]) for c in playing}
-        slope, fit_quality = strength_per_log_value(strength, squads)
-        print(f"Availability: {slope:.3f} strength per unit of log best-eleven value (R² {fit_quality:.2f})")
+    players = pd.read_csv("data/player_seasons.csv") if Path("data/player_seasons.csv").exists() else None
+    effects = effects_in_use()
+    club_missing = None
+    if squads is not None and absences is not None and players is not None and effects is not None:
+        first_day = date.fromisoformat(as_of)
+        seasons = (first_day.year - 1, first_day.year) if first_day.month >= 7 else (first_day.year - 2, first_day.year - 1)
+        club_missing = {}
+        for club in sorted(set(fixtures.home) | set(fixtures.away)):
+            table = squad_importance(players, squads, club, seasons)
+            club_missing[club] = missing(table, absent_players(absences, club, first_day))
+        # The ratings already assume a club with its usual absentees, so only the difference from typical counts.
+        typical = (float(np.mean([m[0] for m in club_missing.values()])), float(np.mean([m[1] for m in club_missing.values()])))
+        print(f"Availability effects in use: attack {effects['attack']:.3f}, defence {effects['defence']:.3f}; "
+              f"typical missing: attack {typical[0]:.3f}, defence {typical[1]:.3f}")
 
     rows, distributions = [], []
     for fixture in fixtures.itertuples():
@@ -55,17 +63,18 @@ def main() -> None:
                 degraded.append(f"no domestic history for {club}")
         home_rate, away_rate = model.expected_goals(fixture.home, fixture.away)
         unadjusted_matrix = score_matrix(home_rate, away_rate, settings.low_score_rho)
+        home_missing = away_missing = (0.0, 0.0, [])
         home_change = away_change = 0.0
-        home_out, away_out = [], []
-        if slope is None:
-            degraded.append("no squad or absence data: Availability not applied")
+        if club_missing is None:
+            degraded.append("no squad, absence or player data: Availability not applied")
         else:
-            day = date.fromisoformat(fixture.date)
-            home_change, home_out = adjustment(squads, absences, fixture.home, day, slope)
-            away_change, away_out = adjustment(squads, absences, fixture.away, day, slope)
-            # A weakened club scores less and concedes more, half of the change each way.
-            home_rate *= np.exp((home_change - away_change) / 2)
-            away_rate *= np.exp((away_change - home_change) / 2)
+            home_missing, away_missing = club_missing[fixture.home], club_missing[fixture.away]
+            home_change, away_change = rate_changes(
+                (home_missing[0] - typical[0], home_missing[1] - typical[1]),
+                (away_missing[0] - typical[0], away_missing[1] - typical[1]),
+                effects["attack"], effects["defence"])
+            home_rate *= np.exp(home_change)
+            away_rate *= np.exp(away_change)
         model_matrix = score_matrix(home_rate, away_rate, settings.low_score_rho)
 
         market_matrix = None
@@ -107,8 +116,11 @@ def main() -> None:
             "model_prob_draw": round(outcome_probabilities(model_matrix)[1], 4),
             "model_prob_away": round(outcome_probabilities(model_matrix)[2], 4),
             "home_venue_effect": round(float(model.venue[model.clubs[fixture.home]]), 3),
-            "home_availability": round(home_change, 3), "away_availability": round(away_change, 3),
-            "home_absent_counted": ", ".join(home_out), "away_absent_counted": ", ".join(away_out),
+            "home_attack_missing": round(home_missing[0], 3), "home_defence_missing": round(home_missing[1], 3),
+            "away_attack_missing": round(away_missing[0], 3), "away_defence_missing": round(away_missing[1], 3),
+            "home_goals_change": round(float(np.exp(home_change) - 1), 4),
+            "away_goals_change": round(float(np.exp(away_change) - 1), 4),
+            "home_absent_counted": ", ".join(home_missing[2]), "away_absent_counted": ", ".join(away_missing[2]),
             "model_prob_home_without_availability": round(outcome_probabilities(unadjusted_matrix)[0], 4),
             "model_prob_away_without_availability": round(outcome_probabilities(unadjusted_matrix)[2], 4),
             "model_pick_without_availability": "{}-{}".format(*pick(unadjusted_matrix)),
@@ -129,7 +141,7 @@ def main() -> None:
 
     table = pd.DataFrame(rows)
     table.to_csv(folder / "predictions.csv", index=False)
-    if "baseline_prob_home" in table and slope is not None:
+    if "baseline_prob_home" in table and club_missing is not None:
         # Does Availability move the model towards the bookmakers, who already know the absences?
         market = table.baseline_prob_home - table.baseline_prob_away
         before = (table.model_prob_home_without_availability - table.model_prob_away_without_availability - market).abs().mean()

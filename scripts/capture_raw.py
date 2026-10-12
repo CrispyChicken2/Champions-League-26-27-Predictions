@@ -62,10 +62,10 @@ def capture(out_dir: Path, targets: dict[str, str]) -> None:
             except Exception as exc:
                 entry["error"] = repr(exc)
             manifest[name] = entry
-            print(name, json.dumps(entry, ensure_ascii=False))
+            # Saved after every page, so an interrupted run keeps what it captured.
+            manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), "utf-8")
+            print(name, json.dumps(entry, ensure_ascii=True), flush=True)
         browser.close()
-
-    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), "utf-8")
 
 
 if __name__ == "__main__":
