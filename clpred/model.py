@@ -29,6 +29,7 @@ class Settings:
     decay_per_day: float = 0.001      # weight of a match halves every ln(2)/decay days
     ucl_weight: float = 2.0           # weight of a Champions League match relative to a domestic one
     shots_share: float = 0.0          # share of the target taken from shots on target instead of goals
+    xg_share: float = 0.0             # share of the target taken from expected goals (xG) where known
     strength_penalty: float = 0.3     # pull of attack/defence towards the average
     venue_penalty: float = 200.0      # pull of the Venue Effect towards zero
     low_score_rho: float = 0.0       # Dixon-Coles correction for 0-0, 1-0, 0-1, 1-1
@@ -101,6 +102,13 @@ def fit(matches: pd.DataFrame, as_of: str, settings: Settings, start: np.ndarray
     share = settings.shots_share
     y_home = np.where(known, (1 - share) * home_goals + share * goals_per_shot * np.nan_to_num(home_shots), home_goals)
     y_away = np.where(known, (1 - share) * away_goals + share * goals_per_shot * np.nan_to_num(away_shots), away_goals)
+
+    # Likewise for expected goals (xG), where a source provides them.
+    if "home_xg" in data and settings.xg_share > 0:
+        home_xg, away_xg = data["home_xg"].to_numpy(float), data["away_xg"].to_numpy(float)
+        has_xg = ~np.isnan(home_xg) & ~np.isnan(away_xg)
+        y_home = np.where(has_xg, (1 - settings.xg_share) * y_home + settings.xg_share * np.nan_to_num(home_xg), y_home)
+        y_away = np.where(has_xg, (1 - settings.xg_share) * y_away + settings.xg_share * np.nan_to_num(away_xg), y_away)
 
     def unpack(x):
         return x[0], x[1], x[2], x[3], x[4:4 + n], x[4 + n:4 + 2 * n], x[4 + 2 * n:]

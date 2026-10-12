@@ -12,7 +12,7 @@ import csv
 import glob
 import io
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -24,6 +24,7 @@ HISTORY = Path("data/history")
 OUT = Path("data")
 FIRST_DATE = "2021-07-01"
 MATCH_THRESHOLD = 0.82
+XG_NAME_THRESHOLD = 0.72
 # Domestic clubs that must never take a UEFA name: Paris FC is not Paris Saint-Germain.
 NEVER_MATCH = {"Paris FC"}
 
@@ -122,6 +123,45 @@ def read_domestic() -> list[dict]:
     return rows
 
 
+def attach_xg(domestic: list[dict], name_map: list[dict]) -> None:
+    """Fill home_xg / away_xg from Understat for the leagues it covers."""
+    by_key = {(r["competition"], r["home"], r["away"], r["date"]): r for r in domestic}
+    for path in sorted(glob.glob(str(HISTORY / "xg_*.json"))):
+        league = Path(path).stem.split("_")[1]
+        candidates: dict[str, list[str]] = {}
+        for entry in name_map:
+            if entry["league"] == league:
+                canonical = entry["uefa_name"] or entry["source_name"]
+                candidates.setdefault(canonical, [canonical]).append(entry["source_name"])
+        names: dict[str, str | None] = {}
+        paired = played = 0
+        for match in json.load(io.open(path, encoding="utf-8")):
+            if not match["isResult"]:
+                continue
+            played += 1
+            sides = []
+            for side in ("h", "a"):
+                title = match[side]["title"]
+                if title not in names:
+                    found, score = best_match(title, candidates)
+                    names[title] = found if score >= XG_NAME_THRESHOLD else None
+                    if names[title] is None:
+                        print(f"xG: unknown club {title!r} in {league} (closest {found!r}, {score:.2f})")
+                sides.append(names[title])
+            if None in sides:
+                continue
+            day = datetime.strptime(match["datetime"][:10], "%Y-%m-%d").date()
+            # Kick-offs near midnight can fall on the neighbouring day in the other source.
+            for shift in (0, -1, 1):
+                row = by_key.get((league, sides[0], sides[1], (day + timedelta(days=shift)).isoformat()))
+                if row is not None:
+                    row["home_xg"], row["away_xg"] = float(match["xG"]["h"]), float(match["xG"]["a"])
+                    paired += 1
+                    break
+        if paired < played:
+            print(f"xG: {Path(path).name} paired {paired} of {played} played matches")
+
+
 def main() -> None:
     european, fixtures, clubs = read_european()
     domestic = [r for r in read_domestic() if r["date"] >= FIRST_DATE]
@@ -149,6 +189,8 @@ def main() -> None:
         print(note if note.startswith("CHECK") else "LEFT OUT " + note)
     print(f"{len(recent)} matches added from data/recent")
     domestic += recent
+
+    attach_xg(domestic, name_map)
 
     matches = pd.DataFrame(domestic + european).sort_values(["date", "competition", "home"])
     matches.to_csv(OUT / "matches.csv", index=False)

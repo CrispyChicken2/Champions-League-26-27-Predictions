@@ -85,6 +85,7 @@ def tune(matches: pd.DataFrame, targets: pd.DataFrame, settings: Settings) -> Se
         "decay_per_day": (0.0005, 0.001, 0.0015, 0.002, 0.003, 0.004),
         "ucl_weight": (1.0, 1.5, 2.0, 3.0, 4.0),
         "shots_share": (0.0, 0.15, 0.3, 0.45, 0.6),
+        "xg_share": (0.0, 0.25, 0.5, 0.75, 1.0),
         "venue_penalty": (5.0, 20.0, 60.0, 200.0),
         "strength_penalty": (0.3, 1.0, 3.0),
     }
