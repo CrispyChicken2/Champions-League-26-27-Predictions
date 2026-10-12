@@ -19,6 +19,7 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
 )
 PAUSE_SECONDS = 4
+SCROLL_STEPS = 8
 
 
 def capture(out_dir: Path, targets: dict[str, str]) -> None:
@@ -35,12 +36,18 @@ def capture(out_dir: Path, targets: dict[str, str]) -> None:
         for name, url in targets.items():
             entry = {"url": url, "captured_at_utc": datetime.now(timezone.utc).isoformat()}
             try:
+                # Leave the previous page first: a URL differing only by its
+                # fragment would otherwise not reload.
+                page.goto("about:blank")
                 response = page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 try:
                     page.wait_for_load_state("networkidle", timeout=20000)
                 except Exception:
                     pass
-                page.mouse.wheel(0, 6000)
+                # Scroll to the bottom in steps so lazily loaded rows render.
+                for _ in range(SCROLL_STEPS):
+                    page.mouse.wheel(0, 3000)
+                    time.sleep(0.5)
                 time.sleep(PAUSE_SECONDS)
                 html = page.content()
                 text = page.inner_text("body")

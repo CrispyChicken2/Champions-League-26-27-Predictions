@@ -1,0 +1,127 @@
+date,competition,stage,matchday,season,home,away,kickoff_utc
+2026-10-13,ucl,League Phase,2,2027,Lens,Sporting CP,2026-10-13T16:45:00Z
+2026-10-13,ucl,League Phase,2,2027,Sabah,Slavia Praha,2026-10-13T16:45:00Z
+2026-10-13,ucl,League Phase,2,2027,Arsenal,Lille,2026-10-13T19:00:00Z
+2026-10-13,ucl,League Phase,2,2027,Atleti,Man Utd,2026-10-13T19:00:00Z
+2026-10-13,ucl,League Phase,2,2027,Galatasaray,Barcelona,2026-10-13T19:00:00Z
+2026-10-13,ucl,League Phase,2,2027,Inter,Club Brugge,2026-10-13T19:00:00Z
+2026-10-13,ucl,League Phase,2,2027,Leipzig,PSV,2026-10-13T19:00:00Z
+2026-10-13,ucl,League Phase,2,2027,Viking,Bayern München,2026-10-13T19:00:00Z
+2026-10-13,ucl,League Phase,2,2027,Villarreal,Napoli,2026-10-13T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,Feyenoord,Como,2026-10-14T16:45:00Z
+2026-10-14,ucl,League Phase,2,2027,LASK,Liverpool,2026-10-14T16:45:00Z
+2026-10-14,ucl,League Phase,2,2027,Aston Villa,Fenerbahçe,2026-10-14T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,Bodø/Glimt,B. Dortmund,2026-10-14T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,Man City,Paris,2026-10-14T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,Real Betis,Porto,2026-10-14T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,Roma,Real Madrid,2026-10-14T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,S. Bratislava,Stuttgart,2026-10-14T19:00:00Z
+2026-10-14,ucl,League Phase,2,2027,Shakhtar,AEK Athens,2026-10-14T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Fenerbahçe,Slavia Praha,2026-10-20T16:45:00Z
+2026-10-20,ucl,League Phase,3,2027,Sabah,B. Dortmund,2026-10-20T16:45:00Z
+2026-10-20,ucl,League Phase,3,2027,Liverpool,Villarreal,2026-10-20T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Man City,AEK Athens,2026-10-20T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Napoli,Bodø/Glimt,2026-10-20T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Paris,Barcelona,2026-10-20T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Porto,PSV,2026-10-20T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Roma,S. Bratislava,2026-10-20T19:00:00Z
+2026-10-20,ucl,League Phase,3,2027,Stuttgart,Atleti,2026-10-20T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Como,Man Utd,2026-10-21T16:45:00Z
+2026-10-21,ucl,League Phase,3,2027,Lille,Galatasaray,2026-10-21T16:45:00Z
+2026-10-21,ucl,League Phase,3,2027,Aston Villa,Viking,2026-10-21T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Bayern München,Arsenal,2026-10-21T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Club Brugge,Lens,2026-10-21T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Inter,Shakhtar,2026-10-21T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Real Betis,Feyenoord,2026-10-21T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Real Madrid,Leipzig,2026-10-21T19:00:00Z
+2026-10-21,ucl,League Phase,3,2027,Sporting CP,LASK,2026-10-21T19:00:00Z
+2026-11-03,ucl,League Phase,4,2027,Galatasaray,Stuttgart,2026-11-03T17:45:00Z
+2026-11-03,ucl,League Phase,4,2027,Shakhtar,Sporting CP,2026-11-03T17:45:00Z
+2026-11-03,ucl,League Phase,4,2027,Atleti,Bayern München,2026-11-03T20:00:00Z
+2026-11-03,ucl,League Phase,4,2027,Barcelona,Aston Villa,2026-11-03T20:00:00Z
+2026-11-03,ucl,League Phase,4,2027,Bodø/Glimt,Lille,2026-11-03T20:00:00Z
+2026-11-03,ucl,League Phase,4,2027,Feyenoord,Inter,2026-11-03T20:00:00Z
+2026-11-03,ucl,League Phase,4,2027,LASK,S. Bratislava,2026-11-03T20:00:00Z
+2026-11-03,ucl,League Phase,4,2027,Man Utd,Roma,2026-11-03T20:00:00Z
+2026-11-03,ucl,League Phase,4,2027,Villarreal,Paris,2026-11-03T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,AEK Athens,Real Madrid,2026-11-04T17:45:00Z
+2026-11-04,ucl,League Phase,4,2027,Fenerbahçe,Liverpool,2026-11-04T17:45:00Z
+2026-11-04,ucl,League Phase,4,2027,B. Dortmund,Real Betis,2026-11-04T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,Leipzig,Man City,2026-11-04T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,Lens,Como,2026-11-04T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,PSV,Club Brugge,2026-11-04T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,Porto,Napoli,2026-11-04T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,Slavia Praha,Arsenal,2026-11-04T20:00:00Z
+2026-11-04,ucl,League Phase,4,2027,Viking,Sabah,2026-11-04T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,Bodø/Glimt,LASK,2026-11-24T17:45:00Z
+2026-11-24,ucl,League Phase,5,2027,Galatasaray,Aston Villa,2026-11-24T17:45:00Z
+2026-11-24,ucl,League Phase,5,2027,Arsenal,B. Dortmund,2026-11-24T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,Como,AEK Athens,2026-11-24T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,Feyenoord,Porto,2026-11-24T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,Leipzig,Lens,2026-11-24T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,Man City,Napoli,2026-11-24T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,Real Madrid,PSV,2026-11-24T20:00:00Z
+2026-11-24,ucl,League Phase,5,2027,S. Bratislava,Real Betis,2026-11-24T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Sabah,Barcelona,2026-11-25T17:45:00Z
+2026-11-25,ucl,League Phase,5,2027,Slavia Praha,Villarreal,2026-11-25T17:45:00Z
+2026-11-25,ucl,League Phase,5,2027,Atleti,Viking,2026-11-25T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Club Brugge,Liverpool,2026-11-25T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Inter,Stuttgart,2026-11-25T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Lille,Bayern München,2026-11-25T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Paris,Roma,2026-11-25T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Shakhtar,Fenerbahçe,2026-11-25T20:00:00Z
+2026-11-25,ucl,League Phase,5,2027,Sporting CP,Man Utd,2026-11-25T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Viking,Feyenoord,2026-12-08T17:45:00Z
+2026-12-08,ucl,League Phase,6,2027,Villarreal,Sabah,2026-12-08T17:45:00Z
+2026-12-08,ucl,League Phase,6,2027,AEK Athens,Galatasaray,2026-12-08T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Aston Villa,Paris,2026-12-08T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Barcelona,Man City,2026-12-08T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Bayern München,Slavia Praha,2026-12-08T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Man Utd,Leipzig,2026-12-08T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Napoli,Club Brugge,2026-12-08T20:00:00Z
+2026-12-08,ucl,League Phase,6,2027,Roma,Sporting CP,2026-12-08T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,Real Betis,Como,2026-12-09T17:45:00Z
+2026-12-09,ucl,League Phase,6,2027,S. Bratislava,Shakhtar,2026-12-09T17:45:00Z
+2026-12-09,ucl,League Phase,6,2027,Arsenal,Real Madrid,2026-12-09T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,B. Dortmund,Inter,2026-12-09T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,LASK,Fenerbahçe,2026-12-09T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,Lens,Bodø/Glimt,2026-12-09T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,Liverpool,Porto,2026-12-09T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,PSV,Atleti,2026-12-09T20:00:00Z
+2026-12-09,ucl,League Phase,6,2027,Stuttgart,Lille,2026-12-09T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Bodø/Glimt,Atleti,2027-01-19T17:45:00Z
+2027-01-19,ucl,League Phase,7,2027,Galatasaray,Feyenoord,2027-01-19T17:45:00Z
+2027-01-19,ucl,League Phase,7,2027,AEK Athens,Roma,2027-01-19T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Aston Villa,B. Dortmund,2027-01-19T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Inter,Liverpool,2027-01-19T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Lille,S. Bratislava,2027-01-19T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Porto,Slavia Praha,2027-01-19T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Real Madrid,LASK,2027-01-19T20:00:00Z
+2027-01-19,ucl,League Phase,7,2027,Stuttgart,Club Brugge,2027-01-19T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Fenerbahçe,Villarreal,2027-01-20T17:45:00Z
+2027-01-20,ucl,League Phase,7,2027,Sabah,Napoli,2027-01-20T17:45:00Z
+2027-01-20,ucl,League Phase,7,2027,Como,Paris,2027-01-20T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Leipzig,Shakhtar,2027-01-20T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Lens,Man City,2027-01-20T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Man Utd,Bayern München,2027-01-20T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Real Betis,Arsenal,2027-01-20T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Sporting CP,Barcelona,2027-01-20T20:00:00Z
+2027-01-20,ucl,League Phase,7,2027,Viking,PSV,2027-01-20T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Arsenal,Sabah,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Atleti,Fenerbahçe,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,B. Dortmund,AEK Athens,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Barcelona,Como,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Bayern München,Real Betis,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Club Brugge,Bodø/Glimt,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Feyenoord,Leipzig,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,LASK,Porto,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Liverpool,Lens,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Man City,Sporting CP,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Napoli,Viking,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,PSV,Stuttgart,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Paris,Galatasaray,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Roma,Lille,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,S. Bratislava,Inter,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Shakhtar,Real Madrid,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Slavia Praha,Aston Villa,2027-01-27T20:00:00Z
+2027-01-27,ucl,League Phase,8,2027,Villarreal,Man Utd,2027-01-27T20:00:00Z

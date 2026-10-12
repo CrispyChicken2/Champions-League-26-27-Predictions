@@ -1,0 +1,309 @@
+league,source_name,uefa_name,best_candidate,score
+E0,Arsenal,Arsenal,Arsenal,1.0
+E0,Aston Villa,Aston Villa,Aston Villa,1.0
+E0,Bournemouth,Bournemouth,Bournemouth,1.0
+E0,Brentford,,Nott'm Forest,0.45
+E0,Brighton,Brighton,Brighton,1.0
+E0,Burnley,,Bournemouth,0.56
+E0,Chelsea,Chelsea,Chelsea,1.0
+E0,Coventry,,Leicester,0.47
+E0,Crystal Palace,Crystal Palace,Crystal Palace,1.0
+E0,Everton,,Brighton,0.53
+E0,Fulham,,West Ham,0.43
+E0,Hull,,Chelsea,0.36
+E0,Ipswich,,Chelsea,0.29
+E0,Leeds,,Leicester,0.57
+E0,Leicester,Leicester,Leicester,1.0
+E0,Liverpool,Liverpool,Liverpool,1.0
+E0,Luton,,Brighton,0.46
+E0,Man City,Man City,Man City,1.0
+E0,Man United,Man Utd,Man Utd,1.0
+E0,Newcastle,Newcastle,Newcastle,1.0
+E0,Norwich,,Newcastle,0.38
+E0,Nott'm Forest,Nott'm Forest,Nott'm Forest,1.0
+E0,Sheffield United,,Man Utd,0.61
+E0,Southampton,,West Ham,0.53
+E0,Sunderland,Sunderland,Sunderland,1.0
+E0,Tottenham,Tottenham,Tottenham,1.0
+E0,Watford,,Nott'm Forest,0.4
+E0,West Ham,West Ham,West Ham,1.0
+E0,Wolves,,West Ham,0.43
+D1,Augsburg,,Wolfsburg,0.59
+D1,Bayern Munich,Bayern München,Bayern München,1.0
+D1,Bielefeld,,Leverkusen,0.4
+D1,Bochum,,B. Dortmund,0.38
+D1,Darmstadt,,B. Dortmund,0.42
+D1,Dortmund,B. Dortmund,B. Dortmund,1.0
+D1,Ein Frankfurt,Frankfurt,Frankfurt,1.0
+D1,Elversberg,,Leverkusen,0.54
+D1,FC Koln,Köln,Köln,1.0
+D1,Freiburg,Freiburg,Freiburg,1.0
+D1,Greuther Furth,,Frankfurt,0.43
+D1,Hamburg,,Freiburg,0.53
+D1,Heidenheim,Heidenheim,Heidenheim,1.0
+D1,Hertha,,Heidenheim,0.38
+D1,Hoffenheim,Hoffenheim,Hoffenheim,1.0
+D1,Holstein Kiel,,Heidenheim,0.43
+D1,Leverkusen,Leverkusen,Leverkusen,1.0
+D1,M'gladbach,,B. Dortmund,0.59
+D1,Mainz,Mainz,Mainz,1.0
+D1,Paderborn,,B. Dortmund,0.42
+D1,RB Leipzig,Leipzig,Leipzig,1.0
+D1,Schalke 04,,Leverkusen,0.34
+D1,St Pauli,,Union Berlin,0.36
+D1,Stuttgart,Stuttgart,Stuttgart,1.0
+D1,Union Berlin,Union Berlin,Union Berlin,1.0
+D1,Werder Bremen,,Bayern München,0.44
+D1,Wolfsburg,Wolfsburg,Wolfsburg,1.0
+I1,Atalanta,Atalanta,Atalanta,1.0
+I1,Bologna,Bologna,Bologna,1.0
+I1,Cagliari,,Napoli,0.43
+I1,Como,Como,Como,1.0
+I1,Cremonese,,Como,0.46
+I1,Empoli,,Napoli,0.67
+I1,Fiorentina,Fiorentina,Fiorentina,1.0
+I1,Frosinone,,Inter,0.43
+I1,Genoa,,Bologna,0.5
+I1,Inter,Inter,Inter,1.0
+I1,Juventus,Juventus,Juventus,1.0
+I1,Lazio,Lazio,Lazio,1.0
+I1,Lecce,,Atalanta,0.25
+I1,Milan,Milan,Milan,1.0
+I1,Monza,,Bologna,0.5
+I1,Napoli,Napoli,Napoli,1.0
+I1,Parma,,Roma,0.67
+I1,Pisa,,Napoli,0.4
+I1,Roma,Roma,Roma,1.0
+I1,Salernitana,,Atalanta,0.53
+I1,Sampdoria,,Napoli,0.53
+I1,Sassuolo,,Napoli,0.43
+I1,Spezia,,Inter,0.4
+I1,Torino,,Fiorentina,0.5
+I1,Udinese,,Juventus,0.4
+I1,Venezia,,Inter,0.48
+I1,Verona,,Inter,0.5
+SP1,Alaves,,Real Betis,0.5
+SP1,Almeria,,Real Madrid,0.56
+SP1,Ath Bilbao,Athletic Club,Athletic Club,0.9
+SP1,Ath Madrid,Atleti,Atleti,1.0
+SP1,Barcelona,Barcelona,Barcelona,1.0
+SP1,Betis,Real Betis,Real Betis,1.0
+SP1,Cadiz,,Atleti,0.4
+SP1,Celta,Celta,Celta,1.0
+SP1,Elche,,Real Sociedad,0.44
+SP1,Espanol,,Osasuna,0.4
+SP1,Getafe,Getafe,Getafe,1.0
+SP1,Girona,Girona,Girona,1.0
+SP1,Granada,,Girona,0.62
+SP1,La Coruna,,Osasuna,0.63
+SP1,Las Palmas,,Rayo Vallecano,0.42
+SP1,Leganes,,Getafe,0.46
+SP1,Levante,,Getafe,0.46
+SP1,Malaga,,Barcelona,0.4
+SP1,Mallorca,,Real Sociedad,0.48
+SP1,Osasuna,Osasuna,Osasuna,1.0
+SP1,Oviedo,,Real Sociedad,0.42
+SP1,Real Madrid,Real Madrid,Real Madrid,1.0
+SP1,Santander,,Osasuna,0.5
+SP1,Sevilla,Sevilla,Sevilla,1.0
+SP1,Sociedad,Real Sociedad,Real Sociedad,1.0
+SP1,Valencia,,Athletic Club,0.5
+SP1,Valladolid,,Real Madrid,0.57
+SP1,Vallecano,Rayo Vallecano,Rayo Vallecano,0.9
+SP1,Villarreal,Villarreal,Villarreal,1.0
+F1,Ajaccio,,Monaco,0.46
+F1,Angers,,Nantes,0.67
+F1,Auxerre,,Rennes,0.4
+F1,Bordeaux,,Brest,0.46
+F1,Brest,Brest,Brest,1.0
+F1,Clermont,,Lens,0.5
+F1,Le Havre,,Rennes,0.38
+F1,Le Mans,,Lens,0.73
+F1,Lens,Lens,Lens,1.0
+F1,Lille,Lille,Lille,1.0
+F1,Lorient,,Lens,0.55
+F1,Lyon,Lyon,Lyon,1.0
+F1,Marseille,Marseille,Marseille,1.0
+F1,Metz,,Brest,0.44
+F1,Monaco,Monaco,Monaco,1.0
+F1,Montpellier,,Marseille,0.5
+F1,Nantes,Nantes,Nantes,1.0
+F1,Nice,Nice,Nice,1.0
+F1,Paris FC,,Paris,1.0
+F1,Paris SG,Paris,Paris,1.0
+F1,Reims,,Paris,0.6
+F1,Rennes,Rennes,Rennes,1.0
+F1,St Etienne,,Rennes,0.52
+F1,Strasbourg,Strasbourg,Strasbourg,1.0
+F1,Toulouse,Toulouse,Toulouse,1.0
+F1,Troyes,,Brest,0.55
+N1,AZ Alkmaar,AZ Alkmaar,AZ Alkmaar,1.0
+N1,Ajax,Ajax,Ajax,1.0
+N1,Almere City,,Utrecht,0.44
+N1,Cambuur,,AZ Alkmaar,0.35
+N1,Den Haag,,Go Ahead Eagles,0.35
+N1,Excelsior,,Feyenoord,0.44
+N1,FC Emmen,,Feyenoord,0.43
+N1,Feyenoord,Feyenoord,Feyenoord,1.0
+N1,For Sittard,,Feyenoord,0.4
+N1,Go Ahead Eagles,Go Ahead Eagles,Go Ahead Eagles,1.0
+N1,Groningen,,N.E.C.,0.43
+N1,Heerenveen,,Twente,0.38
+N1,Heracles,,Go Ahead Eagles,0.52
+N1,NAC Breda,,N.E.C.,0.35
+N1,Nijmegen,N.E.C.,N.E.C.,0.9
+N1,PSV Eindhoven,PSV,PSV,1.0
+N1,Sparta Rotterdam,,PSV,0.28
+N1,Telstar,,Vitesse,0.43
+N1,Twente,Twente,Twente,1.0
+N1,Utrecht,Utrecht,Utrecht,1.0
+N1,Vitesse,Vitesse,Vitesse,1.0
+N1,Volendam,,PSV,0.38
+N1,Waalwijk,,Ajax,0.33
+N1,Willem II,,N.E.C.,0.29
+N1,Zwolle,,Twente,0.33
+B1,Anderlecht,Anderlecht,Anderlecht,1.0
+B1,Antwerp,Antwerp,Antwerp,1.0
+B1,Beerschot VA,,Anderlecht,0.45
+B1,Beveren,,Genk,0.4
+B1,Cercle Brugge,Cercle Brugge,Cercle Brugge,1.0
+B1,Charleroi,Charleroi,Charleroi,1.0
+B1,Club Brugge,Club Brugge,Club Brugge,1.0
+B1,Dender,,Anderlecht,0.5
+B1,Eupen,,Genk,0.44
+B1,Genk,Genk,Genk,1.0
+B1,Gent,Gent,Gent,1.0
+B1,Kortrijk,,Genk,0.38
+B1,Lommel SK,,Charleroi,0.27
+B1,Mechelen,,Charleroi,0.47
+B1,Oostende,,Sint-Truidense,0.45
+B1,Oud-Heverlee Leuven,,Cercle Brugge,0.39
+B1,RAAL La Louviere,,Antwerp,0.48
+B1,RWD Molenbeek,,Genk,0.48
+B1,Seraing,,Charleroi,0.38
+B1,St Truiden,Sint-Truidense,Sint-Truidense,0.83
+B1,St. Gilloise,Union SG,Union SG,1.0
+B1,Standard,,Anderlecht,0.45
+B1,Waregem,,Club Brugge,0.46
+B1,Westerlo,,Antwerp,0.4
+P1,AVS,,Braga,0.25
+P1,Academico Viseu,,Gil Vicente,0.38
+P1,Alverca,,Arouca,0.62
+P1,Arouca,Arouca,Arouca,1.0
+P1,Belenenses,,Torreense,0.53
+P1,Benfica,Benfica,Benfica,1.0
+P1,Boavista,,Vitória SC,0.53
+P1,Casa Pia,,Santa Clara,0.42
+P1,Chaves,,Arouca,0.33
+P1,Estoril,,Vitória SC,0.57
+P1,Estrela,,Santa Clara,0.44
+P1,Famalicao,,Benfica,0.5
+P1,Farense,,Torreense,0.62
+P1,Gil Vicente,Gil Vicente,Gil Vicente,1.0
+P1,Guimaraes,,Arouca,0.4
+P1,Maritimo,,Arouca,0.43
+P1,Moreirense,,Torreense,0.74
+P1,Nacional,,Arouca,0.43
+P1,Pacos Ferreira,Paços Ferreira,Paços Ferreira,1.0
+P1,Portimonense,,Torreense,0.57
+P1,Porto,Porto,Porto,1.0
+P1,Rio Ave,,Arouca,0.46
+P1,Santa Clara,Santa Clara,Santa Clara,1.0
+P1,Sp Braga,Braga,Braga,1.0
+P1,Sp Lisbon,Sporting CP,Sporting CP,1.0
+P1,Tondela,,Torreense,0.5
+P1,Vizela,,Vitória SC,0.46
+T1,Ad. Demirspor,Adana Demirspor,Adana Demirspor,0.89
+T1,Alanyaspor,,Konyaspor,0.74
+T1,Altay,,Galatasaray,0.62
+T1,Amedspor,,Samsunspor,0.67
+T1,Ankaragucu,,Galatasaray,0.38
+T1,Antalyaspor,,Konyaspor,0.7
+T1,Besiktas,Beşiktaş,Beşiktaş,1.0
+T1,Bodrumspor,,Trabzonspor,0.57
+T1,Buyuksehyr,Başakşehir,Başakşehir,1.0
+T1,Corum,,Sivasspor,0.29
+T1,Erzurumspor,,Trabzonspor,0.55
+T1,Eyupspor,,Konyaspor,0.59
+T1,Fenerbahce,Fenerbahçe,Fenerbahçe,1.0
+T1,Galatasaray,Galatasaray,Galatasaray,1.0
+T1,Gaziantep,,Adana Demirspor,0.42
+T1,Genclerbirligi,,Fenerbahçe,0.42
+T1,Giresunspor,,Samsunspor,0.67
+T1,Goztep,,Konyaspor,0.27
+T1,Hatayspor,,Sivasspor,0.56
+T1,Istanbulspor,,Başakşehir,0.65
+T1,Karagumruk,,Konyaspor,0.32
+T1,Kasimpasa,,Konyaspor,0.44
+T1,Kayserispor,,Sivasspor,0.6
+T1,Kocaelispor,,Konyaspor,0.7
+T1,Konyaspor,Konyaspor,Konyaspor,1.0
+T1,Pendikspor,,Sivasspor,0.53
+T1,Rizespor,,Trabzonspor,0.63
+T1,Samsunspor,Samsunspor,Samsunspor,1.0
+T1,Sivasspor,Sivasspor,Sivasspor,1.0
+T1,Trabzonspor,Trabzonspor,Trabzonspor,1.0
+T1,Umraniyespor,,Trabzonspor,0.61
+T1,Yeni Malatyaspor,,Konyaspor,0.56
+G1,AEK,AEK Athens,AEK Athens,0.9
+G1,Apollon,,PAOK,0.36
+G1,Aris,Aris T.,Aris T.,0.9
+G1,Asteras Tripolis,,Aris T.,0.45
+G1,Athens Kallithea,,Aris T.,0.48
+G1,Atromitos,,Panathinaikos,0.45
+G1,Giannina,,Panathinaikos,0.48
+G1,Ionikos,,Panathinaikos,0.6
+G1,Iraklis,,Aris T.,0.46
+G1,Kalamata,,Panathinaikos,0.38
+G1,Kifisia,,Aris T.,0.31
+G1,Lamia,,Olympiacos,0.53
+G1,Larisa,,Aris T.,0.67
+G1,Levadeiakos,,Panathinaikos,0.5
+G1,OFI Crete,OFI Crete,OFI Crete,1.0
+G1,Olympiakos,Olympiacos,Olympiacos,1.0
+G1,PAOK,PAOK,PAOK,1.0
+G1,Panathinaikos,Panathinaikos,Panathinaikos,1.0
+G1,Panetolikos,,Panathinaikos,0.67
+G1,Panserraikos,,Panathinaikos,0.64
+G1,Volos NFC,,Olympiacos,0.42
+AUT,A. Klagenfurt,,Salzburg,0.4
+AUT,A. Lustenau,,Austria Wien,0.55
+AUT,Admira,,Sturm Graz,0.38
+AUT,Altach,,Austria Wien,0.33
+AUT,Austria Vienna,Austria Wien,Austria Wien,0.85
+AUT,BW Linz,,Austria Wien,0.32
+AUT,Grazer AK,,Sturm Graz,0.42
+AUT,Hartberg,,Salzburg,0.5
+AUT,LASK,LASK,LASK,1.0
+AUT,Ried,,SK Rapid,0.67
+AUT,SK Rapid,SK Rapid,SK Rapid,1.0
+AUT,Salzburg,Salzburg,Salzburg,1.0
+AUT,Sturm Graz,Sturm Graz,Sturm Graz,1.0
+AUT,Tirol,,Sturm Graz,0.27
+AUT,Wolfsberger AC,Wolfsberger,Wolfsberger,1.0
+NOR,Aalesund,,Vålerenga,0.47
+NOR,Bodo/Glimt,Bodø/Glimt,Bodø/Glimt,0.95
+NOR,Brann,Brann,Brann,1.0
+NOR,Bryne,,Brann,0.6
+NOR,Fredrikstad,Fredrikstad,Fredrikstad,1.0
+NOR,Ham-Kam,,Tromsø,0.27
+NOR,HamKam,,Vålerenga,0.27
+NOR,Haugesund,,Brann,0.29
+NOR,Jerv,,Vålerenga,0.31
+NOR,KFUM Oslo,,Molde,0.43
+NOR,Kongsvinger,,Viking,0.47
+NOR,Kristiansund,,Fredrikstad,0.52
+NOR,Lillestrom,Lillestrøm,Lillestrøm,0.95
+NOR,Mjondalen,,Molde,0.57
+NOR,Molde,Molde,Molde,1.0
+NOR,Moss,,Molde,0.44
+NOR,Odd,,Molde,0.5
+NOR,Rosenborg,Rosenborg,Rosenborg,1.0
+NOR,Sandefjord,,Rosenborg,0.42
+NOR,Sarpsborg 08,,Rosenborg,0.48
+NOR,Stabaek,,Fredrikstad,0.33
+NOR,Start,,Lillestrøm,0.43
+NOR,Stromsgodset,,Tromsø,0.59
+NOR,Tromso,Tromsø,Tromsø,0.91
+NOR,Valerenga,Vålerenga,Vålerenga,1.0
+NOR,Viking,Viking,Viking,1.0

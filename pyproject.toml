@@ -3,5 +3,8 @@ name = "cl-predictions"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
     "playwright>=1.63.0",
+    "scipy>=1.18.1",
 ]
