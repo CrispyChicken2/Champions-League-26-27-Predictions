@@ -1,0 +1,7 @@
+[project]
+name = "cl-predictions"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "playwright>=1.63.0",
+]
