@@ -1,9 +1,10 @@
-"""Replay past Champions League league phases to tune and judge the model.
+"""Replay past European league phases to tune and judge the model.
 
 Usage: uv run python -m clpred.replay            judge the current settings
        uv run python -m clpred.replay --tune     search for better settings
 
-Every match of the 2024/25 and 2025/26 league phases is predicted using only
+Every league-phase match of the 2024/25 and 2025/26 Champions, Europa and
+Conference Leagues is predicted using only
 matches played before its Matchday, then compared with what happened and with
 the bookmaker Baseline of the time.
 """
@@ -19,22 +20,26 @@ import pandas as pd
 from clpred.model import Settings, fit, market_distribution, outcome_probabilities, pick, points, score_matrix
 
 REPLAY_SEASONS = (2025, 2026)
+REPLAY_COMPETITIONS = ("ucl", "uel", "uecl")
 BLEND_GRID = np.round(np.arange(0, 1.01, 0.05), 2)
 RHO_GRID = (0.0, -0.03, -0.06, -0.09, -0.12)
 
 
-def replay_matches() -> pd.DataFrame:
+def replay_matches(competitions: tuple[str, ...] = REPLAY_COMPETITIONS) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """All history, and the league-phase matches to replay (those with known odds)."""
     matches = pd.read_csv("data/matches.csv", low_memory=False)
-    odds = pd.read_csv("data/odds_ucl_history.csv")
-    league_phase = matches[(matches.competition == "ucl") & (matches.stage == "League Phase")
+    odds = pd.read_csv("data/odds_european_history.csv")
+    league_phase = matches[matches.competition.isin(competitions) & (matches.stage == "League Phase")
                            & matches.season.isin(REPLAY_SEASONS)]
-    return matches, league_phase.merge(odds, on=["date", "home", "away"], suffixes=("_none", ""))
+    return matches, league_phase.merge(odds, on=["competition", "date", "home", "away"], suffixes=("_none", ""))
 
 
 def expected_goals(matches: pd.DataFrame, targets: pd.DataFrame, settings: Settings) -> pd.DataFrame:
     """Model expected goals for every replay match, fitted Matchday by Matchday."""
     rows, start = [], None
-    for (season, matchday), group in targets.groupby(["season", "matchday"]):
+    # One fit per week of matches: the three competitions play in the same weeks.
+    week = pd.to_datetime(targets.date).dt.to_period("W")
+    for _, group in targets.groupby(week):
         model = fit(matches, group.date.min(), settings, start)
         start = model.solution
         for match in group.itertuples():
@@ -119,6 +124,11 @@ def main() -> None:
     print(f"\n{len(table)} matches, settings {settings}")
     print(f"best low-score correction {rho}, best model share in blend {blend}")
     print(pd.DataFrame(verdict).T.round(4).to_string())
+    for competition in REPLAY_COMPETITIONS:
+        rows = (table.competition == competition).to_numpy()
+        part = judge(table[rows], rho, blend, [m for m, keep in zip(market, rows) if keep])
+        print(f"{competition}: {int(rows.sum())} matches")
+        print(pd.DataFrame(part).T.round(4).to_string())
     summary = {"matches": len(table), "model_share": float(blend), "low_score_rho": float(rho), "verdict": verdict}
     Path("data/replay_summary.json").write_text(json.dumps(summary, indent=2, default=float), "utf-8")
 

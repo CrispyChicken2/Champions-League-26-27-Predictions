@@ -66,6 +66,8 @@ ALIASES = {
     "red star belgrade": "crvena zvezda",
     "fc copenhagen": "copenhagen",
     "kairat almaty": "kairat",
+    "tns": "the new saints",
+    "o ljubljana": "olimpija",
     "rasenballsport leipzig": "rb leipzig",
     "cologne": "koln",
     "wolverhampton wanderers": "wolves",

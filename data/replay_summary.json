@@ -1,25 +1,25 @@
 {
-  "matches": 288,
-  "model_share": 0.4,
+  "matches": 792,
+  "model_share": 0.25,
   "low_score_rho": 0.0,
   "verdict": {
     "model": {
-      "log_loss": 3.193914263084232,
-      "rps": 0.19248957542531475,
-      "points": 210,
-      "exact": 19
+      "log_loss": 2.992963280388741,
+      "rps": 0.19574972296047394,
+      "points": 597,
+      "exact": 69
     },
     "baseline": {
-      "log_loss": 3.180964062069883,
-      "rps": 0.1859222816820819,
-      "points": 224,
-      "exact": 21
+      "log_loss": 2.956648364673073,
+      "rps": 0.18856973899336485,
+      "points": 634,
+      "exact": 77
     },
     "blend": {
-      "log_loss": 3.1662685959131824,
-      "rps": 0.18709447684213412,
-      "points": 221,
-      "exact": 21
+      "log_loss": 2.9510975915688475,
+      "rps": 0.1889264343599968,
+      "points": 646,
+      "exact": 83
     }
   }
 }
