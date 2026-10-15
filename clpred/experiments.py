@@ -145,6 +145,39 @@ def availability_held_out(table: pd.DataFrame, market: dict) -> tuple[dict, dict
     return results[0], results[1]
 
 
+def lineup_terms(table: pd.DataFrame, c: np.ndarray) -> pd.DataFrame:
+    """Rates moved by how much stronger each club's line-up is than usual (player ratings); unknown counts as usual."""
+    f = table[["home_attack_change", "home_defence_change", "away_attack_change", "away_defence_change"]].fillna(0.0)
+    home = np.log(table.home_rate) + c[0] + c[1] * f.home_attack_change - c[2] * f.away_defence_change
+    away = np.log(table.away_rate) + c[0] + c[1] * f.away_attack_change - c[2] * f.home_defence_change
+    return table.assign(home_rate=np.exp(home), away_rate=np.exp(away))
+
+
+def fit_lineup_terms(train: pd.DataFrame) -> np.ndarray:
+    def loss(c):
+        moved = lineup_terms(train, c)
+        return float(np.sum(moved.home_rate - train.home_goals * np.log(moved.home_rate)
+                            + moved.away_rate - train.away_goals * np.log(moved.away_rate)))
+    return minimize(loss, np.zeros(3), method="Nelder-Mead").x
+
+
+def lineup_held_out(table: pd.DataFrame, market: dict) -> dict:
+    """Held-out verdict with line-up strength from player ratings."""
+    result = {"log_loss": 0.0, "points": 0, "exact": 0, "per_season": [], "learned": []}
+    for test in REPLAY_SEASONS:
+        train, test_rows = table[table.season != test], table[table.season == test]
+        c = fit_lineup_terms(train)
+        train, test_rows = lineup_terms(train, c), lineup_terms(test_rows, c)
+        share = min(BLEND_GRID, key=lambda s: judge(train, market, s)["log_loss"])
+        verdict = judge(test_rows, market, share)
+        result["log_loss"] += verdict["log_loss"] * len(test_rows) / len(table)
+        result["points"] += verdict["points"]
+        result["exact"] += verdict["exact"]
+        result["per_season"].append(round(verdict["log_loss"], 4))
+        result["learned"].append({"coefficients": [round(float(v), 3) for v in c], "share": float(share), "draws": 0.0})
+    return result
+
+
 def show(name: str, result: dict, reference: dict | None = None) -> None:
     better = ""
     if reference:

@@ -45,6 +45,9 @@ Also tested after Matchday 2 and rejected (held-out blend log-loss 2.9511, 650 p
 | Negative binomial instead of Poisson (wider spread of scores) | 2.9544 or worse | 647–651 | 84–87 |
 | Ratings that change over time (Kalman filter) | 2.9528 | 641 | 82 |
 | Half static, half changing ratings | 2.9516 | 648 | 85 |
+| Line-up strength from player ratings (actual starters against usual starters) | 2.9525 | 648 | 85 |
+
+Player ratings (`clpred/player_ratings.py`, data from `uv run scripts/download_understat_matches.py`) rate every player of the five biggest leagues from the xG his team creates and concedes while he is on the pitch (7,378 matches cut at each substitution). They measure team strength, but on 1,700 domestic matches the actual starters predicted xG no better than the club's usual starters (loss 1.6375 against 1.6370), and the replay coefficients changed sign between seasons. They are not used in the predictions.
 
 `uv run pytest` runs the automated tests (club-name matching, the model, Availability, the page readers).
 
