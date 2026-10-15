@@ -36,6 +36,16 @@ The steps it runs, for when one of them needs repeating on its own:
 
 `uv run python -m clpred.experiments` tests candidate improvements (rest days, travel, squad value, draw frequency, Availability) on held-out replay seasons. Settings that were tested and left at zero because they did not help: `shots_share`, `xg_share`, `odds_share`, `form_boost` in `clpred/model.py`.
 
+Also tested after Matchday 2 and rejected (held-out blend log-loss 2.9511, 650 points, 85 exact for the current method):
+
+| Idea | Log-loss | Points | Exact |
+|---|---|---|---|
+| More goals in the market part (factor learned per season) | 2.9521 | 648 | 84 |
+| One strength per league from European results | 2.9590 | 640 | 86 |
+| Negative binomial instead of Poisson (wider spread of scores) | 2.9544 or worse | 647–651 | 84–87 |
+| Ratings that change over time (Kalman filter) | 2.9528 | 641 | 82 |
+| Half static, half changing ratings | 2.9516 | 648 | 85 |
+
 `uv run pytest` runs the automated tests (club-name matching, the model, Availability, the page readers).
 
 Package installs need `uv add --system-certs` on this machine.
